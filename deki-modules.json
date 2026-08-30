@@ -1,0 +1,29 @@
+{
+  "modules": {
+    "deki-2d": {
+      "version": "1.0.0"
+    },
+    "deki-desktop-integration": {
+      "version": "1.0.0"
+    },
+    "deki-input": {
+      "version": "1.0.0"
+    },
+    "deki-nodegraph": {
+      "version": "1.0.0"
+    },
+    "deki-particles": {
+      "version": "1.0.0"
+    },
+    "deki-rendering": {
+      "version": "1.0.0"
+    },
+    "deki-sdl3-integration": {
+      "version": "1.0.0"
+    },
+    "deki-tween": {
+      "version": "1.0.0"
+    }
+  },
+  "schemaVersion": 1
+}

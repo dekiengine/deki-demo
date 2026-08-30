@@ -1,0 +1,1873 @@
+{
+  "objects": [
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "class": "CameraComponent",
+              "properties": {
+                "clear_color": 202250495,
+                "pixel_snap": false,
+                "pixelsPerMeter": 0.0
+              },
+              "type": "146999a7-398f-4e52-a7c7-1e6a78bfb9c4"
+            }
+          ],
+          "id": 185,
+          "name": "Camera",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "class": "GradientComponent",
+              "properties": {
+                "alpha_mode": 0,
+                "angle": 90.0,
+                "center_x": 0.5,
+                "center_y": 0.5,
+                "dither_mode": 3,
+                "dither_scale": 1,
+                "gradient_type": 0,
+                "height": 15.0,
+                "ignore_clip": false,
+                "pixel_snap": true,
+                "radius": 0.5,
+                "sortingOrder": 0,
+                "stop1_color": 390692863,
+                "stop1_position": 0.0,
+                "stop2_color": 779860223,
+                "stop2_position": 0.44999998807907104,
+                "stop3_color": 1656020223,
+                "stop3_position": 0.7799999713897705,
+                "stop4_color": 2849894655,
+                "stop4_position": 1.0,
+                "stop_count": 4,
+                "tile_height": 0.0,
+                "tile_mode": 0,
+                "tile_width": 0.0,
+                "width": 20.0
+              },
+              "type": "8d84cca3-7eb9-4b92-ba49-968ceec203c8"
+            }
+          ],
+          "id": 186,
+          "name": "Sky",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 188,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -9.5625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 189,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -9.5625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 190,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -8.4375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 191,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -8.4375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 192,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -7.3125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 193,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -7.3125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 194,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -6.1875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 195,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -6.1875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 196,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -5.0625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 197,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -5.0625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 198,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -3.9375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 199,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -3.9375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 200,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -2.8125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 201,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -2.8125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 202,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -1.6875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 203,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -1.6875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 204,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -0.5625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 205,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -0.5625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 206,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.5625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 207,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.5625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 208,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 1.6875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 209,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 1.6875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 210,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 2.8125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 211,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 2.8125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 212,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 3.9375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 213,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 3.9375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 214,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 5.0625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 215,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 5.0625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 216,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 6.1875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 217,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 6.1875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 218,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 7.3125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 219,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 7.3125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 220,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 8.4375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 221,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 8.4375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 222,
+              "name": "GroundTop",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 9.5625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 223,
+              "name": "GroundFill",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 9.5625,
+                "y": -6.9375
+              }
+            }
+          ],
+          "components": [],
+          "id": 187,
+          "name": "Terrain",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 225,
+              "name": "PlatformTile",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 3.9375,
+                "y": -1.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 226,
+              "name": "PlatformTile",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 5.0625,
+                "y": -1.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 227,
+              "name": "PlatformTile",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 6.1875,
+                "y": -1.5
+              }
+            }
+          ],
+          "components": [],
+          "id": 224,
+          "name": "Platform",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "5c87e3d0-63d2-4a69-ab14-e8c9fa8ea75e",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 229,
+              "name": "Tree",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -8.625,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "2f0ade86-ccbf-4ce7-bbc1-98a06fdf1dbe",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 230,
+              "name": "PlantA",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -7.125,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "7272fff3-dabd-4f0a-90fe-03e3cd2f8ff6",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 231,
+              "name": "Mushroom",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -1.125,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "d372a44e-7452-4ad0-9368-7026f9d88879",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 232,
+              "name": "PlantB",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 7.875,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "8f734a9f-5ead-461f-8f30-919b0d5d5d5b",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 233,
+              "name": "Crate",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 1.875,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "2674ee0f-eda7-4598-9c71-889f00d141ef",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 234,
+              "name": "Rocket",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 9.375,
+                "y": -4.6875
+              }
+            }
+          ],
+          "components": [],
+          "id": 228,
+          "name": "Props",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "c02debb5-3e34-4edf-aa39-64567f832ca4",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 236,
+              "name": "Alien",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -4.5,
+                "y": -4.6875
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "0b5bf161-8bc0-4d1c-aa72-36065c36941e",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 237,
+              "name": "Rover",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.375,
+                "y": -4.6875
+              }
+            }
+          ],
+          "components": [],
+          "id": 235,
+          "name": "Actors",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                },
+                {
+                  "class": "Bobber",
+                  "properties": {
+                    "amplitude_px": 5.0,
+                    "phase": 0.0,
+                    "speed_hz": 0.800000011920929
+                  },
+                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                }
+              ],
+              "id": 239,
+              "name": "Coin1",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -6.75,
+                "y": -2.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                },
+                {
+                  "class": "Bobber",
+                  "properties": {
+                    "amplitude_px": 5.0,
+                    "phase": 0.33000001311302185,
+                    "speed_hz": 0.800000011920929
+                  },
+                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                }
+              ],
+              "id": 240,
+              "name": "Coin2",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -5.625,
+                "y": -2.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                },
+                {
+                  "class": "Bobber",
+                  "properties": {
+                    "amplitude_px": 5.0,
+                    "phase": 0.6600000262260437,
+                    "speed_hz": 0.800000011920929
+                  },
+                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                }
+              ],
+              "id": 241,
+              "name": "Coin3",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -4.5,
+                "y": -2.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "40a1f185-c365-4237-86ea-f8f02ff1b717",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                },
+                {
+                  "class": "Bobber",
+                  "properties": {
+                    "amplitude_px": 4.0,
+                    "phase": 0.0,
+                    "speed_hz": 0.5
+                  },
+                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                }
+              ],
+              "id": 242,
+              "name": "Gem",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 5.0625,
+                "y": -0.375
+              }
+            }
+          ],
+          "components": [],
+          "id": 238,
+          "name": "Pickups",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 244,
+              "name": "Heart1",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -9.125,
+                "y": 6.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 245,
+              "name": "Heart2",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -8.0,
+                "y": 6.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "SpriteComponent",
+                  "properties": {
+                    "alpha_mode": 0,
+                    "height": 0.0,
+                    "ignore_clip": false,
+                    "pixel_snap": true,
+                    "render_mode": 0,
+                    "sortingOrder": 0,
+                    "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
+                    "tint_color": 4294967295,
+                    "width": 0.0
+                  },
+                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                }
+              ],
+              "id": 246,
+              "name": "Heart3",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -6.875,
+                "y": 6.5
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "class": "TextComponent",
+                  "properties": {
+                    "align": 2,
+                    "alpha_mode": 0,
+                    "color": 4293705471,
+                    "decorationColor": 255,
+                    "font": {
+                      "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                      "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                    },
+                    "fontSize": 16,
+                    "height": 1.25,
+                    "ignore_clip": false,
+                    "pixelScale": 1,
+                    "pixel_snap": true,
+                    "sortingOrder": 0,
+                    "text": "1250",
+                    "verticalAlign": 1,
+                    "width": 18.75
+                  },
+                  "type": "5447ea24-d11f-4161-ae10-2f11e0a18d09"
+                }
+              ],
+              "id": 247,
+              "name": "Score",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 6.5
+              }
+            }
+          ],
+          "components": [],
+          "id": 243,
+          "name": "HUD",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "components": [],
+      "id": 2,
+      "name": "Root",
+      "transform": {
+        "rotation": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}

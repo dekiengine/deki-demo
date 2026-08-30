@@ -1,0 +1,21 @@
+{
+  "cxxFlags": [
+    "-std=c++17",
+    "-O0",
+    "-g"
+  ],
+  "defines": [
+    "SIMULATOR",
+    "DEKI_MODULE_SDL3",
+    "DEBUG",
+    "DEKI_LOG_ENABLED"
+  ],
+  "displayBus": "SOFTWARE",
+  "displayDriver": "SDL3",
+  "displayName": "Desktop Simulator (SDL3)",
+  "family": "native",
+  "framework": "native",
+  "id": "native_simulator",
+  "screenHeight": 240,
+  "screenWidth": 320
+}

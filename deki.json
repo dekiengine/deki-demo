@@ -1,0 +1,13 @@
+{
+  "activePlatformId": "",
+  "engine": "deki",
+  "engineVersion": "1.0.0",
+  "flashGuids": [],
+  "forceIncludeGuids": [],
+  "name": "deki-demo",
+  "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
+  "startupPrefab": "prefab\\dashboard.prefab",
+  "startupScene": "",
+  "structure": "v3",
+  "version": "1.0"
+}

@@ -1,0 +1,13 @@
+# Everything the Deki Editor generates. Safe to delete; recreated on open/build.
+generated/
+
+# Module sources — Module Manager clones and junctions to source repos
+project/modules/deki-*/
+
+# IDE / tooling
+.vscode/
+.idea/
+.vs/
+.claude/
+.cache/
+*.swp

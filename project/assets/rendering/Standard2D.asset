@@ -1,0 +1,7 @@
+{
+  "type": "RenderPipeline",
+  "renderer": "standard2d",
+  "passes": [
+    { "type": "clip2d", "settings": {} }
+  ]
+}
