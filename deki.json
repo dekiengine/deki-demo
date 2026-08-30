@@ -8,6 +8,6 @@
   "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
   "startupPrefab": "prefab\\dashboard.prefab",
   "startupScene": "",
-  "structure": "v3",
+  "structure": "v4",
   "version": "1.0"
 }

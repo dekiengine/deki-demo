@@ -18,139 +18,17 @@
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d"
     },
-    "deki-audio": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
-      "displayName": "Audio",
-      "name": "deki-audio",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-i2s"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-audio"
-    },
-    "deki-ble": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
-      "displayName": "BLE",
-      "name": "deki-ble",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-ble"
-    },
     "deki-desktop-integration": {
       "availableVersions": [
         "1.0.0"
       ],
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
+      "installedVersion": "1.0.0",
       "name": "deki-desktop-integration",
       "packageType": "deki_module",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-desktop-integration"
-    },
-    "deki-esp32-integration": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "ESP32 memory, filesystem, serial, and SD card providers",
-      "displayName": "ESP32 Integration",
-      "name": "deki-esp32-integration",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-wifi",
-        "deki-ble",
-        "deki-http",
-        "deki-i2s",
-        "deki-uart",
-        "deki-i2c",
-        "deki-sdcard"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-esp32-integration"
-    },
-    "deki-fsm": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Visual state machines with per-state action stacks and event-wired transitions",
-      "displayName": "FSM",
-      "name": "deki-fsm",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-nodegraph",
-        "deki-2d",
-        "deki-tween"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-fsm"
-    },
-    "deki-gps": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "GPS peripheral interface and NMEA-over-UART backend",
-      "displayName": "GPS",
-      "name": "deki-gps",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-http",
-        "deki-uart"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-gps"
-    },
-    "deki-http": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "HTTP client facade with a WinHTTP desktop backend",
-      "displayName": "HTTP",
-      "name": "deki-http",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-http"
-    },
-    "deki-i2c": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "I²C bus peripheral interface with an editor-configurable bus component",
-      "displayName": "I2C",
-      "name": "deki-i2c",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-i2c"
-    },
-    "deki-i2s": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "I²S audio bus peripheral interface",
-      "displayName": "I2S",
-      "name": "deki-i2s",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-i2s"
-    },
-    "deki-imu": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
-      "displayName": "IMU",
-      "name": "deki-imu",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-i2c"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-imu"
     },
     "deki-input": {
       "availableVersions": [
@@ -167,31 +45,6 @@
       "resolvedBy": "deki-2d",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-input"
-    },
-    "deki-json": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "JSON parsing and serialization backed by cJSON",
-      "displayName": "JSON",
-      "name": "deki-json",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-json"
-    },
-    "deki-lovyangfx-integration": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "LovyanGFX display and touch panel integration",
-      "displayName": "LovyanGFX Integration",
-      "name": "deki-lovyangfx-integration",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-i2c"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-lovyangfx-integration"
     },
     "deki-nodegraph": {
       "availableVersions": [
@@ -236,31 +89,6 @@
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-rendering"
     },
-    "deki-rtc": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
-      "displayName": "RTC",
-      "name": "deki-rtc",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-i2c"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-rtc"
-    },
-    "deki-sdcard": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "SD card interface: mount, card state, capacity, and filesystem access",
-      "displayName": "SD Card",
-      "name": "deki-sdcard",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-sdcard"
-    },
     "deki-sdl3-integration": {
       "availableVersions": [
         "1.0.0"
@@ -276,32 +104,6 @@
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration"
     },
-    "deki-stm32-integration": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "STM32 platform integration",
-      "displayName": "STM32 Integration",
-      "name": "deki-stm32-integration",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-stm32-integration"
-    },
-    "deki-tiledmapeditor-integration": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
-      "displayName": "Tiled Map Editor Integration",
-      "name": "deki-tiledmapeditor-integration",
-      "packageType": "deki_module",
-      "requires": [
-        "deki-2d",
-        "deki-rendering"
-      ],
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-tiledmapeditor-integration"
-    },
     "deki-tween": {
       "availableVersions": [
         "1.0.0"
@@ -313,28 +115,6 @@
       "packageType": "deki_module",
       "source": "github",
       "url": "https://github.com/dekiengine/deki-tween"
-    },
-    "deki-uart": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "UART serial peripheral interface",
-      "displayName": "UART",
-      "name": "deki-uart",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-uart"
-    },
-    "deki-wifi": {
-      "availableVersions": [
-        "1.0.0"
-      ],
-      "description": "WiFi interface: connect, disconnect, state, and access point scanning",
-      "displayName": "WiFi",
-      "name": "deki-wifi",
-      "packageType": "deki_module",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-wifi"
     }
   }
 }

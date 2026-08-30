@@ -2,7 +2,7 @@
 generated/
 
 # Module sources — Module Manager clones and junctions to source repos
-project/modules/deki-*/
+modules/deki-*/
 
 # IDE / tooling
 .vscode/

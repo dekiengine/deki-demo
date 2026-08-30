@@ -1,0 +1,8 @@
+{
+  "Rendering": {
+    "dirty_tile_size": 32,
+    "dirty_tile_tracking": false,
+    "half_width_framebuffer": false,
+    "interlaced_60hz": false
+  }
+}
