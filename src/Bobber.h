@@ -10,10 +10,10 @@ class Bobber : public DekiBehaviour
     DEKI_DESCRIPTION("Bobs the object up and down on a sine wave.")
 public:
     DEKI_EXPORT DEKI_SLIDER(0, 64)
-    float amplitude_px = 12.0f;
+    float amplitudePx = 12.0f;
 
     DEKI_EXPORT DEKI_SLIDER(0, 4)
-    float speed_hz = 0.6f;
+    float speedHz = 0.6f;
 
     // Offsets the wave so a row of bobbers ripples instead of moving as one.
     DEKI_EXPORT DEKI_SLIDER(0, 1)

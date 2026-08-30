@@ -15,7 +15,7 @@ void Spinner::Update()
         return;
 
     const float dt_s = DekiTime::GetDeltaTimeF() * 0.001f;
-    m_AngleDeg += degrees_per_second * dt_s;
+    m_AngleDeg += degreesPerSecond * dt_s;
 
     // Keep the accumulator bounded so a long-running scene does not lose
     // precision in the float.

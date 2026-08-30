@@ -9,7 +9,7 @@ class Spinner : public DekiBehaviour
     DEKI_DESCRIPTION("Rotates the object at a constant number of degrees per second.")
 public:
     DEKI_EXPORT DEKI_SLIDER(-360, 360)
-    float degrees_per_second = 45.0f;
+    float degreesPerSecond = 45.0f;
 
     Spinner() = default;
 

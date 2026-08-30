@@ -21,7 +21,7 @@ void Bobber::Update()
     // Positions are in meters; the exported amplitude is in pixels so the
     // inspector value matches what you see on a 320x240 panel.
     const float ppm = DekiEngineSettings::Global().pixelsPerMeter;
-    const float wave = std::sin((m_ElapsedS * speed_hz + phase) * 6.283185307f);
+    const float wave = std::sin((m_ElapsedS * speedHz + phase) * 6.283185307f);
 
-    owner->SetY(m_BaseY + (amplitude_px / ppm) * wave);
+    owner->SetY(m_BaseY + (amplitudePx / ppm) * wave);
 }
