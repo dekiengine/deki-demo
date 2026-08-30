@@ -3,11 +3,12 @@
   "modules": {
     "deki-2d": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-2d",
       "packageType": "deki_module",
       "requires": [
@@ -20,11 +21,12 @@
     },
     "deki-desktop-integration": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-desktop-integration",
       "packageType": "deki_module",
       "source": "custom",
@@ -32,11 +34,12 @@
     },
     "deki-input": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Input handling and collision detection",
       "displayName": "Input",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-input",
       "packageType": "deki_module",
       "requires": [
@@ -48,11 +51,12 @@
     },
     "deki-nodegraph": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "displayName": "Node Graph",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-nodegraph",
       "packageType": "deki_module",
       "resolvedBy": "deki-particles",
@@ -61,11 +65,12 @@
     },
     "deki-particles": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-particles",
       "packageType": "deki_module",
       "requires": [
@@ -78,11 +83,12 @@
     },
     "deki-rendering": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-rendering",
       "packageType": "deki_module",
       "resolvedBy": "deki-2d",
@@ -91,11 +97,12 @@
     },
     "deki-sdl3-integration": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-sdl3-integration",
       "packageType": "deki_module",
       "requires": [
@@ -106,11 +113,12 @@
     },
     "deki-tween": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
       ],
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",
-      "installedVersion": "1.0.0",
+      "installedVersion": "1.0.1",
       "name": "deki-tween",
       "packageType": "deki_module",
       "source": "github",
