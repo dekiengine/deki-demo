@@ -25,8 +25,8 @@ public:
     void Update() override;
 
 private:
-    float base_y = 0.0f;
-    float elapsed_s = 0.0f;
+    float m_BaseY = 0.0f;
+    float m_ElapsedS = 0.0f;
 };
 
 #include "generated/Bobber.gen.h"

@@ -17,7 +17,7 @@ public:
     void Update() override;
 
 private:
-    float angle_deg = 0.0f;
+    float m_AngleDeg = 0.0f;
 };
 
 #include "generated/Spinner.gen.h"
