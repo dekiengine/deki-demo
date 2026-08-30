@@ -1,9 +1,0 @@
-{
-  "id": "deki-tween",
-  "displayName": "Tween",
-  "buildDefine": "DEKI_PACKAGE_TWEEN",
-  "requires": [],
-  "features": [
-    {"id": "tween", "displayName": "Tween", "buildDefine": "DEKI_FEATURE_TWEEN", "defaultEnabled": true, "componentGuids": ["9e113121-59df-4786-9752-0099935f1378"]}
-  ]
-}
