@@ -1,0 +1,9 @@
+Deki SDL3 Integration Module
+Copyright 2026 Deki Engine and contributors
+
+This product includes software developed by third parties:
+
+SDL3 - Simple DirectMedia Layer (https://www.libsdl.org/)
+  License: zlib License
+  Copyright (c) 1997-2024 Sam Lantinga
+  Full license: https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt

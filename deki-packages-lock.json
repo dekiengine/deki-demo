@@ -1,6 +1,6 @@
 {
   "lockVersion": 1,
-  "modules": {
+  "packages": {
     "deki-2d": {
       "availableVersions": [
         "1.0.0"

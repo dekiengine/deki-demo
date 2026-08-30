@@ -1,5 +1,5 @@
 {
-  "modules": {
+  "packages": {
     "deki-2d": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",

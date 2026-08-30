@@ -1,0 +1,15 @@
+{
+  "id": "deki-sdl3",
+  "displayName": "SDL3 Integration",
+  "buildDefine": "DEKI_PACKAGE_SDL3",
+  "requires": ["deki-input"],
+  "features": [
+    {"id": "display", "displayName": "Display", "defaultEnabled": true, "componentGuids": ["c3a8f1d0-5b7e-4a2c-8d91-6e3f4c7b2a50"]},
+    {"id": "input", "displayName": "Input", "defaultEnabled": true, "componentGuids": ["d4b9e2f1-6c8a-4d3b-9e72-7f4g5d8c3b61"]}
+  ],
+  "dependencies": {
+    "native": [
+      {"name": "SDL3", "version": "3.2.8", "git": "https://github.com/libsdl-org/SDL.git"}
+    ]
+  }
+}

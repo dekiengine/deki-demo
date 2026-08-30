@@ -1,0 +1,7 @@
+{
+  "id": "deki-nodegraph",
+  "displayName": "Node Graph",
+  "buildDefine": "DEKI_PACKAGE_NODEGRAPH",
+  "requires": [],
+  "features": []
+}

@@ -45,8 +45,8 @@ DEKI_PLUGIN_API const char* DekiPlugin_GetName()
 
 DEKI_PLUGIN_API const char* DekiPlugin_GetVersion()
 {
-#ifdef DEKI_MODULE_VERSION
-    return DEKI_MODULE_VERSION;
+#ifdef DEKI_PACKAGE_VERSION
+    return DEKI_PACKAGE_VERSION;
 #else
     return "0.0.0-dev";
 #endif

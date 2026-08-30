@@ -1,0 +1,10 @@
+# Package descriptor for deki-engine auto-discovery
+set(PACKAGE_DISPLAY_NAME "Tween")
+set(PACKAGE_PREFIX "DekiTween")
+set(PACKAGE_UPPER "TWEEN")
+set(PACKAGE_TARGET "deki-tween")
+set(PACKAGE_FILE_PREFIX "Tween")
+set(PACKAGE_ENTRY TweenPackage.cpp)
+set(PACKAGE_NEEDS_IMGUI ON)
+set(PACKAGE_LINK_DEPS deki-editor)
+set(PACKAGE_EXPORT_ALL_SYMBOLS OFF)

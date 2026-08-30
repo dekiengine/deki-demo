@@ -1,0 +1,10 @@
+# Package descriptor for deki-engine auto-discovery
+set(PACKAGE_DISPLAY_NAME "Particles")
+set(PACKAGE_PREFIX "DekiParticles")
+set(PACKAGE_UPPER "PARTICLES")
+set(PACKAGE_TARGET "deki-particles")
+set(PACKAGE_FILE_PREFIX "Particles")
+set(PACKAGE_ENTRY DekiParticlesPackage.cpp)
+set(PACKAGE_LINK_DEPS deki-editor deki-nodegraph deki-rendering deki-2d)
+set(PACKAGE_NEEDS_IMGUI ON)
+set(PACKAGE_EXPORT_ALL_SYMBOLS OFF)
