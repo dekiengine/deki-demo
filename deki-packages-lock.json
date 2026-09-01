@@ -9,7 +9,7 @@
       "displayName": "2D",
       "installedVersion": "1.0.0",
       "name": "deki-2d",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "requires": [
         "deki-rendering",
         "deki-input"
@@ -26,7 +26,7 @@
       "displayName": "Desktop Integration",
       "installedVersion": "1.0.0",
       "name": "deki-desktop-integration",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-desktop-integration"
     },
@@ -38,7 +38,7 @@
       "displayName": "Input",
       "installedVersion": "1.0.0",
       "name": "deki-input",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "requires": [
         "deki-rendering"
       ],
@@ -54,7 +54,7 @@
       "displayName": "Node Graph",
       "installedVersion": "1.0.0",
       "name": "deki-nodegraph",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "resolvedBy": "deki-particles",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-nodegraph"
@@ -67,7 +67,7 @@
       "displayName": "Particles",
       "installedVersion": "1.0.0",
       "name": "deki-particles",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "requires": [
         "deki-nodegraph",
         "deki-rendering",
@@ -84,7 +84,7 @@
       "displayName": "Rendering",
       "installedVersion": "1.0.0",
       "name": "deki-rendering",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "resolvedBy": "deki-2d",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-rendering"
@@ -97,7 +97,7 @@
       "displayName": "SDL3",
       "installedVersion": "1.0.0",
       "name": "deki-sdl3-integration",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "requires": [
         "deki-input"
       ],
@@ -112,7 +112,7 @@
       "displayName": "Tween",
       "installedVersion": "1.0.0",
       "name": "deki-tween",
-      "packageType": "deki_module",
+      "packageType": "deki_package",
       "source": "github",
       "url": "https://github.com/dekiengine/deki-tween"
     }
