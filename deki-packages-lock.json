@@ -3,7 +3,8 @@
   "packages": {
     "deki-2d": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
@@ -20,7 +21,8 @@
     },
     "deki-desktop-integration": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
@@ -32,7 +34,8 @@
     },
     "deki-input": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Input handling and collision detection",
       "displayName": "Input",
@@ -48,7 +51,8 @@
     },
     "deki-nodegraph": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "displayName": "Node Graph",
@@ -61,7 +65,8 @@
     },
     "deki-particles": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
@@ -78,7 +83,8 @@
     },
     "deki-rendering": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
@@ -91,7 +97,8 @@
     },
     "deki-sdl3-integration": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
@@ -106,7 +113,8 @@
     },
     "deki-tween": {
       "availableVersions": [
-        "1.0.0"
+        "1.0.0",
+        "1.1.0"
       ],
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",
