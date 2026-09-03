@@ -10,9 +10,9 @@
             {
               "class": "CameraComponent",
               "properties": {
-                "clear_color": 202250495,
-                "pixel_snap": false,
-                "pixelsPerMeter": 0.0
+                "pixelsPerMeter": 0.0,
+                "clearColor": 202250495,
+                "pixelSnap": false
               },
               "type": "146999a7-398f-4e52-a7c7-1e6a78bfb9c4"
             }
@@ -34,31 +34,31 @@
             {
               "class": "GradientComponent",
               "properties": {
-                "alpha_mode": 0,
                 "angle": 90.0,
-                "center_x": 0.5,
-                "center_y": 0.5,
-                "dither_mode": 3,
-                "dither_scale": 1,
-                "gradient_type": 0,
                 "height": 15.0,
-                "ignore_clip": false,
-                "pixel_snap": true,
                 "radius": 0.5,
                 "sortingOrder": 0,
-                "stop1_color": 390692863,
-                "stop1_position": 0.0,
-                "stop2_color": 779860223,
-                "stop2_position": 0.44999998807907104,
-                "stop3_color": 1656020223,
-                "stop3_position": 0.7799999713897705,
-                "stop4_color": 2849894655,
-                "stop4_position": 1.0,
-                "stop_count": 4,
-                "tile_height": 0.0,
-                "tile_mode": 0,
-                "tile_width": 0.0,
-                "width": 20.0
+                "width": 20.0,
+                "alphaMode": 0,
+                "centerX": 0.5,
+                "centerY": 0.5,
+                "ditherMode": 3,
+                "ditherScale": 1,
+                "gradientType": 0,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "stop1Color": 390692863,
+                "stop1Position": 0.0,
+                "stop2Color": 779860223,
+                "stop2Position": 0.44999998807907104,
+                "stop3Color": 1656020223,
+                "stop3Position": 0.7799999713897705,
+                "stop4Color": 2849894655,
+                "stop4Position": 1.0,
+                "stopCount": 4,
+                "tileHeight": 0.0,
+                "tileMode": 0,
+                "tileWidth": 0.0
               },
               "type": "8d84cca3-7eb9-4b92-ba49-968ceec203c8"
             }
@@ -83,15 +83,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -113,15 +113,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -143,15 +143,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -173,15 +173,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -203,15 +203,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -233,15 +233,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -263,15 +263,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -293,15 +293,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -323,15 +323,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -353,15 +353,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -383,15 +383,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -413,15 +413,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -443,15 +443,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -473,15 +473,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -503,15 +503,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -533,15 +533,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -563,15 +563,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -593,15 +593,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -623,15 +623,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -653,15 +653,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -683,15 +683,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -713,15 +713,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -743,15 +743,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -773,15 +773,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -803,15 +803,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -833,15 +833,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -863,15 +863,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -893,15 +893,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -923,15 +923,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -953,15 +953,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -983,15 +983,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1013,15 +1013,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1043,15 +1043,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1073,15 +1073,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1103,15 +1103,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "835c7ce9-908d-4ef8-8342-33b59d0b16c5",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1133,15 +1133,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "f529e304-fc40-4646-922d-ed7bb212cf6d",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1178,15 +1178,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1208,15 +1208,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1238,15 +1238,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "14372a48-b592-4f2a-aef0-c612b7d3b68a",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1283,15 +1283,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "5c87e3d0-63d2-4a69-ab14-e8c9fa8ea75e",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1313,15 +1313,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "2f0ade86-ccbf-4ce7-bbc1-98a06fdf1dbe",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1343,15 +1343,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "7272fff3-dabd-4f0a-90fe-03e3cd2f8ff6",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1373,15 +1373,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "d372a44e-7452-4ad0-9368-7026f9d88879",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1403,15 +1403,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "8f734a9f-5ead-461f-8f30-919b0d5d5d5b",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1433,15 +1433,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "2674ee0f-eda7-4598-9c71-889f00d141ef",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1478,15 +1478,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "c02debb5-3e34-4edf-aa39-64567f832ca4",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1508,15 +1508,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "0b5bf161-8bc0-4d1c-aa72-36065c36941e",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1553,24 +1553,24 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 },
                 {
                   "class": "Bobber",
                   "properties": {
-                    "amplitude_px": 5.0,
                     "phase": 0.0,
-                    "speed_hz": 0.800000011920929
+                    "amplitudePx": 5.0,
+                    "speedHz": 0.800000011920929
                   },
                   "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
                 }
@@ -1592,24 +1592,24 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 },
                 {
                   "class": "Bobber",
                   "properties": {
-                    "amplitude_px": 5.0,
                     "phase": 0.33000001311302185,
-                    "speed_hz": 0.800000011920929
+                    "amplitudePx": 5.0,
+                    "speedHz": 0.800000011920929
                   },
                   "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
                 }
@@ -1631,24 +1631,24 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "d2c1456f-27ed-4194-9cbe-e7138acb7149",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 },
                 {
                   "class": "Bobber",
                   "properties": {
-                    "amplitude_px": 5.0,
                     "phase": 0.6600000262260437,
-                    "speed_hz": 0.800000011920929
+                    "amplitudePx": 5.0,
+                    "speedHz": 0.800000011920929
                   },
                   "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
                 }
@@ -1670,24 +1670,24 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "40a1f185-c365-4237-86ea-f8f02ff1b717",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 },
                 {
                   "class": "Bobber",
                   "properties": {
-                    "amplitude_px": 4.0,
                     "phase": 0.0,
-                    "speed_hz": 0.5
+                    "amplitudePx": 4.0,
+                    "speedHz": 0.5
                   },
                   "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
                 }
@@ -1724,15 +1724,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1754,15 +1754,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1784,15 +1784,15 @@
                 {
                   "class": "SpriteComponent",
                   "properties": {
-                    "alpha_mode": 0,
                     "height": 0.0,
-                    "ignore_clip": false,
-                    "pixel_snap": true,
-                    "render_mode": 0,
                     "sortingOrder": 0,
                     "sprite": "bc408e8d-f86a-4ae1-abbf-a40d72b811de",
-                    "tint_color": 4294967295,
-                    "width": 0.0
+                    "width": 0.0,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": 0,
+                    "tintColor": 4294967295
                   },
                   "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
                 }
@@ -1815,7 +1815,6 @@
                   "class": "TextComponent",
                   "properties": {
                     "align": 2,
-                    "alpha_mode": 0,
                     "color": 4293705471,
                     "decorationColor": 255,
                     "font": {
@@ -1824,13 +1823,14 @@
                     },
                     "fontSize": 16,
                     "height": 1.25,
-                    "ignore_clip": false,
                     "pixelScale": 1,
-                    "pixel_snap": true,
                     "sortingOrder": 0,
                     "text": "1250",
                     "verticalAlign": 1,
-                    "width": 18.75
+                    "width": 18.75,
+                    "alphaMode": 0,
+                    "ignoreClip": false,
+                    "pixelSnap": true
                   },
                   "type": "5447ea24-d11f-4161-ae10-2f11e0a18d09"
                 }
