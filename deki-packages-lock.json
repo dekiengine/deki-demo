@@ -8,7 +8,7 @@
       ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "1.1.0",
+      "installedVersion": "1.2.0",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -70,7 +70,7 @@
       ],
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "1.1.0",
+      "installedVersion": "1.2.0",
       "name": "deki-particles",
       "packageType": "deki_package",
       "requires": [
@@ -88,7 +88,7 @@
       ],
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "1.1.0",
+      "installedVersion": "1.2.0",
       "name": "deki-rendering",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -102,7 +102,7 @@
       ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "1.1.0",
+      "installedVersion": "1.2.0",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [

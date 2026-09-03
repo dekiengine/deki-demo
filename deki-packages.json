@@ -3,7 +3,7 @@
     "deki-2d": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "deki-desktop-integration": {
       "version": "1.1.0"
@@ -17,15 +17,15 @@
     "deki-particles": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-particles",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "deki-rendering": {
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "deki-sdl3-integration": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     "deki-tween": {
       "source": "github",
