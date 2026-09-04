@@ -6,7 +6,6 @@
   ],
   "defines": [
     "SIMULATOR",
-    "DEKI_MODULE_SDL3",
     "DEBUG",
     "DEKI_LOG_ENABLED"
   ],
