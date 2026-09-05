@@ -6,21 +6,21 @@ void Bobber::Awake()
 {
     SetNeedsUpdate(true);
 
-    if (DekiObject* owner = GetOwner())
+    if (Deki::Object* owner = GetOwner())
         m_BaseY = owner->GetY();
 }
 
 void Bobber::Update()
 {
-    DekiObject* owner = GetOwner();
+    Deki::Object* owner = GetOwner();
     if (!owner)
         return;
 
-    m_ElapsedS += DekiTime::GetDeltaTimeF() * 0.001f;
+    m_ElapsedS += Deki::Time::GetDeltaTimeF() * 0.001f;
 
     // Positions are in meters; the exported amplitude is in pixels so the
     // inspector value matches what you see on a 320x240 panel.
-    const float ppm = DekiEngineSettings::Global().pixelsPerMeter;
+    const float ppm = Deki::EngineSettings::Global().pixelsPerMeter;
     const float wave = std::sin((m_ElapsedS * speedHz + phase) * 6.283185307f);
 
     owner->SetY(m_BaseY + (amplitudePx / ppm) * wave);

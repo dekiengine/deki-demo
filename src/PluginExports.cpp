@@ -57,7 +57,7 @@ DEKI_PLUGIN_API int DekiPlugin_GetComponentCount()
     return 2;
 }
 
-DEKI_PLUGIN_API const DekiComponentMeta* DekiPlugin_GetComponentMeta(int index)
+DEKI_PLUGIN_API const Deki::ComponentMeta* DekiPlugin_GetComponentMeta(int index)
 {
     switch (index)
     {
