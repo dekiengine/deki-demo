@@ -1,6 +1,6 @@
 #pragma once
 
-#include "DekiEngine.h"
+#include <deki/Engine.h>
 
 // Moves the owner up and down on a sine wave. Exported fields drive the
 // inspector, serialization, and undo without any extra registration.

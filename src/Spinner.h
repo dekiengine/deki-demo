@@ -1,6 +1,6 @@
 #pragma once
 
-#include "DekiEngine.h"
+#include <deki/Engine.h>
 
 // Spins the owner at a constant rate.
 class Spinner : public Deki::Behaviour
