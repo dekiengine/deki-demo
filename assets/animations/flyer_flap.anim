@@ -1,0 +1,27 @@
+{
+  "spritesheetGuid": "7a257e58-509a-4b42-b4b2-790b205e426b",
+  "animations": [
+    {
+      "name": "flap",
+      "loop": true,
+      "frames": [
+        {
+          "frameGuid": "7fec842c-858e-74b1-d2ec-dd44981348d6",
+          "duration": 100
+        },
+        {
+          "frameGuid": "7fec842c-858e-74b1-d2ec-de4498134a89",
+          "duration": 100
+        },
+        {
+          "frameGuid": "7fec842c-858e-74b1-d2ec-db4498134570",
+          "duration": 100
+        },
+        {
+          "frameGuid": "7fec842c-858e-74b1-d2ec-de4498134a89",
+          "duration": 100
+        }
+      ]
+    }
+  ]
+}

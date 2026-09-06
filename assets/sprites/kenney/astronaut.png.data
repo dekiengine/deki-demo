@@ -1,0 +1,10 @@
+{
+  "guid": "7a963cfa-e272-4073-82f6-d2b88ec4049a",
+  "settings": {
+    "sprite": {
+      "mode": "grid",
+      "frameWidth": 24,
+      "frameHeight": 24
+    }
+  }
+}

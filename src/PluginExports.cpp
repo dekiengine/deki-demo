@@ -7,6 +7,7 @@
 
 #include "Bobber.h"
 #include "Spinner.h"
+#include "Walker.h"
 
 // ============================================================================
 // Plugin DLL exports
@@ -54,7 +55,7 @@ DEKI_PLUGIN_API const char* DekiPlugin_GetVersion()
 
 DEKI_PLUGIN_API int DekiPlugin_GetComponentCount()
 {
-    return 2;
+    return 3;
 }
 
 DEKI_PLUGIN_API const Deki::ComponentMeta* DekiPlugin_GetComponentMeta(int index)
@@ -63,6 +64,7 @@ DEKI_PLUGIN_API const Deki::ComponentMeta* DekiPlugin_GetComponentMeta(int index
     {
         case 0: return &Bobber::GetComponentMeta();
         case 1: return &Spinner::GetComponentMeta();
+        case 2: return &Walker::GetComponentMeta();
         default: return nullptr;
     }
 }

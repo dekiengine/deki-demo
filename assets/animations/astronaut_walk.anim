@@ -1,0 +1,33 @@
+{
+  "spritesheetGuid": "7a963cfa-e272-4073-82f6-d2b88ec4049a",
+  "animations": [
+    {
+      "name": "walk_right",
+      "loop": true,
+      "frames": [
+        {
+          "frameGuid": "54e46a05-e05a-ef41-f276-fd7c7df2c34f",
+          "duration": 200
+        },
+        {
+          "frameGuid": "54e46a05-e05a-ef41-f276-fc7c7df2c19c",
+          "duration": 200
+        }
+      ]
+    },
+    {
+      "name": "walk_left",
+      "loop": true,
+      "frames": [
+        {
+          "frameGuid": "54e46a05-e05a-ef41-f276-ff7c7df2c6b5",
+          "duration": 200
+        },
+        {
+          "frameGuid": "54e46a05-e05a-ef41-f276-fe7c7df2c502",
+          "duration": 200
+        }
+      ]
+    }
+  ]
+}
