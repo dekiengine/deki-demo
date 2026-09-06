@@ -6,7 +6,7 @@
   "forceIncludeGuids": [],
   "name": "deki-demo",
   "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
-  "startupScene": "scenes\\dashboard.scene",
+  "startupScene": "scenes/dashboard.scene",
   "structure": "v5",
   "version": "1.0"
 }

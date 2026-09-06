@@ -1,4 +1,5 @@
 {
+  "bootScene": "platforms/native_simulator/boot.scene",
   "cxxFlags": [
     "-std=c++17",
     "-O0",

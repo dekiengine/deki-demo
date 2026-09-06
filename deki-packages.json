@@ -3,10 +3,10 @@
     "deki-2d": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "0.10.1"
+      "version": "0.10.2"
     },
     "deki-desktop-integration": {
-      "version": "0.10.0"
+      "version": "0.10.2"
     },
     "deki-input": {
       "version": "0.10.0"
@@ -25,7 +25,7 @@
     "deki-sdl3-integration": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
-      "version": "0.10.0"
+      "version": "0.10.1"
     },
     "deki-tween": {
       "source": "github",

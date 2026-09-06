@@ -8,7 +8,7 @@
       ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.10.1",
+      "installedVersion": "0.10.2",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -26,7 +26,7 @@
       ],
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "0.10.0",
+      "installedVersion": "0.10.2",
       "name": "deki-desktop-integration",
       "packageType": "deki_package",
       "source": "custom",
@@ -102,7 +102,7 @@
       ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "0.10.0",
+      "installedVersion": "0.10.1",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [
