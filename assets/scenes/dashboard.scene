@@ -34,7 +34,7 @@
             {
               "class": "GradientComponent",
               "properties": {
-                "angle": 90.0,
+                "angle": 1.5707963267948966,
                 "height": 15.0,
                 "radius": 0.5,
                 "sortingOrder": 0,
@@ -2704,7 +2704,7 @@
                   "properties": {
                     "height": 0.0,
                     "sortingOrder": 5,
-                    "sprite": "54e46a05-e05a-ef41-f276-fd7c7df2c34f",
+                    "sprite": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
                     "width": 0.0,
                     "alphaMode": 0,
                     "ignoreClip": false,
@@ -2717,7 +2717,7 @@
                 {
                   "class": "AnimationComponent",
                   "properties": {
-                    "animation": "9fab8d4b-6962-4a25-9b1f-15c5eb88efe3",
+                    "animation": "ef49c2e1-9caa-4140-9343-8d1e999230e6",
                     "currentFrame": 0,
                     "currentSequence": 0,
                     "hasFinished": false,
@@ -2739,7 +2739,7 @@
                 }
               ],
               "id": 93,
-              "name": "Astronaut",
+              "name": "Alien",
               "transform": {
                 "rotation": 0.0,
                 "scaleX": 1.0,

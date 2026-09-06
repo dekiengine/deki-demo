@@ -1,16 +1,16 @@
 {
-  "spritesheetGuid": "7a963cfa-e272-4073-82f6-d2b88ec4049a",
+  "spritesheetGuid": "72120f4b-6dd8-455f-9eff-c47011bd6b11",
   "animations": [
     {
       "name": "walk_right",
       "loop": true,
       "frames": [
         {
-          "frameGuid": "54e46a05-e05a-ef41-f276-fd7c7df2c34f",
+          "frameGuid": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
           "duration": 200
         },
         {
-          "frameGuid": "54e46a05-e05a-ef41-f276-fc7c7df2c19c",
+          "frameGuid": "509b4272-2cfc-1155-a1e0-fe82e718ac88",
           "duration": 200
         }
       ]
@@ -20,11 +20,11 @@
       "loop": true,
       "frames": [
         {
-          "frameGuid": "54e46a05-e05a-ef41-f276-ff7c7df2c6b5",
+          "frameGuid": "509b4272-2cfc-1155-a1e1-0182e718b1a1",
           "duration": 200
         },
         {
-          "frameGuid": "54e46a05-e05a-ef41-f276-fe7c7df2c502",
+          "frameGuid": "509b4272-2cfc-1155-a1e1-0082e718afee",
           "duration": 200
         }
       ]
