@@ -14,7 +14,7 @@
                 "clearColor": 202250495,
                 "pixelSnap": false
               },
-              "type": "146999a7-398f-4e52-a7c7-1e6a78bfb9c4"
+              "type": "CameraComponent"
             }
           ],
           "id": 2,
@@ -60,7 +60,7 @@
                 "tileMode": 0,
                 "tileWidth": 0.0
               },
-              "type": "8d84cca3-7eb9-4b92-ba49-968ceec203c8"
+              "type": "GradientComponent"
             }
           ],
           "id": 3,
@@ -93,7 +93,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 5,
@@ -123,7 +123,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 6,
@@ -153,7 +153,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 7,
@@ -183,7 +183,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 8,
@@ -213,7 +213,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 9,
@@ -243,7 +243,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 10,
@@ -273,7 +273,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 11,
@@ -303,7 +303,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 12,
@@ -333,7 +333,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 13,
@@ -363,7 +363,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 14,
@@ -393,7 +393,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 15,
@@ -423,7 +423,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 16,
@@ -453,7 +453,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 17,
@@ -483,7 +483,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 18,
@@ -513,7 +513,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 19,
@@ -543,7 +543,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 20,
@@ -573,7 +573,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 21,
@@ -603,7 +603,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 22,
@@ -633,7 +633,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 23,
@@ -663,7 +663,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 24,
@@ -693,7 +693,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 25,
@@ -723,7 +723,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 26,
@@ -753,7 +753,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 27,
@@ -783,7 +783,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 28,
@@ -813,7 +813,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 29,
@@ -843,7 +843,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 30,
@@ -873,7 +873,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 31,
@@ -903,7 +903,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 32,
@@ -948,7 +948,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 34,
@@ -978,7 +978,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 35,
@@ -1008,7 +1008,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 36,
@@ -1038,7 +1038,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 37,
@@ -1068,7 +1068,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 38,
@@ -1098,7 +1098,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 39,
@@ -1128,7 +1128,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 40,
@@ -1158,7 +1158,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 41,
@@ -1188,7 +1188,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 42,
@@ -1218,7 +1218,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 43,
@@ -1248,7 +1248,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 44,
@@ -1278,7 +1278,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 45,
@@ -1308,7 +1308,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 46,
@@ -1338,7 +1338,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 47,
@@ -1368,7 +1368,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 48,
@@ -1398,7 +1398,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 49,
@@ -1428,7 +1428,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 50,
@@ -1458,7 +1458,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 51,
@@ -1488,7 +1488,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 52,
@@ -1518,7 +1518,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 53,
@@ -1548,7 +1548,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 54,
@@ -1578,7 +1578,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 55,
@@ -1608,7 +1608,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 56,
@@ -1638,7 +1638,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 57,
@@ -1668,7 +1668,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 58,
@@ -1698,7 +1698,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 59,
@@ -1728,7 +1728,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 60,
@@ -1758,7 +1758,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 61,
@@ -1788,7 +1788,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 62,
@@ -1818,7 +1818,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 63,
@@ -1848,7 +1848,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 64,
@@ -1878,7 +1878,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 65,
@@ -1908,7 +1908,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 66,
@@ -1938,7 +1938,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 67,
@@ -1968,7 +1968,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 68,
@@ -1998,7 +1998,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 69,
@@ -2043,7 +2043,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 71,
@@ -2073,7 +2073,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 72,
@@ -2103,7 +2103,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 73,
@@ -2133,7 +2133,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 74,
@@ -2163,7 +2163,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 75,
@@ -2193,7 +2193,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 76,
@@ -2238,7 +2238,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 78,
@@ -2268,7 +2268,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 79,
@@ -2298,7 +2298,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 80,
@@ -2328,7 +2328,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 81,
@@ -2358,7 +2358,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 82,
@@ -2388,7 +2388,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 83,
@@ -2418,7 +2418,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 84,
@@ -2463,7 +2463,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2472,7 +2472,7 @@
                     "amplitudePx": 4.0,
                     "speedHz": 0.625
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 86,
@@ -2502,7 +2502,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2511,7 +2511,7 @@
                     "amplitudePx": 4.0,
                     "speedHz": 0.625
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 87,
@@ -2541,7 +2541,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2550,7 +2550,7 @@
                     "amplitudePx": 4.0,
                     "speedHz": 0.625
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 88,
@@ -2580,7 +2580,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2589,7 +2589,7 @@
                     "amplitudePx": 4.0,
                     "speedHz": 0.625
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 89,
@@ -2619,7 +2619,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2628,7 +2628,7 @@
                     "amplitudePx": 4.0,
                     "speedHz": 0.625
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 90,
@@ -2658,7 +2658,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "Bobber",
@@ -2667,7 +2667,7 @@
                     "amplitudePx": 3.0,
                     "speedHz": 0.4166667
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 91,
@@ -2712,7 +2712,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "AnimationComponent",
@@ -2724,7 +2724,7 @@
                     "isPlaying": false,
                     "playOnceOverride": false
                   },
-                  "type": "05f70a7a-334f-492f-9779-f3e351f64d9a"
+                  "type": "AnimationComponent"
                 },
                 {
                   "class": "Walker",
@@ -2735,7 +2735,7 @@
                     "walkRightAnimation": "walk_right",
                     "walkLeftAnimation": "walk_left"
                   },
-                  "type": "6f3c2a51-8d4e-4b0a-9c1f-2e7a5b8d9c01"
+                  "type": "Walker"
                 }
               ],
               "id": 93,
@@ -2765,7 +2765,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 },
                 {
                   "class": "AnimationComponent",
@@ -2777,7 +2777,7 @@
                     "isPlaying": false,
                     "playOnceOverride": false
                   },
-                  "type": "05f70a7a-334f-492f-9779-f3e351f64d9a"
+                  "type": "AnimationComponent"
                 },
                 {
                   "class": "Walker",
@@ -2788,7 +2788,7 @@
                     "walkRightAnimation": "",
                     "walkLeftAnimation": ""
                   },
-                  "type": "6f3c2a51-8d4e-4b0a-9c1f-2e7a5b8d9c01"
+                  "type": "Walker"
                 },
                 {
                   "class": "Bobber",
@@ -2797,7 +2797,7 @@
                     "amplitudePx": 3.0,
                     "speedHz": 0.4166667
                   },
-                  "type": "91ce8c51-680b-4ff7-aa74-b44026097d74"
+                  "type": "Bobber"
                 }
               ],
               "id": 94,
@@ -2842,7 +2842,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 96,
@@ -2872,7 +2872,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 97,
@@ -2902,7 +2902,7 @@
                     "renderMode": 0,
                     "tintColor": 4294967295
                   },
-                  "type": "ca17ba76-f46d-484d-97ff-6e8e5497ef8d"
+                  "type": "SpriteComponent"
                 }
               ],
               "id": 98,
@@ -2940,7 +2940,7 @@
                     "ignoreClip": false,
                     "pixelSnap": true
                   },
-                  "type": "5447ea24-d11f-4161-ae10-2f11e0a18d09"
+                  "type": "TextComponent"
                 }
               ],
               "id": 99,

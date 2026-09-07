@@ -14,7 +14,7 @@
                 "windowHeight": 240,
                 "windowScale": 2
               },
-              "type": "c3a8f1d0-5b7e-4a2c-8d91-6e3f4c7b2a50"
+              "type": "SDL3DisplaySetup"
             }
           ],
           "id": 600,
@@ -37,7 +37,7 @@
                 "enableKeyboard": true,
                 "enableMouse": true
               },
-              "type": "d4b9e2f1-6c8a-4d3b-9e72-7f4g5d8c3b61"
+              "type": "SDL3InputSetup"
             }
           ],
           "id": 601,
@@ -58,15 +58,15 @@
             "setupComponents": [
               {
                 "id": 600,
-                "typeId": 1129371288
+                "typeId": 813358572
               },
               {
                 "id": 601,
-                "typeId": 2309669438
+                "typeId": 2694918394
               }
             ]
           },
-          "type": "e1b3c909-aaa1-49f4-8d62-04145f79f2a0"
+          "type": "Deki::PlatformSetupComponent"
         }
       ],
       "id": 1,

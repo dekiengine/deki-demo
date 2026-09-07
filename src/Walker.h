@@ -7,10 +7,10 @@
 // Paces the owner left and right around its starting point. When the object
 // also has an AnimationComponent, turning round plays the named animation for
 // the new direction, so a two-direction sprite sheet faces the way it walks.
+DEKI_CATEGORY("Demo")
+DEKI_DESCRIPTION("Paces the object left and right, switching animation to face each way.")
 class Walker : public Deki::Behaviour
 {
-    DEKI_COMPONENT(Walker, Deki::Behaviour, "Demo", "6f3c2a51-8d4e-4b0a-9c1f-2e7a5b8d9c01", "")
-    DEKI_DESCRIPTION("Paces the object left and right, switching animation to face each way.")
 public:
     DEKI_EXPORT DEKI_SLIDER(0, 64)
     float speedPx = 16.0f;
@@ -42,4 +42,3 @@ private:
     bool m_Leftwards = false;
 };
 
-#include "generated/Walker.gen.h"

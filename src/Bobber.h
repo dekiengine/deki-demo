@@ -4,10 +4,10 @@
 
 // Moves the owner up and down on a sine wave. Exported fields drive the
 // inspector, serialization, and undo without any extra registration.
+DEKI_CATEGORY("Demo")
+DEKI_DESCRIPTION("Bobs the object up and down on a sine wave.")
 class Bobber : public Deki::Behaviour
 {
-    DEKI_COMPONENT(Bobber, Deki::Behaviour, "Demo", "91ce8c51-680b-4ff7-aa74-b44026097d74", "")
-    DEKI_DESCRIPTION("Bobs the object up and down on a sine wave.")
 public:
     DEKI_EXPORT DEKI_SLIDER(0, 64)
     float amplitudePx = 12.0f;
@@ -29,4 +29,3 @@ private:
     float m_ElapsedS = 0.0f;
 };
 
-#include "generated/Bobber.gen.h"
