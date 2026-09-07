@@ -25,7 +25,7 @@
     "deki-sdl3-integration": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
-      "version": "0.10.1"
+      "version": "0.10.2"
     },
     "deki-tween": {
       "source": "github",

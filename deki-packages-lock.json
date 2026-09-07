@@ -102,7 +102,7 @@
       ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "0.10.1",
+      "installedVersion": "0.10.2",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [
