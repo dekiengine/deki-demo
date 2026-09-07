@@ -2,7 +2,6 @@
 
 void Spinner::Awake()
 {
-    SetNeedsUpdate(true);
 
     if (Deki::Object* owner = GetOwner())
         m_AngleDeg = owner->GetLocalRotation() * 57.29577951f;

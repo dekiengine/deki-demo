@@ -4,7 +4,6 @@
 
 void Walker::Awake()
 {
-    SetNeedsUpdate(true);
 
     if (Deki::Object* owner = GetOwner())
         m_BaseX = owner->GetX();

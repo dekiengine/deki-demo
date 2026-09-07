@@ -4,7 +4,6 @@
 
 void Bobber::Awake()
 {
-    SetNeedsUpdate(true);
 
     if (Deki::Object* owner = GetOwner())
         m_BaseY = owner->GetY();
