@@ -3,7 +3,7 @@
     "deki-2d": {
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "0.12.0"
+      "version": "0.12.1"
     },
     "deki-desktop-integration": {
       "version": "0.12.0"
