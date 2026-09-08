@@ -5,7 +5,7 @@
 // Spins the owner at a constant rate.
 DEKI_CATEGORY("Demo")
 DEKI_DESCRIPTION("Rotates the object at a constant number of degrees per second.")
-class Spinner : public Deki::Behaviour
+class Spinner : public Deki::Component
 {
 public:
     DEKI_EXPORT DEKI_SLIDER(-360, 360)

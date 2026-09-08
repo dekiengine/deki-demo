@@ -6,7 +6,7 @@
 // inspector, serialization, and undo without any extra registration.
 DEKI_CATEGORY("Demo")
 DEKI_DESCRIPTION("Bobs the object up and down on a sine wave.")
-class Bobber : public Deki::Behaviour
+class Bobber : public Deki::Component
 {
 public:
     DEKI_EXPORT DEKI_SLIDER(0, 64)

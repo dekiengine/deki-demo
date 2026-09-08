@@ -9,7 +9,7 @@
 // the new direction, so a two-direction sprite sheet faces the way it walks.
 DEKI_CATEGORY("Demo")
 DEKI_DESCRIPTION("Paces the object left and right, switching animation to face each way.")
-class Walker : public Deki::Behaviour
+class Walker : public Deki::Component
 {
 public:
     DEKI_EXPORT DEKI_SLIDER(0, 64)
