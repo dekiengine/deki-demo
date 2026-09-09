@@ -8,5 +8,8 @@
   "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
   "startupScene": "scenes/dashboard.scene",
   "structure": "v5",
+  "tags": [
+    "transform_2d"
+  ],
   "version": "1.0"
 }
