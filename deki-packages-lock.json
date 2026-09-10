@@ -8,7 +8,7 @@
       ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.14.0",
+      "installedVersion": "0.14.1",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
