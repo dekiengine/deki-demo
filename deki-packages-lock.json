@@ -2,13 +2,9 @@
   "lockVersion": 1,
   "packages": {
     "deki-2d": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -20,26 +16,18 @@
       "url": "https://github.com/dekiengine/deki-2d"
     },
     "deki-desktop-integration": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-desktop-integration",
       "packageType": "deki_package",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-desktop-integration"
     },
     "deki-input": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Input handling and collision detection",
       "displayName": "Input",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-input",
       "packageType": "deki_package",
       "requires": [
@@ -50,13 +38,9 @@
       "url": "https://github.com/dekiengine/deki-input"
     },
     "deki-nodegraph": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "displayName": "Node Graph",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-nodegraph",
       "packageType": "deki_package",
       "resolvedBy": "deki-particles",
@@ -64,13 +48,9 @@
       "url": "https://github.com/dekiengine/deki-nodegraph"
     },
     "deki-particles": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-particles",
       "packageType": "deki_package",
       "requires": [
@@ -82,13 +62,9 @@
       "url": "https://github.com/dekiengine/deki-particles"
     },
     "deki-rendering": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-rendering",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -96,13 +72,9 @@
       "url": "https://github.com/dekiengine/deki-rendering"
     },
     "deki-sdl3-integration": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [
@@ -112,13 +84,9 @@
       "url": "https://github.com/dekiengine/deki-sdl3-integration"
     },
     "deki-tween": {
-      "availableVersions": [
-        "1.0.0",
-        "1.1.0"
-      ],
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",
-      "installedVersion": "0.15.0",
+      "installedVersion": "0.16.0",
       "name": "deki-tween",
       "packageType": "deki_package",
       "source": "github",

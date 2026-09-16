@@ -2,6 +2,9 @@
 
 #include "AnimationComponent.h"
 
+// AnimationComponent moved into the Deki2D namespace in deki-2d 0.16.0.
+using namespace Deki2D;
+
 void Walker::Awake()
 {
 
