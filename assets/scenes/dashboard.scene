@@ -1,4 +1,5 @@
 {
+  "formatVersion": 1,
   "objects": [
     {
       "active": true,
@@ -8,13 +9,13 @@
           "children": [],
           "components": [
             {
-              "class": "CameraComponent",
               "properties": {
-                "pixelsPerMeter": 0.0,
-                "clearColor": 202250495,
-                "pixelSnap": false
+                "clearColor": "#0C0E18FF",
+                "clearEveryFrame": true,
+                "pixelSnap": false,
+                "pixelsPerMeter": 0.0
               },
-              "type": "CameraComponent"
+              "type": "DekiRendering::CameraComponent"
             }
           ],
           "id": 2,
@@ -32,35 +33,34 @@
           "children": [],
           "components": [
             {
-              "class": "GradientComponent",
               "properties": {
-                "angle": 1.5707963267948966,
-                "height": 15.0,
-                "radius": 0.5,
-                "sortingOrder": 0,
-                "width": 20.0,
-                "alphaMode": 0,
+                "alphaMode": "Blend",
+                "angle": 1.5707963705062866,
                 "centerX": 0.5,
                 "centerY": 0.5,
-                "ditherMode": 3,
+                "ditherMode": "Ordered8x8",
                 "ditherScale": 1,
-                "gradientType": 0,
+                "gradientType": "Linear",
+                "height": 15.0,
                 "ignoreClip": false,
                 "pixelSnap": true,
-                "stop1Color": 390692863,
+                "radius": 0.5,
+                "sortingOrder": 0,
+                "stop1Color": "#17497FFF",
                 "stop1Position": 0.0,
-                "stop2Color": 779860223,
+                "stop2Color": "#2E7BB8FF",
                 "stop2Position": 0.44999998807907104,
-                "stop3Color": 1656020223,
+                "stop3Color": "#62B4DCFF",
                 "stop3Position": 0.7799999713897705,
-                "stop4Color": 2849894655,
+                "stop4Color": "#A9DDF0FF",
                 "stop4Position": 1.0,
                 "stopCount": 4,
                 "tileHeight": 0.0,
-                "tileMode": 0,
-                "tileWidth": 0.0
+                "tileMode": "None",
+                "tileWidth": 0.0,
+                "width": 20.0
               },
-              "type": "GradientComponent"
+              "type": "Deki2D::GradientComponent"
             }
           ],
           "id": 3,
@@ -81,19 +81,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 5,
@@ -111,19 +112,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 6,
@@ -141,19 +143,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 7,
@@ -171,19 +174,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 8,
@@ -201,19 +205,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 9,
@@ -231,19 +236,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 10,
@@ -261,19 +267,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 11,
@@ -291,19 +298,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 12,
@@ -321,19 +329,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 13,
@@ -351,19 +360,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 14,
@@ -381,19 +391,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 15,
@@ -411,19 +422,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 16,
@@ -441,19 +453,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 17,
@@ -471,19 +484,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 18,
@@ -501,19 +515,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 19,
@@ -531,19 +546,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 20,
@@ -561,19 +577,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 21,
@@ -591,19 +608,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 22,
@@ -621,19 +639,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 23,
@@ -651,19 +670,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 24,
@@ -681,19 +701,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 25,
@@ -711,19 +732,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 26,
@@ -741,19 +763,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 27,
@@ -771,19 +794,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 28,
@@ -801,19 +825,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 29,
@@ -831,19 +856,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 30,
@@ -861,19 +887,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 31,
@@ -891,19 +918,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 1,
-                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 32,
@@ -936,19 +964,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 34,
@@ -966,19 +995,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 35,
@@ -996,19 +1026,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 36,
@@ -1026,19 +1057,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 37,
@@ -1056,19 +1088,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 38,
@@ -1086,19 +1119,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 39,
@@ -1116,19 +1150,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 40,
@@ -1146,19 +1181,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 41,
@@ -1176,19 +1212,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 42,
@@ -1206,19 +1243,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 43,
@@ -1236,19 +1274,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 44,
@@ -1266,19 +1305,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 45,
@@ -1296,19 +1336,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 46,
@@ -1326,19 +1367,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 47,
@@ -1356,19 +1398,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 48,
@@ -1386,19 +1429,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 49,
@@ -1416,19 +1460,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 50,
@@ -1446,19 +1491,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 51,
@@ -1476,19 +1522,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 52,
@@ -1506,19 +1553,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 53,
@@ -1536,19 +1584,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 54,
@@ -1566,19 +1615,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 55,
@@ -1596,19 +1646,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 56,
@@ -1626,19 +1677,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 57,
@@ -1656,19 +1708,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 58,
@@ -1686,19 +1739,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 59,
@@ -1716,19 +1770,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 60,
@@ -1746,19 +1801,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 61,
@@ -1776,19 +1832,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 62,
@@ -1806,19 +1863,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 63,
@@ -1836,19 +1894,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 64,
@@ -1866,19 +1925,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 65,
@@ -1896,19 +1956,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 66,
@@ -1926,19 +1987,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 67,
@@ -1956,19 +2018,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 68,
@@ -1986,19 +2049,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 2,
-                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 69,
@@ -2031,19 +2095,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 71,
@@ -2061,19 +2126,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 72,
@@ -2091,19 +2157,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 73,
@@ -2121,19 +2188,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 74,
@@ -2151,19 +2219,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 75,
@@ -2181,19 +2250,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 76,
@@ -2226,19 +2296,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "6fdc895d-7f6d-4132-91a0-3557f5bfe364",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "6fdc895d-7f6d-4132-91a0-3557f5bfe364",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 78,
@@ -2256,19 +2327,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "2cb6fcbf-7a66-435b-80f9-722462c6d7c5",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "2cb6fcbf-7a66-435b-80f9-722462c6d7c5",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 79,
@@ -2286,19 +2358,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "fc38fc66-bed8-4cc7-be8f-dcf6af3f3b88",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "fc38fc66-bed8-4cc7-be8f-dcf6af3f3b88",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 80,
@@ -2316,19 +2389,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "a8c551f0-167c-4ef4-bc64-e27240bb5b93",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "a8c551f0-167c-4ef4-bc64-e27240bb5b93",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 81,
@@ -2346,19 +2420,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "906a42c9-2efd-49ff-a08b-0e178f1b0433",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "906a42c9-2efd-49ff-a08b-0e178f1b0433",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 82,
@@ -2376,19 +2451,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "5d524b6d-9386-4d91-a81c-11993453fb34",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "5d524b6d-9386-4d91-a81c-11993453fb34",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 83,
@@ -2406,19 +2482,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 3,
-                    "sprite": "5ae9c73f-fe09-4444-ab30-3e8ce5824290",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 3,
+                    "sprite": "5ae9c73f-fe09-4444-ab30-3e8ce5824290",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 84,
@@ -2451,25 +2528,25 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.0,
                     "amplitudePx": 4.0,
+                    "phase": 0.0,
                     "speedHz": 0.625
                   },
                   "type": "Bobber"
@@ -2490,25 +2567,25 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.2,
                     "amplitudePx": 4.0,
+                    "phase": 0.20000000298023224,
                     "speedHz": 0.625
                   },
                   "type": "Bobber"
@@ -2529,25 +2606,25 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.4,
                     "amplitudePx": 4.0,
+                    "phase": 0.4000000059604645,
                     "speedHz": 0.625
                   },
                   "type": "Bobber"
@@ -2568,25 +2645,25 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.6000000000000001,
                     "amplitudePx": 4.0,
+                    "phase": 0.6000000238418579,
                     "speedHz": 0.625
                   },
                   "type": "Bobber"
@@ -2607,25 +2684,25 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.8,
                     "amplitudePx": 4.0,
+                    "phase": 0.800000011920929,
                     "speedHz": 0.625
                   },
                   "type": "Bobber"
@@ -2646,26 +2723,26 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 4,
-                    "sprite": "f2d8b72d-5672-4698-b138-3f1a2cc77d23",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 4,
+                    "sprite": "f2d8b72d-5672-4698-b138-3f1a2cc77d23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.0,
                     "amplitudePx": 3.0,
-                    "speedHz": 0.4166667
+                    "phase": 0.0,
+                    "speedHz": 0.4166666865348816
                   },
                   "type": "Bobber"
                 }
@@ -2700,22 +2777,22 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 5,
-                    "sprite": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 5,
+                    "sprite": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "AnimationComponent",
                   "properties": {
                     "animation": "ef49c2e1-9caa-4140-9343-8d1e999230e6",
                     "currentFrame": 0,
@@ -2724,16 +2801,15 @@
                     "isPlaying": false,
                     "playOnceOverride": false
                   },
-                  "type": "AnimationComponent"
+                  "type": "Deki2D::AnimationComponent"
                 },
                 {
-                  "class": "Walker",
                   "properties": {
-                    "speedPx": 20.0,
                     "patrolPx": 24.0,
+                    "speedPx": 20.0,
                     "startLeftwards": false,
-                    "walkRightAnimation": "walk_right",
-                    "walkLeftAnimation": "walk_left"
+                    "walkLeftAnimation": "walk_left",
+                    "walkRightAnimation": "walk_right"
                   },
                   "type": "Walker"
                 }
@@ -2753,22 +2829,22 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 5,
-                    "sprite": "7fec842c-858e-74b1-d2ec-dd44981348d6",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 5,
+                    "sprite": "7fec842c-858e-74b1-d2ec-dd44981348d6",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 },
                 {
-                  "class": "AnimationComponent",
                   "properties": {
                     "animation": "5b106ffa-d457-45ee-a7ba-800ed4474553",
                     "currentFrame": 0,
@@ -2777,25 +2853,23 @@
                     "isPlaying": false,
                     "playOnceOverride": false
                   },
-                  "type": "AnimationComponent"
+                  "type": "Deki2D::AnimationComponent"
                 },
                 {
-                  "class": "Walker",
                   "properties": {
-                    "speedPx": 20.0,
                     "patrolPx": 24.0,
+                    "speedPx": 20.0,
                     "startLeftwards": true,
-                    "walkRightAnimation": "",
-                    "walkLeftAnimation": ""
+                    "walkLeftAnimation": "",
+                    "walkRightAnimation": ""
                   },
                   "type": "Walker"
                 },
                 {
-                  "class": "Bobber",
                   "properties": {
-                    "phase": 0.5,
                     "amplitudePx": 3.0,
-                    "speedHz": 0.4166667
+                    "phase": 0.5,
+                    "speedHz": 0.4166666865348816
                   },
                   "type": "Bobber"
                 }
@@ -2830,19 +2904,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 9,
-                    "sprite": "dbf60623-7ff5-4148-981d-23702cf4a8f9",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 9,
+                    "sprite": "dbf60623-7ff5-4148-981d-23702cf4a8f9",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 96,
@@ -2860,19 +2935,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 9,
-                    "sprite": "dbf60623-7ff5-4148-981d-23702cf4a8f9",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 9,
+                    "sprite": "dbf60623-7ff5-4148-981d-23702cf4a8f9",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 97,
@@ -2890,19 +2966,20 @@
               "children": [],
               "components": [
                 {
-                  "class": "SpriteComponent",
                   "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
                     "height": 0.0,
-                    "sortingOrder": 9,
-                    "sprite": "71acb28f-9f27-4db1-b34c-248f3927a76a",
-                    "width": 0.0,
-                    "alphaMode": 0,
                     "ignoreClip": false,
                     "pixelSnap": true,
-                    "renderMode": 0,
-                    "tintColor": 4294967295
+                    "renderMode": "Normal",
+                    "sortingOrder": 9,
+                    "sprite": "71acb28f-9f27-4db1-b34c-248f3927a76a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
                   },
-                  "type": "SpriteComponent"
+                  "type": "Deki2D::SpriteComponent"
                 }
               ],
               "id": 98,
@@ -2920,27 +2997,26 @@
               "children": [],
               "components": [
                 {
-                  "class": "TextComponent",
                   "properties": {
-                    "align": 2,
-                    "color": 4293705471,
-                    "decorationColor": 255,
+                    "align": "Right",
+                    "alphaMode": "Blend",
+                    "color": "#FFECBEFF",
+                    "decorationColor": "#000000FF",
                     "font": {
                       "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
                       "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
                     },
                     "fontSize": 16,
                     "height": 1.25,
+                    "ignoreClip": false,
                     "pixelScale": 1,
+                    "pixelSnap": true,
                     "sortingOrder": 9,
                     "text": "1250",
-                    "verticalAlign": 1,
-                    "width": 18.75,
-                    "alphaMode": 0,
-                    "ignoreClip": false,
-                    "pixelSnap": true
+                    "verticalAlign": "Middle",
+                    "width": 18.75
                   },
-                  "type": "TextComponent"
+                  "type": "Deki2D::TextComponent"
                 }
               ],
               "id": 99,
