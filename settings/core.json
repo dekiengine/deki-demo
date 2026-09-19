@@ -5,6 +5,7 @@
   },
   "Units": {
     "inspectorUnit": 0,
-    "pixelsPerMeter": 16.0
+    "pixelsPerMeter": 16.0,
+    "temperatureUnit": 0
   }
 }

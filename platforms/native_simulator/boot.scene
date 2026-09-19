@@ -1,4 +1,5 @@
 {
+  "formatVersion": 1,
   "objects": [
     {
       "active": true,
@@ -8,13 +9,12 @@
           "children": [],
           "components": [
             {
-              "class": "SDL3DisplaySetup",
               "properties": {
-                "windowWidth": 320,
-                "windowHeight": 240,
-                "windowScale": 2
+                "windowHeight": 720,
+                "windowScale": 1,
+                "windowWidth": 1280
               },
-              "type": "SDL3DisplaySetup"
+              "type": "DekiSdl3::SDL3DisplaySetup"
             }
           ],
           "id": 600,
@@ -32,12 +32,11 @@
           "children": [],
           "components": [
             {
-              "class": "SDL3InputSetup",
               "properties": {
                 "enableKeyboard": true,
                 "enableMouse": true
               },
-              "type": "SDL3InputSetup"
+              "type": "DekiSdl3::SDL3InputSetup"
             }
           ],
           "id": 601,
@@ -53,16 +52,15 @@
       ],
       "components": [
         {
-          "class": "PlatformSetupComponent",
           "properties": {
             "setupComponents": [
               {
                 "id": 600,
-                "typeId": 813358572
+                "typeId": 4013418057
               },
               {
                 "id": 601,
-                "typeId": 2694918394
+                "typeId": 577352591
               }
             ]
           },
