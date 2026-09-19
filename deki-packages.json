@@ -8,6 +8,9 @@
     "deki-desktop-integration": {
       "version": "0.16.0"
     },
+    "deki-fsm": {
+      "version": "0.16.0"
+    },
     "deki-input": {
       "version": "0.16.0"
     },

@@ -1,0 +1,612 @@
+{
+  "links": [
+    {
+      "from": 2,
+      "fromPin": 0,
+      "to": 4,
+      "toPin": 0
+    },
+    {
+      "from": 4,
+      "fromPin": 0,
+      "to": 7,
+      "toPin": 0
+    }
+  ],
+  "nextNodeId": 34,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "FsmAwake",
+      "values": {},
+      "x": 60.0,
+      "y": 40.0
+    },
+    {
+      "id": 2,
+      "type": "FsmStart",
+      "values": {},
+      "x": 60.0,
+      "y": 170.0
+    },
+    {
+      "id": 3,
+      "type": "FsmUpdate",
+      "values": {},
+      "x": 60.0,
+      "y": 300.0
+    },
+    {
+      "graph": {
+        "links": [
+          {
+            "from": 6,
+            "fromPin": 0,
+            "to": 10,
+            "toPin": 0
+          },
+          {
+            "from": 10,
+            "fromPin": 0,
+            "to": 11,
+            "toPin": 0
+          },
+          {
+            "from": 11,
+            "fromPin": 0,
+            "to": 12,
+            "toPin": 0
+          },
+          {
+            "from": 12,
+            "fromPin": 0,
+            "to": 13,
+            "toPin": 0
+          },
+          {
+            "from": 13,
+            "fromPin": 0,
+            "to": 14,
+            "toPin": 0
+          },
+          {
+            "from": 14,
+            "fromPin": 0,
+            "to": 15,
+            "toPin": 0
+          },
+          {
+            "from": 15,
+            "fromPin": 0,
+            "to": 16,
+            "toPin": 0
+          },
+          {
+            "from": 16,
+            "fromPin": 0,
+            "to": 17,
+            "toPin": 0
+          },
+          {
+            "from": 17,
+            "fromPin": 0,
+            "to": 18,
+            "toPin": 0
+          },
+          {
+            "from": 18,
+            "fromPin": 0,
+            "to": 19,
+            "toPin": 0
+          },
+          {
+            "from": 19,
+            "fromPin": 0,
+            "to": 20,
+            "toPin": 0
+          },
+          {
+            "from": 20,
+            "fromPin": 0,
+            "to": 21,
+            "toPin": 0
+          },
+          {
+            "from": 21,
+            "fromPin": 0,
+            "to": 22,
+            "toPin": 0
+          },
+          {
+            "from": 22,
+            "fromPin": 0,
+            "to": 23,
+            "toPin": 0
+          },
+          {
+            "from": 23,
+            "fromPin": 0,
+            "to": 24,
+            "toPin": 0
+          },
+          {
+            "from": 24,
+            "fromPin": 0,
+            "to": 25,
+            "toPin": 0
+          }
+        ],
+        "nodes": [
+          {
+            "id": 6,
+            "type": "FsmActionEntry",
+            "values": {},
+            "x": 60.0,
+            "y": 60.0
+          },
+          {
+            "id": 10,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "period",
+                "object": ""
+              },
+              "value": "1",
+              "valueVariable": ""
+            },
+            "x": 260.0,
+            "y": 60.0
+          },
+          {
+            "id": 11,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "",
+              "operandVariable": "speedHz",
+              "operation": 3,
+              "target": {
+                "component": "Variable",
+                "field": "period",
+                "object": ""
+              }
+            },
+            "x": 480.0,
+            "y": 60.0
+          },
+          {
+            "id": 12,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "quarter",
+                "object": ""
+              },
+              "value": "",
+              "valueVariable": "period"
+            },
+            "x": 700.0,
+            "y": 60.0
+          },
+          {
+            "id": 13,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "0.25",
+              "operandVariable": "",
+              "operation": 2,
+              "target": {
+                "component": "Variable",
+                "field": "quarter",
+                "object": ""
+              }
+            },
+            "x": 920.0,
+            "y": 60.0
+          },
+          {
+            "id": 14,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "half",
+                "object": ""
+              },
+              "value": "",
+              "valueVariable": "period"
+            },
+            "x": 1140.0,
+            "y": 60.0
+          },
+          {
+            "id": 15,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "0.5",
+              "operandVariable": "",
+              "operation": 2,
+              "target": {
+                "component": "Variable",
+                "field": "half",
+                "object": ""
+              }
+            },
+            "x": 260.0,
+            "y": 220.0
+          },
+          {
+            "id": 16,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "rise",
+                "object": ""
+              },
+              "value": "",
+              "valueVariable": "amplitude"
+            },
+            "x": 480.0,
+            "y": 220.0
+          },
+          {
+            "id": 17,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "drop",
+                "object": ""
+              },
+              "value": "",
+              "valueVariable": "amplitude"
+            },
+            "x": 700.0,
+            "y": 220.0
+          },
+          {
+            "id": 18,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "-2",
+              "operandVariable": "",
+              "operation": 2,
+              "target": {
+                "component": "Variable",
+                "field": "drop",
+                "object": ""
+              }
+            },
+            "x": 920.0,
+            "y": 220.0
+          },
+          {
+            "id": 19,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "climb",
+                "object": ""
+              },
+              "value": "",
+              "valueVariable": "amplitude"
+            },
+            "x": 1140.0,
+            "y": 220.0
+          },
+          {
+            "id": 20,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "2",
+              "operandVariable": "",
+              "operation": 2,
+              "target": {
+                "component": "Variable",
+                "field": "climb",
+                "object": ""
+              }
+            },
+            "x": 260.0,
+            "y": 380.0
+          },
+          {
+            "id": 21,
+            "type": "FsmSetProperty",
+            "values": {
+              "everyFrame": false,
+              "target": {
+                "component": "Variable",
+                "field": "lead",
+                "object": ""
+              },
+              "value": "1",
+              "valueVariable": ""
+            },
+            "x": 480.0,
+            "y": 380.0
+          },
+          {
+            "id": 22,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "",
+              "operandVariable": "phase",
+              "operation": 1,
+              "target": {
+                "component": "Variable",
+                "field": "lead",
+                "object": ""
+              }
+            },
+            "x": 700.0,
+            "y": 380.0
+          },
+          {
+            "id": 23,
+            "type": "FsmModifyProperty",
+            "values": {
+              "everyFrame": false,
+              "operand": "",
+              "operandVariable": "period",
+              "operation": 2,
+              "target": {
+                "component": "Variable",
+                "field": "lead",
+                "object": ""
+              }
+            },
+            "x": 920.0,
+            "y": 380.0
+          },
+          {
+            "id": 24,
+            "type": "FsmCompareProperty",
+            "values": {
+              "compare": 3,
+              "target": {
+                "component": "Variable",
+                "field": "phase",
+                "object": ""
+              },
+              "value": "0",
+              "waitUntilTrue": false
+            },
+            "x": 1140.0,
+            "y": 380.0
+          },
+          {
+            "id": 25,
+            "type": "FsmWait",
+            "values": {
+              "seconds": 1.0,
+              "secondsVariable": "lead"
+            },
+            "x": 1140.0,
+            "y": 540.0
+          }
+        ]
+      },
+      "id": 4,
+      "type": "FsmState",
+      "values": {
+        "name": "Setup",
+        "transitions": [
+          "FINISHED"
+        ]
+      },
+      "x": 300.0,
+      "y": 170.0
+    },
+    {
+      "children": [
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "amplitude",
+            "value": 0.25
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "speedHz",
+            "value": 0.625
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "phase",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "period",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "quarter",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "half",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "rise",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "drop",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "climb",
+            "value": 0.0
+          }
+        },
+        {
+          "enabled": true,
+          "type": "FsmNumberVar",
+          "values": {
+            "name": "lead",
+            "value": 0.0
+          }
+        }
+      ],
+      "id": 5,
+      "type": "FsmVariables",
+      "values": {},
+      "x": 60.0,
+      "y": 430.0
+    },
+    {
+      "graph": {
+        "links": [
+          {
+            "from": 30,
+            "fromPin": 0,
+            "to": 31,
+            "toPin": 0
+          },
+          {
+            "from": 31,
+            "fromPin": 0,
+            "to": 32,
+            "toPin": 0
+          },
+          {
+            "from": 32,
+            "fromPin": 0,
+            "to": 33,
+            "toPin": 0
+          },
+          {
+            "from": 33,
+            "fromPin": 0,
+            "to": 32,
+            "toPin": 0
+          }
+        ],
+        "nodes": [
+          {
+            "id": 30,
+            "type": "FsmActionEntry",
+            "values": {},
+            "x": 60.0,
+            "y": 60.0
+          },
+          {
+            "id": 31,
+            "type": "FsmTweenProperty",
+            "values": {
+              "duration": 1.0,
+              "durationVariable": "quarter",
+              "ease": 2,
+              "relative": true,
+              "target": {
+                "component": "Transform",
+                "field": "y",
+                "object": ""
+              },
+              "to": "",
+              "toVariable": "rise"
+            },
+            "x": 260.0,
+            "y": 60.0
+          },
+          {
+            "id": 32,
+            "type": "FsmTweenProperty",
+            "values": {
+              "duration": 1.0,
+              "durationVariable": "half",
+              "ease": 3,
+              "relative": true,
+              "target": {
+                "component": "Transform",
+                "field": "y",
+                "object": ""
+              },
+              "to": "",
+              "toVariable": "drop"
+            },
+            "x": 500.0,
+            "y": 60.0
+          },
+          {
+            "id": 33,
+            "type": "FsmTweenProperty",
+            "values": {
+              "duration": 1.0,
+              "durationVariable": "half",
+              "ease": 3,
+              "relative": true,
+              "target": {
+                "component": "Transform",
+                "field": "y",
+                "object": ""
+              },
+              "to": "",
+              "toVariable": "climb"
+            },
+            "x": 500.0,
+            "y": 240.0
+          }
+        ]
+      },
+      "id": 7,
+      "type": "FsmState",
+      "values": {
+        "name": "Bob",
+        "transitions": []
+      },
+      "x": 560.0,
+      "y": 170.0
+    }
+  ],
+  "type": "FsmGraph"
+}

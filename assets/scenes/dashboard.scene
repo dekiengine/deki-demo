@@ -9582,11 +9582,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.0,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 86,
@@ -9621,11 +9624,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.20000000298023224,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.2"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 87,
@@ -9660,11 +9666,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.4000000059604645,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.4"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 88,
@@ -9699,11 +9708,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.6000000238418579,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.6"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 89,
@@ -9738,11 +9750,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.800000011920929,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.8"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 90,
@@ -9777,11 +9792,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.0,
-                    "speedHz": 0.4166666865348816
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.1875",
+                      "speedHz=0.416667",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 91,
@@ -9816,11 +9834,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.0,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1107,
@@ -9855,11 +9876,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.20000000298023224,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.2"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1109,
@@ -9894,11 +9918,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.4000000059604645,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.4"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1111,
@@ -9933,11 +9960,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.6000000238418579,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.6"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1113,
@@ -9972,11 +10002,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.800000011920929,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.8"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1115,
@@ -10011,11 +10044,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.0,
-                    "speedHz": 0.4166666865348816
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.1875",
+                      "speedHz=0.416667",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1117,
@@ -10050,11 +10086,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.0,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1145,
@@ -10089,11 +10128,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.20000000298023224,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.2"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1147,
@@ -10128,11 +10170,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.4000000059604645,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.4"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1149,
@@ -10167,11 +10212,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.6000000238418579,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.6"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1151,
@@ -10206,11 +10254,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.800000011920929,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.8"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1153,
@@ -10245,11 +10296,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.0,
-                    "speedHz": 0.4166666865348816
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.1875",
+                      "speedHz=0.416667",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1155,
@@ -10284,11 +10338,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.0,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1183,
@@ -10323,11 +10380,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.20000000298023224,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.2"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1185,
@@ -10362,11 +10422,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.4000000059604645,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.4"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1187,
@@ -10401,11 +10464,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.6000000238418579,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.6"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1189,
@@ -10440,11 +10506,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.800000011920929,
-                    "speedHz": 0.625
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.25",
+                      "speedHz=0.625",
+                      "phase=0.8"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1191,
@@ -10479,11 +10548,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.0,
-                    "speedHz": 0.4166666865348816
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.1875",
+                      "speedHz=0.416667",
+                      "phase=0"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 1193,
@@ -10606,11 +10678,14 @@
                 },
                 {
                   "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.5,
-                    "speedHz": 0.4166666865348816
+                    "graph": "74feb3bc-db20-41fa-a993-53eff8d3922c",
+                    "variableOverrides": [
+                      "amplitude=0.1875",
+                      "speedHz=0.416667",
+                      "phase=0.5"
+                    ]
                   },
-                  "type": "Bobber"
+                  "type": "DekiFsm::FsmComponent"
                 }
               ],
               "id": 94,
