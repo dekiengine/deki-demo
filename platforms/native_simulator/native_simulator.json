@@ -19,6 +19,13 @@
     "displayDriver": "SDL3"
   },
   "id": "native_simulator",
+  "provides": [
+    "desktop-os",
+    "posix-process",
+    "filesystem",
+    "threads",
+    "sdl3"
+  ],
   "screenHeight": 720,
   "screenWidth": 1280
 }
