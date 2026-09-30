@@ -1,10 +1,10 @@
 {
   "activePlatformId": "",
   "engine": "deki",
-  "engineVersion": "0.16.0",
+  "engineVersion": "0.17.0",
   "flashGuids": [],
   "forceIncludeGuids": [],
-  "lastSavedBy": "0.16.0",
+  "lastSavedBy": "0.17.0",
   "name": "deki-demo",
   "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
   "startupScene": "scenes/dashboard.scene",
