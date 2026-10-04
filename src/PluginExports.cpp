@@ -36,12 +36,12 @@ extern "C" {
 
 extern "C" {
 
-DEKI_PLUGIN_API const char* DekiPlugin_GetName()
+DEKI_PLUGIN_API const char* DekiPluginGetName()
 {
     return "deki-demo";
 }
 
-DEKI_PLUGIN_API const char* DekiPlugin_GetVersion()
+DEKI_PLUGIN_API const char* DekiPluginGetVersion()
 {
 #ifdef DEKI_PACKAGE_VERSION
     return DEKI_PACKAGE_VERSION;
@@ -50,15 +50,15 @@ DEKI_PLUGIN_API const char* DekiPlugin_GetVersion()
 #endif
 }
 
-// DekiPlugin_GetComponentCount() / DekiPlugin_GetComponentMeta() are generated
+// DekiPluginGetComponentCount() / DekiPluginGetComponentMeta() are generated
 // by the reflection codegen into generated/PluginRegistration.gen.cpp.
 
-DEKI_PLUGIN_API int DekiPlugin_Init()
+DEKI_PLUGIN_API int DekiPluginInit()
 {
     return 0;  // Success
 }
 
-DEKI_PLUGIN_API void DekiPlugin_Shutdown()
+DEKI_PLUGIN_API void DekiPluginShutdown()
 {
 }
 
