@@ -2922,6 +2922,14 @@
                     "width": 0.0
                   },
                   "type": "Deki2D::SpriteComponent"
+                },
+                {
+                  "properties": {
+                    "anchor": "TopLeft",
+                    "offsetX": 0.875,
+                    "offsetY": -1.0
+                  },
+                  "type": "Deki::ScreenAnchor"
                 }
               ],
               "id": 96,
@@ -2930,8 +2938,8 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": -9.125,
-                "y": 6.5
+                "x": 0.0,
+                "y": 0.0
               }
             },
             {
@@ -2953,6 +2961,14 @@
                     "width": 0.0
                   },
                   "type": "Deki2D::SpriteComponent"
+                },
+                {
+                  "properties": {
+                    "anchor": "TopLeft",
+                    "offsetX": 2.0,
+                    "offsetY": -1.0
+                  },
+                  "type": "Deki::ScreenAnchor"
                 }
               ],
               "id": 97,
@@ -2961,8 +2977,8 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": -8.0,
-                "y": 6.5
+                "x": 0.0,
+                "y": 0.0
               }
             },
             {
@@ -2984,6 +3000,14 @@
                     "width": 0.0
                   },
                   "type": "Deki2D::SpriteComponent"
+                },
+                {
+                  "properties": {
+                    "anchor": "TopLeft",
+                    "offsetX": 3.125,
+                    "offsetY": -1.0
+                  },
+                  "type": "Deki::ScreenAnchor"
                 }
               ],
               "id": 98,
@@ -2992,8 +3016,8 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": -6.875,
-                "y": 6.5
+                "x": 0.0,
+                "y": 0.0
               }
             },
             {
@@ -3021,6 +3045,14 @@
                     "width": 18.75
                   },
                   "type": "Deki2D::TextComponent"
+                },
+                {
+                  "properties": {
+                    "anchor": "TopRight",
+                    "offsetX": -10.0,
+                    "offsetY": -1.0
+                  },
+                  "type": "Deki::ScreenAnchor"
                 }
               ],
               "id": 99,
@@ -3030,7 +3062,7 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": 0.0,
-                "y": 6.5
+                "y": 0.0
               }
             }
           ],
