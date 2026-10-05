@@ -1,0 +1,194 @@
+{
+  "formatVersion": 1,
+  "objects": [
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "high": true,
+                "pin": 38,
+                "settleMs": 50
+              },
+              "type": "DekiGpio::GpioPinSetup"
+            }
+          ],
+          "id": 600,
+          "name": "Panel Power (GPIO 38)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "blInvert": false,
+                "blPin": -1,
+                "blPwmChannel": 0,
+                "busType": "QSPI",
+                "clkPin": 47,
+                "csPin": 6,
+                "d0Pin": -1,
+                "d10Pin": -1,
+                "d11Pin": -1,
+                "d12Pin": -1,
+                "d13Pin": -1,
+                "d14Pin": -1,
+                "d15Pin": -1,
+                "d1Pin": -1,
+                "d2Pin": -1,
+                "d3Pin": -1,
+                "d4Pin": -1,
+                "d5Pin": -1,
+                "d6Pin": -1,
+                "d7Pin": -1,
+                "d8Pin": -1,
+                "d9Pin": -1,
+                "dcPin": -1,
+                "doubleBuffer": false,
+                "invertColor": false,
+                "io0Pin": 18,
+                "io1Pin": 7,
+                "io2Pin": 48,
+                "io3Pin": 5,
+                "memoryHeight": 536,
+                "memoryWidth": 240,
+                "misoPin": -1,
+                "mosiPin": -1,
+                "offsetX": 0,
+                "offsetY": 0,
+                "panelHeight": 536,
+                "panelType": "RM67162",
+                "panelWidth": 240,
+                "parWriteHz": 40000000,
+                "rdPin": -1,
+                "rgbOrder": false,
+                "rotation": "Landscape",
+                "rsPin": -1,
+                "rstPin": 17,
+                "spiPort": 1,
+                "spiWriteHz": 75000000,
+                "swapBytes": true,
+                "usePsram": true,
+                "wrPin": -1
+              },
+              "type": "DekiLovyanGfx::LGFXDisplayPanel"
+            }
+          ],
+          "id": 601,
+          "name": "Display (RM67162)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "i2cHz": 400000,
+                "i2cPort": 0,
+                "sclPin": 2,
+                "sdaPin": 3
+              },
+              "type": "DekiI2c::I2CBusComponent"
+            }
+          ],
+          "id": 602,
+          "name": "I2C Bus",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "busShared": false,
+                "clkPin": -1,
+                "csPin": -1,
+                "driverType": "CST816S",
+                "i2cPort": 0,
+                "intPin": 21,
+                "misoPin": -1,
+                "mosiPin": -1,
+                "offsetRotation": "None",
+                "rstPin": -1,
+                "xMax": 239,
+                "xMin": 0,
+                "yMax": 535,
+                "yMin": 0
+              },
+              "type": "DekiLovyanGfx::LGFXTouchPanel"
+            }
+          ],
+          "id": 603,
+          "name": "Touch (CST816T)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "components": [
+        {
+          "properties": {
+            "setupComponents": [
+              {
+                "id": 600,
+                "typeId": 3968078442
+              },
+              {
+                "id": 601,
+                "typeId": 798871171
+              },
+              {
+                "id": 602,
+                "typeId": 1919918867
+              },
+              {
+                "id": 603,
+                "typeId": 3744725680
+              }
+            ]
+          },
+          "type": "Deki::PlatformSetupComponent"
+        }
+      ],
+      "id": 1,
+      "name": "Setup",
+      "transform": {
+        "rotation": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}

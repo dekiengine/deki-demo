@@ -1,0 +1,37 @@
+{
+  "id": "lilygo_t_display_s3_amoled",
+  "displayName": "LilyGO T-Display S3 AMOLED",
+  "family": "espressif",
+  "framework": "espidf",
+  "frameworkOptions": {
+    "idfTarget": "esp32s3",
+    "mcuChip": "esp32s3",
+    "cpuFreqHz": 240000000,
+    "flashSize": 16777216,
+    "psramMode": "oct",
+    "sdkconfig": [
+      "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y"
+    ]
+  },
+  "externalMemorySize": 8388608,
+  "screenWidth": 536,
+  "screenHeight": 240,
+  "colorFormat": "RGB565",
+  "provides": [
+    "filesystem",
+    "threads",
+    "psram",
+    "spi",
+    "i2c",
+    "wifi",
+    "bluetooth"
+  ],
+  "requiresPackages": [
+    "deki-esp32-integration",
+    "deki-lovyangfx-integration"
+  ],
+  "defines": [
+    "ESP32"
+  ],
+  "bootScene": "platforms/lilygo_t_display_s3_amoled/boot.scene"
+}

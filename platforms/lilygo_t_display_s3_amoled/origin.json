@@ -1,0 +1,44 @@
+{
+  "files": {
+    "boot.scene": "b0232d8eb570a549"
+  },
+  "package": "deki-lilygo-boards",
+  "platform": {
+    "bootScene": "platforms/lilygo_t_display_s3_amoled/boot.scene",
+    "colorFormat": "RGB565",
+    "defines": [
+      "ESP32"
+    ],
+    "displayName": "LilyGO T-Display S3 AMOLED",
+    "externalMemorySize": 8388608,
+    "family": "espressif",
+    "framework": "espidf",
+    "frameworkOptions": {
+      "cpuFreqHz": 240000000,
+      "flashSize": 16777216,
+      "idfTarget": "esp32s3",
+      "mcuChip": "esp32s3",
+      "psramMode": "oct",
+      "sdkconfig": [
+        "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y"
+      ]
+    },
+    "id": "lilygo_t_display_s3_amoled",
+    "provides": [
+      "filesystem",
+      "threads",
+      "psram",
+      "spi",
+      "i2c",
+      "wifi",
+      "bluetooth"
+    ],
+    "requiresPackages": [
+      "deki-esp32-integration",
+      "deki-lovyangfx-integration"
+    ],
+    "screenHeight": 240,
+    "screenWidth": 536
+  },
+  "version": "0.17.2"
+}

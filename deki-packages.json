@@ -14,6 +14,9 @@
     "deki-input": {
       "version": "0.17.0"
     },
+    "deki-lilygo-boards": {
+      "version": "0.17.2"
+    },
     "deki-nodegraph": {
       "version": "0.17.0"
     },
