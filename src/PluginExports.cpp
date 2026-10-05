@@ -23,10 +23,10 @@
 #ifdef DEKI_DEEP_PROFILING
 #include <intrin.h>
 extern "C" {
-    __declspec(dllimport) void DekiEditor_ProfileEnter(void* returnAddress);
-    __declspec(dllimport) void DekiEditor_ProfileExit();
-    void __cdecl _penter() { DekiEditor_ProfileEnter(_ReturnAddress()); }
-    void __cdecl _pexit() { DekiEditor_ProfileExit(); }
+    __declspec(dllimport) void DekiEditorProfileEnter(void* returnAddress);
+    __declspec(dllimport) void DekiEditorProfileExit();
+    void __cdecl _penter() { DekiEditorProfileEnter(_ReturnAddress()); }
+    void __cdecl _pexit() { DekiEditorProfileExit(); }
 }
 #endif
 
