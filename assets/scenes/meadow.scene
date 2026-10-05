@@ -62,7 +62,7 @@
                 "tileHeight": 0.0,
                 "tileMode": "None",
                 "tileWidth": 0.0,
-                "width": 20.0
+                "width": 36.0
               },
               "type": "Deki2D::GradientComponent"
             }
@@ -125,6 +125,223 @@
                     "pixelSnap": true,
                     "renderMode": "Normal",
                     "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 233,
+              "name": "Hill23",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -15.75,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 229,
+              "name": "Hill22",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -14.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 221,
+              "name": "Hill20",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -11.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 217,
+              "name": "Hill19",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 17.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 213,
+              "name": "Hill18",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 15.75,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 205,
+              "name": "Hill16",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 12.75,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "a8234254-17bf-440c-aa9f-0cbf89407227",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 201,
+              "name": "Hill15",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 11.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
                     "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
                     "tintColor": "#FFFFFFFF",
                     "width": 0.0
@@ -139,6 +356,99 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": -8.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 237,
+              "name": "Hill24",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -17.25,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 225,
+              "name": "Hill21",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -12.75,
+                "y": -3.75
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "6f4312c0-e0c8-493a-8529-6fe4a5f7a607",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 209,
+              "name": "Hill17",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 14.25,
                 "y": -3.75
               }
             },
@@ -542,6 +852,316 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": -9.75,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 239,
+              "name": "HillFill24",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -17.25,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 235,
+              "name": "HillFill23",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -15.75,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 231,
+              "name": "HillFill22",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -14.25,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 227,
+              "name": "HillFill21",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -12.75,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 223,
+              "name": "HillFill20",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -11.25,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 219,
+              "name": "HillFill19",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 17.25,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 215,
+              "name": "HillFill18",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 15.75,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 211,
+              "name": "HillFill17",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 14.25,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 207,
+              "name": "HillFill16",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 12.75,
+                "y": -5.25
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1,
+                    "sprite": "2825ebca-1abf-4e29-8437-566c1a295187",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 203,
+              "name": "HillFill15",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 11.25,
                 "y": -5.25
               }
             },
@@ -991,6 +1611,440 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": -9.5625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 293,
+              "name": "Grass32",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -17.4375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 289,
+              "name": "Grass31",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -16.3125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 285,
+              "name": "Grass30",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -15.1875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 281,
+              "name": "Grass29",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -14.0625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 277,
+              "name": "Grass28",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -12.9375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 273,
+              "name": "Grass27",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -11.8125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 269,
+              "name": "Grass26",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -10.6875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 265,
+              "name": "Grass25",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 17.4375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 261,
+              "name": "Grass24",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 16.3125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 257,
+              "name": "Grass23",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 15.1875,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 253,
+              "name": "Grass22",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 14.0625,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 249,
+              "name": "Grass21",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 12.9375,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 245,
+              "name": "Grass20",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 11.8125,
+                "y": -5.8125
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "90f3a9df-2b28-4d11-8616-61d420956596",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 241,
+              "name": "Grass19",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 10.6875,
                 "y": -5.8125
               }
             },
@@ -1566,6 +2620,99 @@
                     "pixelSnap": true,
                     "renderMode": "Normal",
                     "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 279,
+              "name": "Dirt28",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -12.9375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 267,
+              "name": "Dirt25",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 17.4375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "a1f97883-d825-4bc8-9d6d-9f6821ea798a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 255,
+              "name": "Dirt22",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 14.0625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
                     "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
                     "tintColor": "#FFFFFFFF",
                     "width": 0.0
@@ -1580,6 +2727,99 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": -8.4375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 295,
+              "name": "Dirt32",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -17.4375,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 283,
+              "name": "Dirt29",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -14.0625,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "51daa37c-55ec-4038-af0a-a8b6341fdf23",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 251,
+              "name": "Dirt21",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 12.9375,
                 "y": -6.9375
               }
             },
@@ -1628,6 +2868,130 @@
                     "pixelSnap": true,
                     "renderMode": "Normal",
                     "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 291,
+              "name": "Dirt31",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -16.3125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 271,
+              "name": "Dirt26",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -10.6875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 263,
+              "name": "Dirt24",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 16.3125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "9ce8df8c-92be-4d49-bffb-7ab6c489d59a",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 243,
+              "name": "Dirt19",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 10.6875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
                     "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
                     "tintColor": "#FFFFFFFF",
                     "width": 0.0
@@ -1642,6 +3006,130 @@
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": -6.1875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 287,
+              "name": "Dirt30",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -15.1875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 275,
+              "name": "Dirt27",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": -11.8125,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 259,
+              "name": "Dirt23",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 15.1875,
+                "y": -6.9375
+              }
+            },
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 2,
+                    "sprite": "b70ee12a-926b-43b5-8c4f-bd2f73330fac",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 247,
+              "name": "Dirt20",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 11.8125,
                 "y": -6.9375
               }
             },
