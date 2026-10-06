@@ -1,0 +1,92 @@
+{
+  "links": [
+    {
+      "from": 1,
+      "fromPin": 0,
+      "to": 2,
+      "toPin": 0
+    },
+    {
+      "from": 2,
+      "fromPin": 0,
+      "to": 10,
+      "toPin": 0
+    },
+    {
+      "from": 10,
+      "fromPin": 0,
+      "to": 11,
+      "toPin": 0
+    },
+    {
+      "from": 11,
+      "fromPin": 0,
+      "to": 12,
+      "toPin": 0
+    }
+  ],
+  "nextNodeId": 13,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "ParticleEmit",
+      "values": {},
+      "x": 60.0,
+      "y": 120.0
+    },
+    {
+      "id": 2,
+      "type": "ParticleEmission",
+      "values": {
+        "burstCount": 0,
+        "burstInterval": 0.0,
+        "emissionRate": 30.0,
+        "enabled": true,
+        "height": 0.0,
+        "lifetimeMax": 1.0,
+        "lifetimeMin": 0.6000000238418579,
+        "radius": 0.0,
+        "shape": 0,
+        "width": 0.0
+      },
+      "x": 300.0,
+      "y": 120.0
+    },
+    {
+      "id": 10,
+      "type": "ParticleInitialVelocity",
+      "values": {
+        "angleMax": 6.283199787139893,
+        "angleMin": 0.0,
+        "enabled": true,
+        "speedMax": 3.0,
+        "speedMin": 1.5
+      },
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": 11,
+      "type": "ParticleGravity",
+      "values": {
+        "enabled": true,
+        "gravityX": 0.0,
+        "gravityY": -2.0
+      },
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": 12,
+      "type": "ParticleSizeOverLifetime",
+      "values": {
+        "enabled": true,
+        "sizeAt0": 0.6000000238418579,
+        "sizeAt1": 0.10000000149011612
+      },
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "type": "ParticleGraph"
+}
