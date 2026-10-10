@@ -182,9 +182,9 @@
                 "mosiPin": -1,
                 "offsetRotation": "None",
                 "rstPin": -1,
-                "xMax": 319,
+                "xMax": 239,
                 "xMin": 0,
-                "yMax": 239,
+                "yMax": 319,
                 "yMin": 0
               },
               "type": "DekiLovyanGfx::LGFXTouchPanel"

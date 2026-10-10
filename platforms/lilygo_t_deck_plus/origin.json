@@ -1,6 +1,6 @@
 {
   "files": {
-    "boot.scene": "6ea631dd3d0986d5"
+    "boot.scene": "e8a5569de484cd61"
   },
   "package": "deki-lilygo-boards",
   "platform": {
@@ -41,5 +41,5 @@
     "screenHeight": 240,
     "screenWidth": 320
   },
-  "version": "0.17.2"
+  "version": "0.18.0"
 }
