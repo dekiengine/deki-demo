@@ -2,7 +2,6 @@
   "lockVersion": 1,
   "packages": {
     "deki-2d": {
-      "commit": "902f508852136bdaeb9914d0665561ce878ed1d9",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
       "installedVersion": "0.18.0",
@@ -17,7 +16,6 @@
       "url": "https://github.com/dekiengine/deki-2d"
     },
     "deki-ble": {
-      "commit": "a79eece0e735f85c3a2f6648772005e662570149",
       "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
       "displayName": "BLE (abstract)",
       "installedVersion": "0.18.0",
@@ -28,7 +26,6 @@
       "url": "https://github.com/dekiengine/deki-ble"
     },
     "deki-desktop-integration": {
-      "commit": "6fb9fce48a3b63885002d4f8a4408cfa938856de",
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
       "installedVersion": "0.18.0",
@@ -38,7 +35,6 @@
       "url": "https://github.com/dekiengine/deki-desktop-integration"
     },
     "deki-esp32-integration": {
-      "commit": "34bf0be81c4dea11577953f384823f6430213615",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "displayName": "ESP32 Integration",
       "installedVersion": "0.18.0",
@@ -60,7 +56,6 @@
       "url": "https://github.com/dekiengine/deki-esp32-integration"
     },
     "deki-fsm": {
-      "commit": "29d857bb2595ed23ee68002ac58f9d472f00f2da",
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "displayName": "FSM",
       "installedVersion": "0.18.0",
@@ -75,7 +70,6 @@
       "url": "https://github.com/dekiengine/deki-fsm"
     },
     "deki-gpio": {
-      "commit": "85acaf341fb8ec79051014eebedf78257b7c60a7",
       "description": "Digital pins: drive, read, and count a pin's pulses by interrupt, plus a boot step that drives a pin. The platform package supplies the backend",
       "displayName": "GPIO",
       "installedVersion": "0.18.0",
@@ -86,7 +80,6 @@
       "url": "https://github.com/dekiengine/deki-gpio"
     },
     "deki-http": {
-      "commit": "47ac08fdd94b34a34c8d198433097d361b71ddc6",
       "description": "HTTP client facade with WinHTTP and curl backends",
       "displayName": "HTTP",
       "installedVersion": "0.18.0",
@@ -97,7 +90,6 @@
       "url": "https://github.com/dekiengine/deki-http"
     },
     "deki-i2c": {
-      "commit": "eb5775140c6fc3c33afdc4aefdb653128ce14097",
       "description": "I²C bus peripheral interface with an editor-configurable bus component",
       "displayName": "I2C",
       "installedVersion": "0.18.0",
@@ -108,7 +100,6 @@
       "url": "https://github.com/dekiengine/deki-i2c"
     },
     "deki-i2s": {
-      "commit": "fd27e2b2e7c7624f4770d9a2f138d6d7cedcc949",
       "description": "I²S audio bus peripheral interface",
       "displayName": "I2S",
       "installedVersion": "0.18.0",
@@ -119,7 +110,6 @@
       "url": "https://github.com/dekiengine/deki-i2s"
     },
     "deki-input": {
-      "commit": "81e9c6b86d3d73d17e5b6ed3cda69ff148aba66d",
       "description": "Input handling and collision detection",
       "displayName": "Input",
       "installedVersion": "0.18.0",
@@ -133,7 +123,6 @@
       "url": "https://github.com/dekiengine/deki-input"
     },
     "deki-lilygo-boards": {
-      "commit": "f8e323c8197184c54ba53a227f00020feb32b0ba",
       "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
       "displayName": "",
       "installedVersion": "0.18.0",
@@ -151,7 +140,6 @@
       "url": "https://github.com/dekiengine/deki-lilygo-boards"
     },
     "deki-lovyangfx-integration": {
-      "commit": "e3e7bfde061d8362018b4d18e872d91b860ad145",
       "description": "LovyanGFX display and touch panel integration",
       "displayName": "LovyanGFX Integration",
       "installedVersion": "0.18.0",
@@ -165,7 +153,6 @@
       "url": "https://github.com/dekiengine/deki-lovyangfx-integration"
     },
     "deki-nodegraph": {
-      "commit": "ba1bd287d32f6800d75b47d7a87242f5655644ac",
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "displayName": "Node Graph",
       "installedVersion": "0.18.0",
@@ -176,7 +163,6 @@
       "url": "https://github.com/dekiengine/deki-nodegraph"
     },
     "deki-particles": {
-      "commit": "2f8ca50877185213c35a3c36936bcc84e821cc69",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
       "installedVersion": "0.18.0",
@@ -191,7 +177,6 @@
       "url": "https://github.com/dekiengine/deki-particles"
     },
     "deki-rendering": {
-      "commit": "401b7d880e6b6356a911c4c569e90440f981db29",
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
       "installedVersion": "0.18.0",
@@ -202,7 +187,6 @@
       "url": "https://github.com/dekiengine/deki-rendering"
     },
     "deki-sdcard": {
-      "commit": "ab9d6e1ed6c7e6468b60f51179ee76ac125b46a8",
       "description": "SD card interface: mount, card state, capacity, and filesystem access",
       "displayName": "SD Card",
       "installedVersion": "0.18.0",
@@ -213,7 +197,6 @@
       "url": "https://github.com/dekiengine/deki-sdcard"
     },
     "deki-sdl3-integration": {
-      "commit": "c96b9c44ac7e7d935682a8308cb0e350c577a52e",
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
       "installedVersion": "0.18.0",
@@ -226,7 +209,6 @@
       "url": "https://github.com/dekiengine/deki-sdl3-integration"
     },
     "deki-tween": {
-      "commit": "b1a0faf8d5a5166b2f6e78f649ff94f9646f2965",
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",
       "installedVersion": "0.18.0",
@@ -237,7 +219,6 @@
       "url": "https://github.com/dekiengine/deki-tween"
     },
     "deki-uart": {
-      "commit": "7772bf41cb34c874378707b411d5be509909870d",
       "description": "UART serial peripheral interface",
       "displayName": "UART",
       "installedVersion": "0.18.0",
@@ -248,7 +229,6 @@
       "url": "https://github.com/dekiengine/deki-uart"
     },
     "deki-wifi": {
-      "commit": "734940e80001c931ad26c2be3bbf5090d70df2f5",
       "description": "WiFi interface: connect, disconnect, state, and access point scanning",
       "displayName": "WiFi (abstract)",
       "installedVersion": "0.18.0",
