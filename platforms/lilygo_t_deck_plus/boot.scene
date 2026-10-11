@@ -79,6 +79,7 @@
           "components": [
             {
               "properties": {
+                "asyncPresent": true,
                 "blInvert": false,
                 "blPin": 42,
                 "blPwmChannel": 7,

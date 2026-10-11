@@ -125,12 +125,12 @@ void GpsDemo::Refresh()
     }
     if (s.sentences > 0)
     {
-        std::snprintf(line, sizeof(line), "Receiver: %u baud, %u sentences", static_cast<unsigned>(s.baudRate),
-                      static_cast<unsigned>(s.sentences));
+        std::snprintf(line, sizeof(line), "NMEA: %u at %u baud", static_cast<unsigned>(s.sentences),
+                      static_cast<unsigned>(s.baudRate));
     }
     else
     {
-        std::snprintf(line, sizeof(line), "Nothing from the receiver yet");
+        std::snprintf(line, sizeof(line), "No NMEA yet (%u bytes read)", static_cast<unsigned>(s.bytes));
     }
     text += line;
     detailsText->SetText(text);
