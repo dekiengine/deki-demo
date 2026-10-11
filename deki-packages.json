@@ -26,6 +26,10 @@
       "editable": true,
       "version": "0.18.0"
     },
+    "deki-gps": {
+      "editable": true,
+      "version": "0.18.0"
+    },
     "deki-http": {
       "editable": true,
       "version": "0.18.0"
@@ -43,6 +47,10 @@
       "version": "0.18.0"
     },
     "deki-lilygo-boards": {
+      "editable": true,
+      "version": "0.18.0"
+    },
+    "deki-lora": {
       "editable": true,
       "version": "0.18.0"
     },

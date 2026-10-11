@@ -124,7 +124,7 @@
                 "rsPin": -1,
                 "rstPin": -1,
                 "spiPort": 1,
-                "spiWriteHz": 40000000,
+                "spiWriteHz": 80000000,
                 "swapBytes": true,
                 "usePsram": false,
                 "wrPin": -1
@@ -206,6 +206,7 @@
           "components": [
             {
               "properties": {
+                "hasBacklight": true,
                 "i2cAddress": 85,
                 "i2cPort": 0
               },
@@ -228,11 +229,13 @@
           "components": [
             {
               "properties": {
+                "acceleration": 3.0,
                 "clickActiveLow": true,
                 "clickPin": 0,
                 "downPin": 15,
+                "glideMs": 120.0,
                 "leftPin": 1,
-                "mode": "Keys",
+                "mode": "Pointer",
                 "pixelsPerStep": 4,
                 "rightPin": 2,
                 "upPin": 3
@@ -283,6 +286,67 @@
             "x": 0.0,
             "y": 0.0
           }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "baudRate": 0,
+                "rxPin": 44,
+                "txPin": 43,
+                "uartPort": 1
+              },
+              "type": "DekiGps::NEO6MGPSComponent"
+            }
+          ],
+          "id": 609,
+          "name": "GPS (UART 43/44)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "bandwidthKHz": 125,
+                "busyPin": 13,
+                "codingRate": 5,
+                "csPin": 9,
+                "dio2AsRfSwitch": true,
+                "dutyCyclePercent": 1.0,
+                "frequencyHz": 868100000,
+                "misoPin": 38,
+                "mosiPin": 41,
+                "resetPin": 17,
+                "sckPin": 40,
+                "spiHost": 1,
+                "spiHz": 8000000,
+                "spreadingFactor": 7,
+                "syncWord": 18,
+                "tcxoVoltage": 1.8,
+                "txPowerDbm": 14
+              },
+              "type": "DekiLora::SX1262LoRaComponent"
+            }
+          ],
+          "id": 610,
+          "name": "LoRa (SX1262)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
         }
       ],
       "components": [
@@ -324,6 +388,14 @@
               {
                 "id": 608,
                 "typeId": 4082406193
+              },
+              {
+                "id": 609,
+                "typeId": 4204811322
+              },
+              {
+                "id": 610,
+                "typeId": 3861937037
               }
             ]
           },

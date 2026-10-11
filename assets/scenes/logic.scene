@@ -556,6 +556,110 @@
             "x": 0.0,
             "y": -4.0
           }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": false,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": true,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1000,
+                    "sprite": "33363f7a-2739-450c-9025-920ee1892f43",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 519,
+              "name": "Arrow",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.34375,
+                "y": -0.53125
+              }
+            }
+          ],
+          "components": [
+            {
+              "properties": {
+                "source": "Trackball"
+              },
+              "type": "PointerCursor"
+            }
+          ],
+          "id": 518,
+          "name": "Pointer",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Right",
+                "alphaMode": "Blend",
+                "color": "#7FE0A0FF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 0.9,
+                "ignoreClip": true,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 900,
+                "text": "-- fps",
+                "verticalAlign": "Middle",
+                "width": 9.5
+              },
+              "type": "Deki2D::TextComponent"
+            },
+            {
+              "properties": {
+                "anchor": "TopRight",
+                "offsetX": -4.9,
+                "offsetY": -0.5
+              },
+              "type": "Deki::ScreenAnchor"
+            },
+            {
+              "properties": {
+                "showTimes": true
+              },
+              "type": "FpsReadout"
+            }
+          ],
+          "id": 520,
+          "name": "Fps",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
         }
       ],
       "components": [],

@@ -1,0 +1,850 @@
+{
+  "formatVersion": 1,
+  "objects": [
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "clearColor": "#0C0E18FF",
+                "clearEveryFrame": true,
+                "farPlane": 100.0,
+                "fieldOfView": 60.0,
+                "nearPlane": 0.10000000149011612,
+                "orthoHeight": 15.0,
+                "pixelPerfect": false,
+                "projection": "Orthographic"
+              },
+              "type": "DekiRendering::CameraComponent"
+            }
+          ],
+          "id": 1001,
+          "name": "Camera",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "alphaMode": "Blend",
+                "angle": 1.5707963705062866,
+                "centerX": 0.5,
+                "centerY": 0.5,
+                "ditherMode": "Ordered8x8",
+                "ditherScale": 1,
+                "gradientType": "Linear",
+                "height": 15.0,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "radius": 0.5,
+                "sortingOrder": 0,
+                "stop1Color": "#0B0F1EFF",
+                "stop1Position": 0.0,
+                "stop2Color": "#141B33FF",
+                "stop2Position": 0.44999998807907104,
+                "stop3Color": "#1D2747FF",
+                "stop3Position": 0.7799999713897705,
+                "stop4Color": "#26335AFF",
+                "stop4Position": 1.0,
+                "stopCount": 4,
+                "tileHeight": 0.0,
+                "tileMode": "None",
+                "tileWidth": 0.0,
+                "width": 36.0
+              },
+              "type": "Deki2D::GradientComponent"
+            }
+          ],
+          "id": 1002,
+          "name": "Background",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Center",
+                "alphaMode": "Blend",
+                "color": "#FFECBEFF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 2.0,
+                "ignoreClip": false,
+                "pixelScale": 2,
+                "pixelSnap": true,
+                "sortingOrder": 10,
+                "text": "KEYBOARD",
+                "verticalAlign": "Middle",
+                "width": 18.0
+              },
+              "type": "Deki2D::TextComponent"
+            },
+            {
+              "properties": {
+                "anchor": "Top",
+                "offsetX": 0.0,
+                "offsetY": -1.75
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1003,
+          "name": "Title",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Center",
+                "alphaMode": "Blend",
+                "color": "#9AA4C0FF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 1.25,
+                "ignoreClip": false,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 10,
+                "text": "Type something",
+                "verticalAlign": "Middle",
+                "width": 18.0
+              },
+              "type": "Deki2D::TextComponent"
+            },
+            {
+              "properties": {
+                "anchor": "Top",
+                "offsetX": 0.0,
+                "offsetY": -3.25
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1004,
+          "name": "Subtitle",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "align": "Center",
+                    "alphaMode": "Blend",
+                    "color": "#FFECBEFF",
+                    "decorationColor": "#000000FF",
+                    "font": {
+                      "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                      "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                    },
+                    "fontSize": 16,
+                    "height": 1.5,
+                    "ignoreClip": false,
+                    "pixelScale": 1,
+                    "pixelSnap": true,
+                    "sortingOrder": 6,
+                    "text": "< Menu",
+                    "verticalAlign": "Middle",
+                    "width": 4.5
+                  },
+                  "type": "Deki2D::TextComponent"
+                }
+              ],
+              "id": 1006,
+              "name": "Label",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          "components": [
+            {
+              "properties": {
+                "alphaMode": "Blend",
+                "flipHorizontal": false,
+                "flipVertical": false,
+                "height": 1.5,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "renderMode": "NineSlice",
+                "sortingOrder": 5,
+                "sprite": "0aca26a9-ffe6-481c-a008-fe5644ab9020",
+                "tintColor": "#56607AFF",
+                "width": 4.5
+              },
+              "type": "Deki2D::SpriteComponent"
+            },
+            {
+              "properties": {
+                "consumeInput": true,
+                "height": 1.5,
+                "paddingBottom": 0.0,
+                "paddingLeft": 0.0,
+                "paddingRight": 0.0,
+                "paddingTop": 0.0,
+                "width": 4.5
+              },
+              "type": "DekiInput::InputCollider"
+            },
+            {
+              "properties": {
+                "inputCollider": {
+                  "id": 1005,
+                  "typeId": 2540046954
+                },
+                "isEnabled": true,
+                "state": "Normal"
+              },
+              "type": "Deki2D::ButtonComponent"
+            },
+            {
+              "properties": {
+                "button": {
+                  "id": 1005,
+                  "typeId": 174604303
+                },
+                "disabledColor": "#4A4E5AFF",
+                "disabledSprite": "",
+                "hoveredColor": "#80879BFF",
+                "hoveredSprite": "",
+                "normalColor": "#56607AFF",
+                "normalSprite": "",
+                "pressedColor": "#40485BFF",
+                "pressedSprite": "",
+                "sprite": {
+                  "id": 1005,
+                  "typeId": 1473191416
+                },
+                "transition": "ColorTint"
+              },
+              "type": "Deki2D::ButtonStyleComponent"
+            },
+            {
+              "properties": {
+                "scene": "c2d75c6e-a3d0-415c-99eb-6e2a135b81f6"
+              },
+              "type": "SceneLink"
+            },
+            {
+              "properties": {
+                "anchor": "BottomLeft",
+                "offsetX": 2.75,
+                "offsetY": 1.25
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1005,
+          "name": "Back",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Right",
+                "alphaMode": "Blend",
+                "color": "#9AA4C0FF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 1.25,
+                "ignoreClip": false,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 10,
+                "text": "Light",
+                "verticalAlign": "Middle",
+                "width": 6.0
+              },
+              "type": "Deki2D::TextComponent"
+            },
+            {
+              "properties": {
+                "anchor": "BottomRight",
+                "offsetX": -8.25,
+                "offsetY": 1.25
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1017,
+          "name": "LightLevel",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "align": "Center",
+                    "alphaMode": "Blend",
+                    "color": "#FFECBEFF",
+                    "decorationColor": "#000000FF",
+                    "font": {
+                      "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                      "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                    },
+                    "fontSize": 16,
+                    "height": 1.5,
+                    "ignoreClip": false,
+                    "pixelScale": 1,
+                    "pixelSnap": true,
+                    "sortingOrder": 6,
+                    "text": "-",
+                    "verticalAlign": "Middle",
+                    "width": 2.0
+                  },
+                  "type": "Deki2D::TextComponent"
+                }
+              ],
+              "id": 1014,
+              "name": "Label",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          "components": [
+            {
+              "properties": {
+                "alphaMode": "Blend",
+                "flipHorizontal": false,
+                "flipVertical": false,
+                "height": 1.5,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "renderMode": "NineSlice",
+                "sortingOrder": 5,
+                "sprite": "0aca26a9-ffe6-481c-a008-fe5644ab9020",
+                "tintColor": "#3A5BA0FF",
+                "width": 2.0
+              },
+              "type": "Deki2D::SpriteComponent"
+            },
+            {
+              "properties": {
+                "consumeInput": true,
+                "height": 1.5,
+                "paddingBottom": 0.0,
+                "paddingLeft": 0.0,
+                "paddingRight": 0.0,
+                "paddingTop": 0.0,
+                "width": 2.0
+              },
+              "type": "DekiInput::InputCollider"
+            },
+            {
+              "properties": {
+                "inputCollider": {
+                  "id": 1013,
+                  "typeId": 2540046954
+                },
+                "isEnabled": true,
+                "state": "Normal"
+              },
+              "type": "Deki2D::ButtonComponent"
+            },
+            {
+              "properties": {
+                "button": {
+                  "id": 1013,
+                  "typeId": 174604303
+                },
+                "disabledColor": "#4A4E5AFF",
+                "disabledSprite": "",
+                "hoveredColor": "#6B84B7FF",
+                "hoveredSprite": "",
+                "normalColor": "#3A5BA0FF",
+                "normalSprite": "",
+                "pressedColor": "#2B4478FF",
+                "pressedSprite": "",
+                "sprite": {
+                  "id": 1013,
+                  "typeId": 1473191416
+                },
+                "transition": "ColorTint"
+              },
+              "type": "Deki2D::ButtonStyleComponent"
+            },
+            {
+              "properties": {
+                "anchor": "BottomRight",
+                "offsetX": -4.0,
+                "offsetY": 1.25
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1013,
+          "name": "LightDown",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "align": "Center",
+                    "alphaMode": "Blend",
+                    "color": "#FFECBEFF",
+                    "decorationColor": "#000000FF",
+                    "font": {
+                      "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                      "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                    },
+                    "fontSize": 16,
+                    "height": 1.5,
+                    "ignoreClip": false,
+                    "pixelScale": 1,
+                    "pixelSnap": true,
+                    "sortingOrder": 6,
+                    "text": "+",
+                    "verticalAlign": "Middle",
+                    "width": 2.0
+                  },
+                  "type": "Deki2D::TextComponent"
+                }
+              ],
+              "id": 1016,
+              "name": "Label",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          "components": [
+            {
+              "properties": {
+                "alphaMode": "Blend",
+                "flipHorizontal": false,
+                "flipVertical": false,
+                "height": 1.5,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "renderMode": "NineSlice",
+                "sortingOrder": 5,
+                "sprite": "0aca26a9-ffe6-481c-a008-fe5644ab9020",
+                "tintColor": "#3A5BA0FF",
+                "width": 2.0
+              },
+              "type": "Deki2D::SpriteComponent"
+            },
+            {
+              "properties": {
+                "consumeInput": true,
+                "height": 1.5,
+                "paddingBottom": 0.0,
+                "paddingLeft": 0.0,
+                "paddingRight": 0.0,
+                "paddingTop": 0.0,
+                "width": 2.0
+              },
+              "type": "DekiInput::InputCollider"
+            },
+            {
+              "properties": {
+                "inputCollider": {
+                  "id": 1015,
+                  "typeId": 2540046954
+                },
+                "isEnabled": true,
+                "state": "Normal"
+              },
+              "type": "Deki2D::ButtonComponent"
+            },
+            {
+              "properties": {
+                "button": {
+                  "id": 1015,
+                  "typeId": 174604303
+                },
+                "disabledColor": "#4A4E5AFF",
+                "disabledSprite": "",
+                "hoveredColor": "#6B84B7FF",
+                "hoveredSprite": "",
+                "normalColor": "#3A5BA0FF",
+                "normalSprite": "",
+                "pressedColor": "#2B4478FF",
+                "pressedSprite": "",
+                "sprite": {
+                  "id": 1015,
+                  "typeId": 1473191416
+                },
+                "transition": "ColorTint"
+              },
+              "type": "Deki2D::ButtonStyleComponent"
+            },
+            {
+              "properties": {
+                "anchor": "BottomRight",
+                "offsetX": -1.5,
+                "offsetY": 1.25
+              },
+              "type": "Deki::ScreenAnchor"
+            }
+          ],
+          "id": 1015,
+          "name": "LightUp",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "alphaMode": "Blend",
+                "flipHorizontal": false,
+                "flipVertical": false,
+                "height": 6.0,
+                "ignoreClip": false,
+                "pixelSnap": true,
+                "renderMode": "NineSlice",
+                "sortingOrder": 4,
+                "sprite": "0aca26a9-ffe6-481c-a008-fe5644ab9020",
+                "tintColor": "#1D2747FF",
+                "width": 18.5
+              },
+              "type": "Deki2D::SpriteComponent"
+            }
+          ],
+          "id": 1007,
+          "name": "Box",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.6
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Left",
+                "alphaMode": "Blend",
+                "color": "#FFECBEFF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 5.5,
+                "ignoreClip": false,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 10,
+                "text": "_",
+                "verticalAlign": "Top",
+                "width": 17.5
+              },
+              "type": "Deki2D::TextComponent"
+            }
+          ],
+          "id": 1008,
+          "name": "Typed",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.6
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Center",
+                "alphaMode": "Blend",
+                "color": "#9AA4C0FF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 1.25,
+                "ignoreClip": false,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 10,
+                "text": "Last: -",
+                "verticalAlign": "Middle",
+                "width": 18.0
+              },
+              "type": "Deki2D::TextComponent"
+            }
+          ],
+          "id": 1009,
+          "name": "LastKey",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": -3.2
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "lastKey": {
+                  "id": 1009,
+                  "typeId": 1977254382
+                },
+                "lightDown": {
+                  "id": 1013,
+                  "typeId": 174604303
+                },
+                "lightLevel": {
+                  "id": 1017,
+                  "typeId": 1977254382
+                },
+                "lightUp": {
+                  "id": 1015,
+                  "typeId": 174604303
+                },
+                "maxCharacters": 120,
+                "typed": {
+                  "id": 1008,
+                  "typeId": 1977254382
+                }
+              },
+              "type": "KeyboardDemo"
+            }
+          ],
+          "id": 1010,
+          "name": "Demo",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": false,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "flipHorizontal": false,
+                    "flipVertical": false,
+                    "height": 0.0,
+                    "ignoreClip": true,
+                    "pixelSnap": true,
+                    "renderMode": "Normal",
+                    "sortingOrder": 1000,
+                    "sprite": "33363f7a-2739-450c-9025-920ee1892f43",
+                    "tintColor": "#FFFFFFFF",
+                    "width": 0.0
+                  },
+                  "type": "Deki2D::SpriteComponent"
+                }
+              ],
+              "id": 1012,
+              "name": "Arrow",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.34375,
+                "y": -0.53125
+              }
+            }
+          ],
+          "components": [
+            {
+              "properties": {
+                "source": "Trackball"
+              },
+              "type": "PointerCursor"
+            }
+          ],
+          "id": 1011,
+          "name": "Pointer",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "align": "Right",
+                "alphaMode": "Blend",
+                "color": "#7FE0A0FF",
+                "decorationColor": "#000000FF",
+                "font": {
+                  "guid": "36d45446-f66e-ea2a-76a1-eff0ad195b1c",
+                  "source": "e4b16e13-f070-49a4-bd33-fb14c61c0bb5"
+                },
+                "fontSize": 16,
+                "height": 0.9,
+                "ignoreClip": true,
+                "pixelScale": 1,
+                "pixelSnap": true,
+                "sortingOrder": 900,
+                "text": "-- fps",
+                "verticalAlign": "Middle",
+                "width": 9.5
+              },
+              "type": "Deki2D::TextComponent"
+            },
+            {
+              "properties": {
+                "anchor": "TopRight",
+                "offsetX": -4.9,
+                "offsetY": -0.5
+              },
+              "type": "Deki::ScreenAnchor"
+            },
+            {
+              "properties": {
+                "showTimes": true
+              },
+              "type": "FpsReadout"
+            }
+          ],
+          "id": 1018,
+          "name": "Fps",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "components": [],
+      "id": 1000,
+      "name": "Root",
+      "transform": {
+        "rotation": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}

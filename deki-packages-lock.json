@@ -79,6 +79,19 @@
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-gpio"
     },
+    "deki-gps": {
+      "description": "GPS peripheral interface and NMEA-over-UART backend",
+      "displayName": "GPS",
+      "installedVersion": "0.18.0",
+      "name": "deki-gps",
+      "packageType": "deki_package",
+      "requires": [
+        "deki-http",
+        "deki-uart"
+      ],
+      "source": "custom",
+      "url": "https://github.com/dekiengine/deki-gps"
+    },
     "deki-http": {
       "description": "HTTP client facade with WinHTTP and curl backends",
       "displayName": "HTTP",
@@ -237,6 +250,15 @@
       "resolvedBy": "deki-esp32-integration",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-wifi"
+    },
+    "github:lovyan03/LovyanGFX": {
+      "displayName": "LovyanGFX",
+      "installedVersion": "1.2.29",
+      "installer": "espidf",
+      "name": "LovyanGFX",
+      "packageType": "framework_component",
+      "source": "github",
+      "url": "https://github.com/lovyan03/LovyanGFX"
     }
   }
 }
