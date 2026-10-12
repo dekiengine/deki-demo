@@ -4,6 +4,7 @@
 #include "DekiGPS.h"
 #include "DekiInput.h"
 #include "DekiLoRa.h"
+#include "SpriteComponent.h"
 #include "TextComponent.h"
 
 namespace
@@ -43,12 +44,16 @@ void HardwareGate::Start()
     {
         button->SetEnabled(false);
     }
-    // The label dims with the button.
+    // The label and the icon dim with the button.
     for (Deki::Object* child : GetOwner()->GetChildren())
     {
         if (auto* label = child->GetComponent<Deki2D::TextComponent>())
         {
-            label->SetColor(Deki::Color(0x80, 0x86, 0x96, 0xFF));
+            label->SetColor(Deki::Color(0x56, 0x60, 0x74, 0xFF));
+        }
+        if (auto* icon = child->GetComponent<Deki2D::SpriteComponent>())
+        {
+            icon->SetTint(Deki::Color(0x56, 0x60, 0x74, 0x50));
         }
     }
 }

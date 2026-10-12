@@ -1,0 +1,31 @@
+{
+  "fontSettings": {
+    "firstChar": 32,
+    "lastChar": 126,
+    "sizes": [
+      12,
+      13,
+      18,
+      22
+    ]
+  },
+  "guid": "d74ff9f2-c643-44e9-a8c8-58dbee324d61",
+  "variants": {
+    "12": {
+      "atlasGuid": "c94d41c7-62a7-f56e-a2e4-b8db422a2705",
+      "guid": "3f35a4f0-6f4a-9bc4-b52b-c435f4f27e28"
+    },
+    "13": {
+      "atlasGuid": "2d0e05ce-749a-1b5b-a2e4-b8db422a2705",
+      "guid": "3f35a5f0-6f4a-9d77-b52b-c435f4f27e28"
+    },
+    "18": {
+      "atlasGuid": "5d6bc597-d0c2-17e4-a2e4-b8db422a2705",
+      "guid": "3f359ef0-6f4a-9192-b52b-c435f4f27e28"
+    },
+    "22": {
+      "atlasGuid": "c94d41c7-62a7-f56e-3852-9af5cdbd93aa",
+      "guid": "3f35a4f0-6f4a-9bc4-b52b-c735f4f28341"
+    }
+  }
+}

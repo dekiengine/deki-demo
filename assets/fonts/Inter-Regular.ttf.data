@@ -1,0 +1,21 @@
+{
+  "fontSettings": {
+    "firstChar": 32,
+    "lastChar": 126,
+    "sizes": [
+      11,
+      12
+    ]
+  },
+  "guid": "31e1d123-aff2-48db-bb38-aecad841cd37",
+  "variants": {
+    "11": {
+      "atlasGuid": "6e9aa37b-1d92-7d7a-f639-1409ac2171dd",
+      "guid": "097188fb-283b-ee60-d4a7-6418d87c5b80"
+    },
+    "12": {
+      "atlasGuid": "3c285394-157d-95ed-f639-1409ac2171dd",
+      "guid": "09718bfb-283b-f379-d4a7-6418d87c5b80"
+    }
+  }
+}
