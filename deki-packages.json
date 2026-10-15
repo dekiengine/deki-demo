@@ -4,7 +4,7 @@
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-ble": {
       "editable": true,
@@ -16,11 +16,11 @@
     },
     "deki-esp32-integration": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-fsm": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-gpio": {
       "editable": true,
@@ -28,7 +28,7 @@
     },
     "deki-gps": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-http": {
       "editable": true,
@@ -44,19 +44,19 @@
     },
     "deki-input": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-lilygo-boards": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-lora": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-lovyangfx-integration": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-nodegraph": {
       "editable": true,
@@ -66,11 +66,11 @@
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-particles",
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-rendering": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.18.2"
     },
     "deki-sdcard": {
       "editable": true,
@@ -80,6 +80,9 @@
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
+      "version": "0.18.0"
+    },
+    "deki-tactility-integration": {
       "version": "0.18.0"
     },
     "deki-tween": {

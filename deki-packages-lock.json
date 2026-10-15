@@ -4,7 +4,7 @@
     "deki-2d": {
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -37,7 +37,7 @@
     "deki-esp32-integration": {
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "displayName": "ESP32 Integration",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "dekiengine/deki-esp32-integration",
       "packageType": "deki_package",
       "requires": [
@@ -58,7 +58,7 @@
     "deki-fsm": {
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "displayName": "FSM",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "deki-fsm",
       "packageType": "deki_package",
       "requires": [
@@ -81,8 +81,8 @@
     },
     "deki-gps": {
       "description": "GPS peripheral interface and NMEA-over-UART backend",
-      "displayName": "GPS",
-      "installedVersion": "0.18.0",
+      "displayName": "GPS (NMEA over UART)",
+      "installedVersion": "0.18.2",
       "name": "deki-gps",
       "packageType": "deki_package",
       "requires": [
@@ -103,7 +103,7 @@
       "url": "https://github.com/dekiengine/deki-http"
     },
     "deki-i2c": {
-      "description": "I²C bus peripheral interface with an editor-configurable bus component",
+      "description": "I\u00b2C bus peripheral interface with an editor-configurable bus component",
       "displayName": "I2C",
       "installedVersion": "0.18.0",
       "name": "dekiengine/deki-i2c",
@@ -113,7 +113,7 @@
       "url": "https://github.com/dekiengine/deki-i2c"
     },
     "deki-i2s": {
-      "description": "I²S audio bus peripheral interface",
+      "description": "I\u00b2S audio bus peripheral interface",
       "displayName": "I2S",
       "installedVersion": "0.18.0",
       "name": "dekiengine/deki-i2s",
@@ -125,20 +125,18 @@
     "deki-input": {
       "description": "Input handling and collision detection",
       "displayName": "Input",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "deki-input",
       "packageType": "deki_package",
-      "requires": [
-        "deki-rendering"
-      ],
+      "requires": [],
       "resolvedBy": "deki-2d",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-input"
     },
     "deki-lilygo-boards": {
-      "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
-      "displayName": "",
-      "installedVersion": "0.18.0",
+      "description": "Build targets for LilyGO boards: T-Deck Plus and T-Display S3 AMOLED",
+      "displayName": "LilyGO Boards",
+      "installedVersion": "0.18.2",
       "name": "deki-lilygo-boards",
       "packageType": "deki_package",
       "requires": [
@@ -147,15 +145,27 @@
         "deki-input",
         "deki-i2c",
         "deki-gpio",
-        "deki-sdcard"
+        "deki-sdcard",
+        "deki-gps",
+        "deki-lora"
       ],
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-lilygo-boards"
     },
+    "deki-lora": {
+      "description": "LoRa radio: an SX1262 driver with a duty-cycle limit, sending and receiving packets",
+      "displayName": "LoRa (SX1262)",
+      "installedVersion": "0.18.2",
+      "name": "deki-lora",
+      "packageType": "deki_package",
+      "requires": [],
+      "source": "custom",
+      "url": "https://github.com/dekiengine/deki-lora"
+    },
     "deki-lovyangfx-integration": {
       "description": "LovyanGFX display and touch panel integration",
       "displayName": "LovyanGFX Integration",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "dekiengine/deki-lovyangfx-integration",
       "packageType": "deki_package",
       "requires": [
@@ -178,7 +188,7 @@
     "deki-particles": {
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "deki-particles",
       "packageType": "deki_package",
       "requires": [
@@ -192,9 +202,10 @@
     "deki-rendering": {
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "0.18.0",
+      "installedVersion": "0.18.2",
       "name": "deki-rendering",
       "packageType": "deki_package",
+      "requires": [],
       "resolvedBy": "deki-2d",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-rendering"
@@ -220,6 +231,19 @@
       ],
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration"
+    },
+    "deki-tactility-integration": {
+      "commit": "30d5f0ec8cd1d9c20bdaa9f0d1fc0ea6fbf8536b",
+      "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
+      "displayName": "",
+      "installedVersion": "0.18.0",
+      "name": "deki-tactility-integration",
+      "packageType": "deki_package",
+      "requires": [
+        "deki-input"
+      ],
+      "source": "custom",
+      "url": "https://github.com/dekiengine/deki-tactility-integration"
     },
     "deki-tween": {
       "description": "Animation tweening with 30+ easing functions",
