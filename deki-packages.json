@@ -82,9 +82,6 @@
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
       "version": "0.18.0"
     },
-    "deki-tactility-integration": {
-      "version": "0.18.0"
-    },
     "deki-tween": {
       "editable": true,
       "source": "github",
