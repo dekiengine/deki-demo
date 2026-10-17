@@ -4,97 +4,97 @@
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-ble": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-desktop-integration": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-esp32-integration": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-fsm": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-gpio": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-gps": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-http": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-i2c": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-i2s": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-input": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-lilygo-boards": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-lora": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-lovyangfx-integration": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-nodegraph": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-particles": {
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-particles",
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-rendering": {
       "editable": true,
-      "version": "0.18.2"
+      "version": "0.19.0"
     },
     "deki-sdcard": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-sdl3-integration": {
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-tween": {
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-tween",
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-uart": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     },
     "deki-wifi": {
       "editable": true,
-      "version": "0.18.0"
+      "version": "0.19.0"
     }
   },
   "schemaVersion": 1
