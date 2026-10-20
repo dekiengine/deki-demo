@@ -224,9 +224,9 @@
                 "consumeInput": true,
                 "height": 2.25,
                 "paddingBottom": 0.0,
-                "paddingLeft": 0.0,
+                "paddingLeft": 0.5,
                 "paddingRight": 0.0,
-                "paddingTop": 0.0,
+                "paddingTop": 0.625,
                 "width": 2.25
               },
               "type": "DekiInput::InputCollider"
