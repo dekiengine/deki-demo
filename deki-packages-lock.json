@@ -232,6 +232,19 @@
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration"
     },
+    "deki-tactility-integration": {
+      "commit": "30d5f0ec8cd1d9c20bdaa9f0d1fc0ea6fbf8536b",
+      "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
+      "displayName": "",
+      "installedVersion": "0.18.0",
+      "name": "deki-tactility-integration",
+      "packageType": "deki_package",
+      "requires": [
+        "deki-input"
+      ],
+      "source": "custom",
+      "url": "https://github.com/dekiengine/deki-tactility-integration"
+    },
     "deki-tween": {
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",

@@ -1,9 +1,9 @@
 {
-  "activePlatformId": "",
+  "activePlatformId": "lilygo_t_display_s3_amoled",
   "engine": "deki",
-  "engineVersion": "0.18.1",
+  "engineVersion": "0.18.4",
   "forceIncludeGuids": [],
-  "lastSavedBy": "0.18.1",
+  "lastSavedBy": "0.18.4",
   "name": "deki-demo",
   "renderPipelineGuid": "1ba40064-e9df-4676-ad7d-9157bdfca2e2",
   "startupScene": "scenes/menu.scene",

@@ -3,6 +3,7 @@
     "dirtyTileSize": 32,
     "dirtyTileTracking": false,
     "halfWidthFramebuffer": false,
-    "interlaced60hz": false
+    "interlaced60hz": false,
+    "bandRows": 40
   }
 }

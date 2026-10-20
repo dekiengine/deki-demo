@@ -33,6 +33,7 @@
           "components": [
             {
               "properties": {
+                "asyncPresent": true,
                 "blInvert": false,
                 "blPin": -1,
                 "blPwmChannel": 0,
@@ -134,11 +135,11 @@
                 "intPin": 21,
                 "misoPin": -1,
                 "mosiPin": -1,
-                "offsetRotation": "None",
+                "offsetRotation": "CW_270",
                 "rstPin": -1,
-                "xMax": 239,
+                "xMax": 535,
                 "xMin": 0,
-                "yMax": 535,
+                "yMax": 239,
                 "yMin": 0
               },
               "type": "DekiLovyanGfx::LGFXTouchPanel"

@@ -1,0 +1,28 @@
+{
+  "bootScene": "platforms/tactility_tdeck_plus/boot.scene",
+  "colorFormat": "RGB565",
+  "displayName": "T-Deck Plus (Tactility app)",
+  "externalMemorySize": 8388608,
+  "family": "espressif",
+  "framework": "tactility",
+  "frameworkOptions": {
+    "appId": "com.deki.demo",
+    "appVersion": "0.1.0",
+    "appVersionCode": "1",
+    "idfTarget": "esp32s3",
+    "mcuChip": "esp32s3",
+    "targetSdk": "0.8.0-dev",
+    "appName": "Deki Demo"
+  },
+  "id": "tactility_tdeck_plus",
+  "provides": [
+    "tactility",
+    "wifi",
+    "spi"
+  ],
+  "requiresPackages": [
+    "deki-tactility-integration"
+  ],
+  "screenHeight": 240,
+  "screenWidth": 320
+}
