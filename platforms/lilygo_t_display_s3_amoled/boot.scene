@@ -33,58 +33,57 @@
           "components": [
             {
               "properties": {
+                "io2Pin": 48,
+                "io3Pin": 5,
+                "maxTransferBytes": 32768,
+                "misoPin": 7,
+                "mosiPin": 18,
+                "sclkPin": 47,
+                "spiHost": 1
+              },
+              "type": "DekiSpi::SPIBusComponent"
+            }
+          ],
+          "id": 604,
+          "name": "QSPI Bus (SPI2: display)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
                 "asyncPresent": true,
                 "blInvert": false,
                 "blPin": -1,
-                "blPwmChannel": 0,
                 "busType": "QSPI",
-                "clkPin": 47,
+                "controller": "RM67162",
                 "csPin": 6,
-                "d0Pin": -1,
-                "d10Pin": -1,
-                "d11Pin": -1,
-                "d12Pin": -1,
-                "d13Pin": -1,
-                "d14Pin": -1,
-                "d15Pin": -1,
-                "d1Pin": -1,
-                "d2Pin": -1,
-                "d3Pin": -1,
-                "d4Pin": -1,
-                "d5Pin": -1,
-                "d6Pin": -1,
-                "d7Pin": -1,
-                "d8Pin": -1,
-                "d9Pin": -1,
                 "dcPin": -1,
                 "doubleBuffer": false,
+                "initSequence": "",
                 "invertColor": false,
-                "io0Pin": 18,
-                "io1Pin": 7,
-                "io2Pin": 48,
-                "io3Pin": 5,
                 "memoryHeight": 536,
                 "memoryWidth": 240,
-                "misoPin": -1,
-                "mosiPin": -1,
                 "offsetX": 0,
                 "offsetY": 0,
                 "panelHeight": 536,
-                "panelType": "RM67162",
                 "panelWidth": 240,
-                "parWriteHz": 40000000,
-                "rdPin": -1,
                 "rgbOrder": false,
                 "rotation": "Landscape",
-                "rsPin": -1,
                 "rstPin": 17,
-                "spiPort": 1,
+                "spiHost": 1,
                 "spiWriteHz": 75000000,
-                "swapBytes": true,
-                "usePsram": true,
-                "wrPin": -1
+                "usePsram": true
               },
-              "type": "DekiLovyanGfx::LGFXDisplayPanel"
+              "type": "DekiDisplay::DisplayPanelComponent"
             }
           ],
           "id": 601,
@@ -127,14 +126,10 @@
           "components": [
             {
               "properties": {
-                "busShared": false,
-                "clkPin": -1,
-                "csPin": -1,
-                "driverType": "CST816S",
+                "controller": "CST816",
+                "i2cAddress": 0,
                 "i2cPort": 0,
                 "intPin": 21,
-                "misoPin": -1,
-                "mosiPin": -1,
                 "offsetRotation": "CW_270",
                 "rstPin": -1,
                 "xMax": 535,
@@ -142,7 +137,7 @@
                 "yMax": 239,
                 "yMin": 0
               },
-              "type": "DekiLovyanGfx::LGFXTouchPanel"
+              "type": "DekiDisplay::TouchPanelComponent"
             }
           ],
           "id": 603,
@@ -165,8 +160,12 @@
                 "typeId": 3968078442
               },
               {
+                "id": 604,
+                "typeId": 2470648303
+              },
+              {
                 "id": 601,
-                "typeId": 798871171
+                "typeId": 183569787
               },
               {
                 "id": 602,
@@ -174,7 +173,7 @@
               },
               {
                 "id": 603,
-                "typeId": 3744725680
+                "typeId": 29374474
               }
             ]
           },

@@ -1,6 +1,6 @@
 {
   "files": {
-    "boot.scene": "b0232d8eb570a549"
+    "boot.scene": "2c089ea5eb38426e"
   },
   "package": "deki-lilygo-boards",
   "platform": {
@@ -35,10 +35,10 @@
     ],
     "requiresPackages": [
       "deki-esp32-integration",
-      "deki-lovyangfx-integration"
+      "deki-display"
     ],
     "screenHeight": 240,
     "screenWidth": 536
   },
-  "version": "0.17.2"
+  "version": "0.19.0"
 }

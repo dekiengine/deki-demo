@@ -28,7 +28,7 @@
   ],
   "requiresPackages": [
     "deki-esp32-integration",
-    "deki-lovyangfx-integration"
+    "deki-display"
   ],
   "defines": [
     "ESP32"
