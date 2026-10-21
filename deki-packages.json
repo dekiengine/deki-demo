@@ -76,6 +76,10 @@
       "editable": true,
       "version": "0.18.0"
     },
+    "deki-spi": {
+      "editable": true,
+      "version": "0.18.0"
+    },
     "deki-sdl3-integration": {
       "editable": true,
       "source": "github",
