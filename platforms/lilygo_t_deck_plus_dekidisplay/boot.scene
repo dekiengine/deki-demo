@@ -171,6 +171,36 @@
           "components": [
             {
               "properties": {
+                "controller": "GT911",
+                "i2cAddress": 0,
+                "i2cPort": 0,
+                "intPin": 16,
+                "offsetRotation": "None",
+                "rstPin": -1,
+                "xMax": 239,
+                "xMin": 0,
+                "yMax": 319,
+                "yMin": 0
+              },
+              "type": "DekiDisplay::TouchPanelComponent"
+            }
+          ],
+          "id": 605,
+          "name": "Touch (GT911)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
                 "hasBacklight": true,
                 "i2cAddress": 85,
                 "i2cPort": 0
@@ -341,6 +371,10 @@
               {
                 "id": 604,
                 "typeId": 1919918867
+              },
+              {
+                "id": 605,
+                "typeId": 29374474
               },
               {
                 "id": 606,
