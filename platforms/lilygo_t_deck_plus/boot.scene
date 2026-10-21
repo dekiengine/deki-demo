@@ -79,58 +79,56 @@
           "components": [
             {
               "properties": {
+                "io2Pin": -1,
+                "io3Pin": -1,
+                "maxTransferBytes": 32768,
+                "misoPin": 38,
+                "mosiPin": 41,
+                "sclkPin": 40,
+                "spiHost": 1
+              },
+              "type": "DekiSpi::SPIBusComponent"
+            }
+          ],
+          "id": 611,
+          "name": "SPI Bus (SPI2: display, SD, LoRa)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
                 "asyncPresent": true,
                 "blInvert": false,
                 "blPin": 42,
-                "blPwmChannel": 7,
-                "busType": "SPI",
-                "clkPin": 40,
+                "controller": "ST7789",
                 "csPin": 12,
-                "d0Pin": -1,
-                "d10Pin": -1,
-                "d11Pin": -1,
-                "d12Pin": -1,
-                "d13Pin": -1,
-                "d14Pin": -1,
-                "d15Pin": -1,
-                "d1Pin": -1,
-                "d2Pin": -1,
-                "d3Pin": -1,
-                "d4Pin": -1,
-                "d5Pin": -1,
-                "d6Pin": -1,
-                "d7Pin": -1,
-                "d8Pin": -1,
-                "d9Pin": -1,
                 "dcPin": 11,
                 "doubleBuffer": false,
+                "initSequence": "# LilyGO T-Deck ST7789: LilyGO's TFT_eSPI setup for the board (Setup210_LilyGo_T_Deck,\n# INIT_SEQUENCE_2), with VCOM 0x19, tuned live on a T-Deck Plus. The controller's\n# default (VCOM 0x28, a lower gate voltage) leaves this panel with a fading ghost.\n11; delay 120          # SLPOUT first\n13                     # NORON\nB2 0C 0C 00 33 33      # PORCTRL\nB7 75                  # GCTRL: VGH 14.97 V, VGL -10.43 V\nBB 19                  # VCOMS 0.725 V\nC0 2C                  # LCMCTRL: swaps red and blue, so rgbOrder on\nC2 01                  # VDVVRHEN\nC3 13                  # VRHS\nC4 20                  # VDVSET\nC6 0F                  # FRCTR2: 60 Hz\nD0 A4 A1               # PWCTRL1\nE0 D0 0D 14 0D 0D 09 38 44 4E 3A 17 18 2F 30   # PVGAMCTRL\nE1 D0 09 0F 08 07 14 37 44 4D 38 15 16 2C 3E   # NVGAMCTRL\n29; delay 120          # DISPON\n",
                 "invertColor": true,
-                "io0Pin": -1,
-                "io1Pin": -1,
-                "io2Pin": -1,
-                "io3Pin": -1,
                 "memoryHeight": 320,
                 "memoryWidth": 240,
-                "misoPin": 38,
-                "mosiPin": 41,
                 "offsetX": 0,
                 "offsetY": 0,
                 "panelHeight": 320,
-                "panelType": "ST7789TDeck",
                 "panelWidth": 240,
-                "parWriteHz": 40000000,
-                "rdPin": -1,
                 "rgbOrder": true,
                 "rotation": "Landscape",
-                "rsPin": -1,
                 "rstPin": -1,
-                "spiPort": 1,
+                "spiHost": 1,
                 "spiWriteHz": 80000000,
-                "swapBytes": true,
-                "usePsram": false,
-                "wrPin": -1
+                "usePsram": false
               },
-              "type": "DekiLovyanGfx::LGFXDisplayPanel"
+              "type": "DekiDisplay::DisplayPanelComponent"
             }
           ],
           "id": 603,
@@ -173,14 +171,10 @@
           "components": [
             {
               "properties": {
-                "busShared": false,
-                "clkPin": -1,
-                "csPin": -1,
-                "driverType": "GT911",
+                "controller": "GT911",
+                "i2cAddress": 0,
                 "i2cPort": 0,
                 "intPin": 16,
-                "misoPin": -1,
-                "mosiPin": -1,
                 "offsetRotation": "None",
                 "rstPin": -1,
                 "xMax": 239,
@@ -188,7 +182,7 @@
                 "yMax": 319,
                 "yMin": 0
               },
-              "type": "DekiLovyanGfx::LGFXTouchPanel"
+              "type": "DekiDisplay::TouchPanelComponent"
             }
           ],
           "id": 605,
@@ -367,8 +361,12 @@
                 "typeId": 3968078442
               },
               {
+                "id": 611,
+                "typeId": 2470648303
+              },
+              {
                 "id": 603,
-                "typeId": 798871171
+                "typeId": 183569787
               },
               {
                 "id": 604,
@@ -376,7 +374,7 @@
               },
               {
                 "id": 605,
-                "typeId": 3744725680
+                "typeId": 29374474
               },
               {
                 "id": 606,
