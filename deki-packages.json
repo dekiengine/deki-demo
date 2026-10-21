@@ -14,6 +14,10 @@
       "editable": true,
       "version": "0.18.0"
     },
+    "deki-display": {
+      "editable": true,
+      "version": "0.18.0"
+    },
     "deki-esp32-integration": {
       "editable": true,
       "version": "0.18.2"

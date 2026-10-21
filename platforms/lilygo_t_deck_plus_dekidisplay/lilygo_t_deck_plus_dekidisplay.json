@@ -1,22 +1,24 @@
 {
-  "id": "lilygo_t_deck_plus_dekidisplay",
+  "bootScene": "platforms/lilygo_t_deck_plus_dekidisplay/boot.scene",
+  "colorFormat": "RGB565",
+  "defines": [
+    "ESP32"
+  ],
   "displayName": "LilyGO T-Deck Plus (deki-display)",
+  "externalMemorySize": 8388608,
   "family": "espressif",
   "framework": "espidf",
   "frameworkOptions": {
-    "idfTarget": "esp32s3",
-    "mcuChip": "esp32s3",
     "cpuFreqHz": 240000000,
     "flashSize": 16777216,
+    "idfTarget": "esp32s3",
+    "mcuChip": "esp32s3",
     "psramMode": "oct",
     "sdkconfig": [
       "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y"
     ]
   },
-  "externalMemorySize": 8388608,
-  "screenWidth": 320,
-  "screenHeight": 240,
-  "colorFormat": "RGB565",
+  "id": "lilygo_t_deck_plus_dekidisplay",
   "provides": [
     "filesystem",
     "threads",
@@ -29,10 +31,8 @@
   ],
   "requiresPackages": [
     "deki-esp32-integration",
-    "deki-lovyangfx-integration"
+    "deki-display"
   ],
-  "defines": [
-    "ESP32"
-  ],
-  "bootScene": "platforms/lilygo_t_deck_plus_dekidisplay/boot.scene"
+  "screenHeight": 240,
+  "screenWidth": 320
 }
