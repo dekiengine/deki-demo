@@ -5,7 +5,10 @@
     "sizes": [
       10,
       11,
-      12
+      12,
+      20,
+      22,
+      24
     ]
   },
   "guid": "bd65f66a-e783-4e7a-bbdf-d169b1cdd76e",
@@ -21,6 +24,18 @@
     "12": {
       "atlasGuid": "8c188e0b-0c7a-a1ed-34b9-14ac028bf85b",
       "guid": "961402cc-49c3-1779-8afe-cc266271e56e"
+    },
+    "20": {
+      "atlasGuid": "cc33a1fe-0edd-2c47-7faa-76a30f6de90c",
+      "guid": "961400cc-49c3-1413-8afe-cb266271e3bb"
+    },
+    "22": {
+      "atlasGuid": "8c188e0b-0c7a-a1ed-7faa-76a30f6de90c",
+      "guid": "961402cc-49c3-1779-8afe-cb266271e3bb"
+    },
+    "24": {
+      "atlasGuid": "f66c621c-f2e5-5243-7faa-76a30f6de90c",
+      "guid": "961404cc-49c3-1adf-8afe-cb266271e3bb"
     }
   }
 }

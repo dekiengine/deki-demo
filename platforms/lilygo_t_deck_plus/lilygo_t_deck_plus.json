@@ -16,6 +16,7 @@
   "externalMemorySize": 8388608,
   "screenWidth": 320,
   "screenHeight": 240,
+  "screenDiagonalInches": 2.8,
   "colorFormat": "RGB565",
   "provides": [
     "filesystem",

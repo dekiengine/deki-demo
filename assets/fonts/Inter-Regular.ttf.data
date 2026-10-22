@@ -4,7 +4,8 @@
     "lastChar": 126,
     "sizes": [
       11,
-      12
+      12,
+      16
     ]
   },
   "guid": "31e1d123-aff2-48db-bb38-aecad841cd37",
@@ -16,6 +17,10 @@
     "12": {
       "atlasGuid": "3c285394-157d-95ed-f639-1409ac2171dd",
       "guid": "09718bfb-283b-f379-d4a7-6418d87c5b80"
+    },
+    "16": {
+      "atlasGuid": "e72fd3b6-a8f5-7729-f639-1409ac2171dd",
+      "guid": "09718ffb-283b-fa45-d4a7-6418d87c5b80"
     }
   }
 }
