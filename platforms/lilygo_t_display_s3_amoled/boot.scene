@@ -81,6 +81,7 @@
                 "rstPin": 17,
                 "spiHost": 1,
                 "spiWriteHz": 75000000,
+                "tePin": 9,
                 "usePsram": true
               },
               "type": "DekiDisplay::DisplayPanelComponent"
