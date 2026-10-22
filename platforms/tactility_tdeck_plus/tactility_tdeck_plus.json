@@ -23,6 +23,7 @@
   "requiresPackages": [
     "deki-tactility-integration"
   ],
+  "screenDiagonalInches": 2.8,
   "screenHeight": 240,
   "screenWidth": 320
 }

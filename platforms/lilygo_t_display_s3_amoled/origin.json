@@ -37,6 +37,7 @@
       "deki-esp32-integration",
       "deki-lovyangfx-integration"
     ],
+    "screenDiagonalInches": 1.91,
     "screenHeight": 240,
     "screenWidth": 536
   },

@@ -4569,6 +4569,51 @@
           "active": true,
           "children": [
             {
+              "active": false,
+              "children": [],
+              "components": [
+                {
+                  "properties": {
+                    "alphaMode": "Blend",
+                    "angle": 1.5707963705062866,
+                    "centerX": 0.5,
+                    "centerY": 0.5,
+                    "ditherMode": "None",
+                    "ditherScale": 1,
+                    "gradientType": "Linear",
+                    "height": 7.5,
+                    "ignoreClip": false,
+                    "pixelSnap": true,
+                    "radius": 0.5,
+                    "sortingOrder": 29,
+                    "stop1Color": "#151A26FF",
+                    "stop1Position": 0.0,
+                    "stop2Color": "#151A26FF",
+                    "stop2Position": 1.0,
+                    "stop3Color": "#151A26FF",
+                    "stop3Position": 1.0,
+                    "stop4Color": "#151A26FF",
+                    "stop4Position": 1.0,
+                    "stopCount": 2,
+                    "tileHeight": 0.0,
+                    "tileMode": "None",
+                    "tileWidth": 0.0,
+                    "width": 2.25
+                  },
+                  "type": "Deki2D::GradientComponent"
+                }
+              ],
+              "id": 1232,
+              "name": "Bar",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
+            {
               "active": true,
               "children": [],
               "components": [
@@ -4792,7 +4837,21 @@
           }
         }
       ],
-      "components": [],
+      "components": [
+        {
+          "properties": {
+            "back": {
+              "id": 1227,
+              "typeId": 2540046954
+            },
+            "gap": 0.5,
+            "minCapHeight": 0.001,
+            "minTouchSize": 0.009,
+            "smallScreenHeight": 0.03
+          },
+          "type": "SmallScreenLayout"
+        }
+      ],
       "id": 1,
       "name": "Root",
       "transform": {
