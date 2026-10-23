@@ -10,7 +10,8 @@
     "flashSize": 16777216,
     "psramMode": "oct",
     "sdkconfig": [
-      "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y"
+      "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y",
+      "CONFIG_ESP32S3_INSTRUCTION_CACHE_32KB=y"
     ]
   },
   "externalMemorySize": 8388608,

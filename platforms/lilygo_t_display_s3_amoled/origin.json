@@ -20,7 +20,8 @@
       "mcuChip": "esp32s3",
       "psramMode": "oct",
       "sdkconfig": [
-        "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y"
+        "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y",
+        "CONFIG_ESP32S3_INSTRUCTION_CACHE_32KB=y"
       ]
     },
     "id": "lilygo_t_display_s3_amoled",
