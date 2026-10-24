@@ -76,15 +76,15 @@
       "editable": true,
       "version": "0.19.0"
     },
-    "deki-spi": {
-      "editable": true,
-      "version": "0.20.0"
-    },
     "deki-sdl3-integration": {
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-sdl3-integration",
       "version": "0.19.0"
+    },
+    "deki-spi": {
+      "editable": true,
+      "version": "0.20.0"
     },
     "deki-tactility-integration": {
       "version": "0.19.0"
