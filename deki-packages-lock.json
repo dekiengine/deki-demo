@@ -141,7 +141,7 @@
       "packageType": "deki_package",
       "requires": [
         "deki-esp32-integration",
-        "deki-lovyangfx-integration",
+        "deki-display",
         "deki-input",
         "deki-i2c",
         "deki-gpio",
@@ -161,19 +161,6 @@
       "requires": [],
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-lora"
-    },
-    "deki-lovyangfx-integration": {
-      "description": "LovyanGFX display and touch panel integration",
-      "displayName": "LovyanGFX Integration",
-      "installedVersion": "0.19.0",
-      "name": "dekiengine/deki-lovyangfx-integration",
-      "packageType": "deki_package",
-      "requires": [
-        "deki-i2c"
-      ],
-      "resolvedBy": "deki-lilygo-boards",
-      "source": "custom",
-      "url": "https://github.com/dekiengine/deki-lovyangfx-integration"
     },
     "deki-nodegraph": {
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
@@ -274,15 +261,6 @@
       "resolvedBy": "deki-esp32-integration",
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-wifi"
-    },
-    "github:lovyan03/LovyanGFX": {
-      "displayName": "LovyanGFX",
-      "installedVersion": "1.2.29",
-      "installer": "espidf",
-      "name": "LovyanGFX",
-      "packageType": "framework_component",
-      "source": "github",
-      "url": "https://github.com/lovyan03/LovyanGFX"
     }
   }
 }

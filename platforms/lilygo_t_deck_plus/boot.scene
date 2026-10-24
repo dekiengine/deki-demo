@@ -126,6 +126,8 @@
                 "rstPin": -1,
                 "spiHost": 1,
                 "spiWriteHz": 80000000,
+                "scanlineSync": true,
+                "readsOnMosi": true,
                 "usePsram": false
               },
               "type": "DekiDisplay::DisplayPanelComponent"
