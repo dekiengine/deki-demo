@@ -242,10 +242,10 @@
       "url": "https://github.com/dekiengine/deki-spi"
     },
     "deki-tactility-integration": {
-      "commit": "b79589dd48c6f0946e7ac442c4c301783accfe00",
+      "commit": "c91eb16ab09daa882389fc9af3695b89dc02d54c",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "displayName": "",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.20.3",
       "name": "deki-tactility-integration",
       "packageType": "deki_package",
       "requires": [
