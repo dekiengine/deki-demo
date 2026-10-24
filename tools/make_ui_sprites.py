@@ -142,9 +142,10 @@ def spark(d, core, edge):
 
 
 def pointer():
-    """The on-screen pointer for trackball boards: a white arrow with a dark rim."""
-    w, h = 11, 17
-    pts = [(0.6, 0.6), (0.6, 14.6), (4.0, 11.4), (6.3, 16.2), (8.4, 15.3), (6.2, 10.6), (10.4, 10.6)]
+    """The on-screen pointer for trackball boards: a white arrowhead with a dark
+    rim, its tip at the top-left pixel, where the pointer is."""
+    w, h = 13, 15
+    pts = [(0.7, 0.7), (12.0, 7.4), (6.9, 8.4), (4.9, 14.0)]
     big = [(x * SS, y * SS) for x, y in pts]
     rim = Image.new("L", (w * SS, h * SS), 0)
     ImageDraw.Draw(rim).polygon(big, fill=255)
