@@ -89,6 +89,12 @@
     "deki-tactility-integration": {
       "version": "0.20.3"
     },
+    "deki-tiledmapeditor-integration": {
+      "editable": true,
+      "source": "github",
+      "url": "https://github.com/dekiengine/deki-tiledmapeditor-integration",
+      "version": "0.19.0"
+    },
     "deki-tween": {
       "editable": true,
       "source": "github",

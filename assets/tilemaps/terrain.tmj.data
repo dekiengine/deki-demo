@@ -1,0 +1,10 @@
+{
+  "baked": true,
+  "formatVersion": 1,
+  "guid": "09e55845-0e74-4140-8649-ca459dd657fa",
+  "tilesets": {
+    "1": {
+      "guid": "ef7fa168-7915-4b6d-97b5-8ad6840aef85"
+    }
+  }
+}

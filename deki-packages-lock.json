@@ -254,6 +254,19 @@
       "source": "custom",
       "url": "https://github.com/dekiengine/deki-tactility-integration"
     },
+    "deki-tiledmapeditor-integration": {
+      "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
+      "displayName": "Tiled Map Editor Integration",
+      "installedVersion": "0.19.0",
+      "name": "deki-tiledmapeditor-integration",
+      "packageType": "deki_package",
+      "requires": [
+        "deki-2d",
+        "deki-rendering"
+      ],
+      "source": "github",
+      "url": "https://github.com/dekiengine/deki-tiledmapeditor-integration"
+    },
     "deki-tween": {
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",

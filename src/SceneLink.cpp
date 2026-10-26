@@ -17,11 +17,12 @@ void SceneLink::Start()
 
 void SceneLink::Open()
 {
-    Deki::Scene* next = scene.Get();
-    if (!next)
+    if (scene.guid.empty())
     {
         DEKI_LOG_WARNING("SceneLink on '%s' has no scene to open", GetOwner()->GetName().c_str());
         return;
     }
-    Deki::Engine::GetInstance().SetRootScene(next, true);
+    // Opened after this frame, once this scene is gone: the two are never in
+    // memory at once.
+    Deki::Engine::GetInstance().OpenScene(scene);
 }
