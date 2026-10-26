@@ -1,0 +1,389 @@
+{
+  "formatVersion": 1,
+  "objects": [
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "high": true,
+                "pin": 10,
+                "settleMs": 100
+              },
+              "type": "DekiGpio::GpioPinSetup"
+            }
+          ],
+          "id": 600,
+          "name": "Power Enable (GPIO 10)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "high": true,
+                "pin": 39,
+                "settleMs": 0
+              },
+              "type": "DekiGpio::GpioPinSetup"
+            }
+          ],
+          "id": 601,
+          "name": "SD Card Deselect (GPIO 39)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "high": true,
+                "pin": 9,
+                "settleMs": 0
+              },
+              "type": "DekiGpio::GpioPinSetup"
+            }
+          ],
+          "id": 602,
+          "name": "LoRa Deselect (GPIO 9)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "io2Pin": -1,
+                "io3Pin": -1,
+                "maxTransferBytes": 32768,
+                "misoPin": 38,
+                "mosiPin": 41,
+                "sclkPin": 40,
+                "spiHost": 1
+              },
+              "type": "DekiSpi::SPIBusComponent"
+            }
+          ],
+          "id": 611,
+          "name": "SPI Bus (SPI2: display, SD, LoRa)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "asyncPresent": true,
+                "blInvert": false,
+                "blPin": 42,
+                "controller": "ST7789",
+                "csPin": 12,
+                "dcPin": 11,
+                "doubleBuffer": false,
+                "initSequence": "# LilyGO T-Deck ST7789: LilyGO's TFT_eSPI setup for the board (Setup210_LilyGo_T_Deck,\n# INIT_SEQUENCE_2), with VCOM 0x19, tuned live on a T-Deck Plus. The controller's\n# default (VCOM 0x28, a lower gate voltage) leaves this panel with a fading ghost.\n11; delay 120          # SLPOUT first\n13                     # NORON\nB2 0C 0C 00 33 33      # PORCTRL\nB7 75                  # GCTRL: VGH 14.97 V, VGL -10.43 V\nBB 19                  # VCOMS 0.725 V\nC0 2C                  # LCMCTRL: swaps red and blue, so rgbOrder on\nC2 01                  # VDVVRHEN\nC3 13                  # VRHS\nC4 20                  # VDVSET\nC6 0F                  # FRCTR2: 60 Hz\nD0 A4 A1               # PWCTRL1\nE0 D0 0D 14 0D 0D 09 38 44 4E 3A 17 18 2F 30   # PVGAMCTRL\nE1 D0 09 0F 08 07 14 37 44 4D 38 15 16 2C 3E   # NVGAMCTRL\nB0 00 F0               # RAMCTRL: pixels MSB first, as SPI sends them. Without it the panel keeps\n                       # its power-on order, which some T-Decks have the other way round\n29; delay 120          # DISPON\n",
+                "invertColor": true,
+                "memoryHeight": 320,
+                "memoryWidth": 240,
+                "offsetX": 0,
+                "offsetY": 0,
+                "panelHeight": 320,
+                "panelWidth": 240,
+                "rgbOrder": true,
+                "rotation": "Landscape",
+                "rstPin": -1,
+                "spiHost": 1,
+                "spiWriteHz": 80000000,
+                "scanlineSync": true,
+                "readsOnMosi": true,
+                "usePsram": false
+              },
+              "type": "DekiDisplay::DisplayPanelComponent"
+            }
+          ],
+          "id": 603,
+          "name": "Display (ST7789)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "i2cHz": 400000,
+                "i2cPort": 0,
+                "sclPin": 8,
+                "sdaPin": 18
+              },
+              "type": "DekiI2c::I2CBusComponent"
+            }
+          ],
+          "id": 604,
+          "name": "I2C Bus",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "controller": "GT911",
+                "i2cAddress": 0,
+                "i2cPort": 0,
+                "intPin": 16,
+                "offsetRotation": "None",
+                "rstPin": -1,
+                "xMax": 239,
+                "xMin": 0,
+                "yMax": 319,
+                "yMin": 0
+              },
+              "type": "DekiDisplay::TouchPanelComponent"
+            }
+          ],
+          "id": 605,
+          "name": "Touch (GT911)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "hasBacklight": true,
+                "i2cAddress": 85,
+                "i2cPort": 0
+              },
+              "type": "DekiInput::I2CKeyboardComponent"
+            }
+          ],
+          "id": 606,
+          "name": "Keyboard",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "acceleration": 3.0,
+                "clickActiveLow": true,
+                "clickPin": 0,
+                "downPin": 15,
+                "glideMs": 120.0,
+                "leftPin": 1,
+                "mode": "Pointer",
+                "pixelsPerStep": 4,
+                "rightPin": 2,
+                "upPin": 3
+              },
+              "type": "DekiInput::TrackballComponent"
+            }
+          ],
+          "id": 607,
+          "name": "Trackball",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "cdPin": -1,
+                "clkPin": 40,
+                "cmdPin": 15,
+                "csPin": 39,
+                "d0Pin": 2,
+                "d1Pin": 4,
+                "d2Pin": 12,
+                "d3Pin": 13,
+                "misoPin": 38,
+                "mode": "SPI",
+                "mosiPin": 41,
+                "required": false,
+                "sdmmcHz": 20000000,
+                "spiHz": 20000000
+              },
+              "type": "DekiSdCard::SDCardComponent"
+            }
+          ],
+          "id": 608,
+          "name": "SD Card",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [
+            {
+              "properties": {
+                "bandwidthKHz": 125,
+                "busyPin": 13,
+                "codingRate": 5,
+                "csPin": 9,
+                "dio2AsRfSwitch": true,
+                "dutyCyclePercent": 1.0,
+                "frequencyHz": 868100000,
+                "misoPin": 38,
+                "mosiPin": 41,
+                "resetPin": 17,
+                "sckPin": 40,
+                "spiHost": 1,
+                "spiHz": 8000000,
+                "spreadingFactor": 7,
+                "syncWord": 18,
+                "tcxoVoltage": 1.8,
+                "txPowerDbm": 14
+              },
+              "type": "DekiLora::SX1262LoRaComponent"
+            }
+          ],
+          "id": 610,
+          "name": "LoRa (SX1262)",
+          "transform": {
+            "rotation": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "components": [
+        {
+          "properties": {
+            "setupComponents": [
+              {
+                "id": 600,
+                "typeId": 3968078442
+              },
+              {
+                "id": 601,
+                "typeId": 3968078442
+              },
+              {
+                "id": 602,
+                "typeId": 3968078442
+              },
+              {
+                "id": 611,
+                "typeId": 2470648303
+              },
+              {
+                "id": 603,
+                "typeId": 183569787
+              },
+              {
+                "id": 604,
+                "typeId": 1919918867
+              },
+              {
+                "id": 605,
+                "typeId": 29374474
+              },
+              {
+                "id": 606,
+                "typeId": 4221578386
+              },
+              {
+                "id": 607,
+                "typeId": 1371136379
+              },
+              {
+                "id": 608,
+                "typeId": 4082406193
+              },
+              {
+                "id": 610,
+                "typeId": 3861937037
+              }
+            ]
+          },
+          "type": "Deki::PlatformSetupComponent"
+        }
+      ],
+      "id": 1,
+      "name": "Setup",
+      "transform": {
+        "rotation": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}
