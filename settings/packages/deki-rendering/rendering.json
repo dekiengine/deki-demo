@@ -1,7 +1,6 @@
 {
   "Rendering": {
-    "dirtyTileSize": 32,
-    "dirtyTileTracking": false,
-    "bandRows": 40
+    "bandRows": 40,
+    "redrawChanges": true
   }
 }
