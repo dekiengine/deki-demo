@@ -4,7 +4,7 @@
     "deki-2d": {
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.20.1",
+      "installedVersion": "0.21.0",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -28,7 +28,7 @@
     "deki-desktop-integration": {
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.21.0",
       "name": "deki-desktop-integration",
       "packageType": "deki_package",
       "source": "custom",
@@ -37,7 +37,7 @@
     "deki-display": {
       "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
       "displayName": "Display",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "dekiengine/deki-display",
       "packageType": "deki_package",
       "requires": [
@@ -53,7 +53,7 @@
     "deki-esp32-integration": {
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "displayName": "ESP32 Integration",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "dekiengine/deki-esp32-integration",
       "packageType": "deki_package",
       "requires": [
@@ -141,7 +141,7 @@
     "deki-input": {
       "description": "Input handling and collision detection",
       "displayName": "Input",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "deki-input",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -151,7 +151,7 @@
     "deki-lilygo-boards": {
       "description": "Build targets for LilyGO boards: T-Deck Plus and T-Display S3 AMOLED",
       "displayName": "LilyGO Boards",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "deki-lilygo-boards",
       "packageType": "deki_package",
       "requires": [
@@ -189,7 +189,7 @@
     "deki-particles": {
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "deki-particles",
       "packageType": "deki_package",
       "requires": [
@@ -203,7 +203,7 @@
     "deki-rendering": {
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.21.0",
       "name": "deki-rendering",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -223,7 +223,7 @@
     "deki-sdl3-integration": {
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.21.0",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [
@@ -245,7 +245,7 @@
       "commit": "c91eb16ab09daa882389fc9af3695b89dc02d54c",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "displayName": "",
-      "installedVersion": "0.20.3",
+      "installedVersion": "0.21.0",
       "name": "deki-tactility-integration",
       "packageType": "deki_package",
       "requires": [
@@ -257,7 +257,7 @@
     "deki-tiledmapeditor-integration": {
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "displayName": "Tiled Map Editor Integration",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.21.0",
       "name": "deki-tiledmapeditor-integration",
       "packageType": "deki_package",
       "requires": [
