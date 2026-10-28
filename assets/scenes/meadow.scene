@@ -65,6 +65,15 @@
                 "width": 36.0
               },
               "type": "Deki2D::GradientComponent"
+            },
+            {
+              "properties": {
+                "anchor": "Center",
+                "offsetX": 0.0,
+                "offsetY": 0.0,
+                "update": "Always"
+              },
+              "type": "Deki::ScreenAnchor"
             }
           ],
           "id": 3,
@@ -87,7 +96,7 @@
                 "chunkCacheKiB": 256,
                 "chunkPadding": 1,
                 "ignoreClip": false,
-                "loopX": false,
+                "loopX": true,
                 "loopY": false,
                 "pixelSnap": true,
                 "pixelsPerMeter": 16.0,
@@ -121,7 +130,7 @@
                 "chunkCacheKiB": 256,
                 "chunkPadding": 1,
                 "ignoreClip": false,
-                "loopX": false,
+                "loopX": true,
                 "loopY": false,
                 "pixelSnap": true,
                 "pixelsPerMeter": 16.0,
@@ -150,686 +159,1531 @@
           "children": [
             {
               "active": true,
-              "children": [],
-              "components": [
+              "children": [
                 {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 71,
-              "name": "LeftLeft",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -6.75,
-                "y": 0.5625
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 72,
-              "name": "LeftMid",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -5.625,
-                "y": 0.5625
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 73,
-              "name": "LeftRight",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -4.5,
-                "y": 0.5625
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 74,
-              "name": "RightLeft",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 4.5,
-                "y": -1.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 75,
-              "name": "RightMid",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 5.625,
-                "y": -1.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 76,
-              "name": "RightRight",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 6.75,
-                "y": -1.6875
-              }
-            }
-          ],
-          "components": [],
-          "id": 70,
-          "name": "Platforms",
-          "transform": {
-            "rotation": 0.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "x": 0.0,
-            "y": 0.0
-          }
-        },
-        {
-          "active": true,
-          "children": [
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "6fdc895d-7f6d-4132-91a0-3557f5bfe364",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 78,
-              "name": "Sign",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -8.4375,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "2cb6fcbf-7a66-435b-80f9-722462c6d7c5",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 79,
-              "name": "Cactus",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -6.75,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "fc38fc66-bed8-4cc7-be8f-dcf6af3f3b88",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 80,
-              "name": "Plant",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -3.375,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "a8c551f0-167c-4ef4-bc64-e27240bb5b93",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 81,
-              "name": "Bush",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 0.5625,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "906a42c9-2efd-49ff-a08b-0e178f1b0433",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 82,
-              "name": "Rock",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 2.8125,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "5d524b6d-9386-4d91-a81c-11993453fb34",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 83,
-              "name": "Mushroom",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 6.1875,
-                "y": -4.6875
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 3,
-                    "sprite": "5ae9c73f-fe09-4444-ab30-3e8ce5824290",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                }
-              ],
-              "id": 84,
-              "name": "Stump",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 8.4375,
-                "y": -4.6875
-              }
-            }
-          ],
-          "components": [],
-          "id": 77,
-          "name": "Props",
-          "transform": {
-            "rotation": 0.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "x": 0.0,
-            "y": 0.0
-          }
-        },
-        {
-          "active": true,
-          "children": [
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "906a42c9-2efd-49ff-a08b-0e178f1b0433",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2001,
+                  "name": "Rock",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
                 },
                 {
-                  "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.0,
-                    "speedHz": 0.625
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 86,
-              "name": "Coin1",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -2.25,
-                "y": -2.4375
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "2cb6fcbf-7a66-435b-80f9-722462c6d7c5",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2002,
+                  "name": "Cactus",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
                 },
                 {
-                  "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.20000000298023224,
-                    "speedHz": 0.625
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 87,
-              "name": "Coin2",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -1.125,
-                "y": -2.4375
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "5ae9c73f-fe09-4444-ab30-3e8ce5824290",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2003,
+                  "name": "Stump",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
                 },
                 {
-                  "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.4000000059604645,
-                    "speedHz": 0.625
-                  },
-                  "type": "Bobber"
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "906a42c9-2efd-49ff-a08b-0e178f1b0433",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2004,
+                  "name": "Rock2",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "2cb6fcbf-7a66-435b-80f9-722462c6d7c5",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2005,
+                  "name": "Cactus2",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
                 }
               ],
-              "id": 88,
-              "name": "Coin3",
+              "components": [],
+              "id": 2047,
+              "name": "Obstacles",
               "transform": {
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
                 "x": 0.0,
-                "y": -2.4375
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                },
-                {
-                  "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.6000000238418579,
-                    "speedHz": 0.625
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 89,
-              "name": "Coin4",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 1.125,
-                "y": -2.4375
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                },
-                {
-                  "properties": {
-                    "amplitudePx": 4.0,
-                    "phase": 0.800000011920929,
-                    "speedHz": 0.625
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 90,
-              "name": "Coin5",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -5.625,
-                "y": 2.25
-              }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 4,
-                    "sprite": "f2d8b72d-5672-4698-b138-3f1a2cc77d23",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                },
-                {
-                  "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.0,
-                    "speedHz": 0.4166666865348816
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 91,
-              "name": "Gem",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 5.625,
                 "y": 0.0
               }
-            }
-          ],
-          "components": [],
-          "id": 85,
-          "name": "Pickups",
-          "transform": {
-            "rotation": 0.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "x": 0.0,
-            "y": 0.0
-          }
-        },
-        {
-          "active": true,
-          "children": [
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "fc38fc66-bed8-4cc7-be8f-dcf6af3f3b88",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2006,
+                  "name": "Plant",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "5d524b6d-9386-4d91-a81c-11993453fb34",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2007,
+                  "name": "Mushroom",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "6fdc895d-7f6d-4132-91a0-3557f5bfe364",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2008,
+                  "name": "Sign",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "a8c551f0-167c-4ef4-bc64-e27240bb5b93",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2009,
+                  "name": "Bush",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": -4.6875
+                  }
+                }
+              ],
+              "components": [],
+              "id": 2048,
+              "name": "Decorations",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2010,
+                      "name": "Mid1",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 1.125,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2011,
+                      "name": "Right",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 2.25,
+                        "y": 0.0
+                      }
+                    }
+                  ],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2012,
+                  "name": "Platform3",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2013,
+                      "name": "Mid1",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 1.125,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2014,
+                      "name": "Mid2",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 2.25,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2015,
+                      "name": "Right",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 3.375,
+                        "y": 0.0
+                      }
+                    }
+                  ],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2016,
+                  "name": "Platform4",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2017,
+                      "name": "Mid1",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 1.125,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2018,
+                      "name": "Mid2",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 2.25,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2019,
+                      "name": "Mid3",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 3.375,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2020,
+                      "name": "Right",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 4.5,
+                        "y": 0.0
+                      }
+                    }
+                  ],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2021,
+                  "name": "Platform5",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "56c5394b-a024-40b5-a314-806261ca4098",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2022,
+                      "name": "Mid1",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 1.125,
+                        "y": 0.0
+                      }
+                    },
+                    {
+                      "active": true,
+                      "children": [],
+                      "components": [
+                        {
+                          "properties": {
+                            "alphaMode": "Blend",
+                            "flipHorizontal": false,
+                            "flipVertical": false,
+                            "height": 0.0,
+                            "ignoreClip": false,
+                            "pixelSnap": true,
+                            "renderMode": "Normal",
+                            "sortingOrder": 3,
+                            "sprite": "1ec72c8c-b541-4b54-8b56-47e194a4b693",
+                            "tintColor": "#FFFFFFFF",
+                            "width": 0.0
+                          },
+                          "type": "Deki2D::SpriteComponent"
+                        }
+                      ],
+                      "id": 2023,
+                      "name": "Right",
+                      "transform": {
+                        "rotation": 0.0,
+                        "scaleX": 1.0,
+                        "scaleY": 1.0,
+                        "x": 2.25,
+                        "y": 0.0
+                      }
+                    }
+                  ],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 3,
+                        "sprite": "b647ecc9-5949-469a-9831-8efe7c571d77",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2024,
+                  "name": "Platform3b",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                }
+              ],
+              "components": [],
+              "id": 2049,
+              "name": "Platforms",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2025,
+                  "name": "Coin1",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2026,
+                  "name": "Coin2",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2027,
+                  "name": "Coin3",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2028,
+                  "name": "Coin4",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2029,
+                  "name": "Coin5",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2030,
+                  "name": "Coin6",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2031,
+                  "name": "Coin7",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2032,
+                  "name": "Coin8",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2033,
+                  "name": "Coin9",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2034,
+                  "name": "Coin10",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2035,
+                  "name": "Coin11",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2036,
+                  "name": "Coin12",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2037,
+                  "name": "Coin13",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2038,
+                  "name": "Coin14",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2039,
+                  "name": "Coin15",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2040,
+                  "name": "Coin16",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2041,
+                  "name": "Coin17",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2042,
+                  "name": "Coin18",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2043,
+                  "name": "Coin19",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 4,
+                        "sprite": "628774f4-03ea-4e2a-8878-605666afce45",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    }
+                  ],
+                  "id": 2044,
+                  "name": "Coin20",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 0.0
+                  }
+                }
+              ],
+              "components": [],
+              "id": 2050,
+              "name": "Coins",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 5,
+                        "sprite": "7fec842c-858e-74b1-d2ec-dd44981348d6",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    },
+                    {
+                      "properties": {
+                        "animation": "5b106ffa-d457-45ee-a7ba-800ed4474553",
+                        "currentFrame": 0,
+                        "currentSequence": 0,
+                        "hasFinished": false,
+                        "isPlaying": false,
+                        "playOnceOverride": false
+                      },
+                      "type": "Deki2D::AnimationComponent"
+                    }
+                  ],
+                  "id": 2045,
+                  "name": "Flyer1",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 2.0
+                  }
+                },
+                {
+                  "active": true,
+                  "children": [],
+                  "components": [
+                    {
+                      "properties": {
+                        "alphaMode": "Blend",
+                        "flipHorizontal": false,
+                        "flipVertical": false,
+                        "height": 0.0,
+                        "ignoreClip": false,
+                        "pixelSnap": true,
+                        "renderMode": "Normal",
+                        "sortingOrder": 5,
+                        "sprite": "7fec842c-858e-74b1-d2ec-dd44981348d6",
+                        "tintColor": "#FFFFFFFF",
+                        "width": 0.0
+                      },
+                      "type": "Deki2D::SpriteComponent"
+                    },
+                    {
+                      "properties": {
+                        "animation": "5b106ffa-d457-45ee-a7ba-800ed4474553",
+                        "currentFrame": 0,
+                        "currentSequence": 0,
+                        "hasFinished": false,
+                        "isPlaying": false,
+                        "playOnceOverride": false
+                      },
+                      "type": "Deki2D::AnimationComponent"
+                    }
+                  ],
+                  "id": 2046,
+                  "name": "Flyer2",
+                  "transform": {
+                    "rotation": 0.0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "x": -40.0,
+                    "y": 2.0
+                  }
+                }
+              ],
+              "components": [],
+              "id": 2051,
+              "name": "Flyers",
+              "transform": {
+                "rotation": 0.0,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
             {
               "active": true,
               "children": [],
@@ -843,7 +1697,7 @@
                     "ignoreClip": false,
                     "pixelSnap": true,
                     "renderMode": "Normal",
-                    "sortingOrder": 5,
+                    "sortingOrder": 6,
                     "sprite": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
                     "tintColor": "#FFFFFFFF",
                     "width": 0.0
@@ -860,16 +1714,6 @@
                     "playOnceOverride": false
                   },
                   "type": "Deki2D::AnimationComponent"
-                },
-                {
-                  "properties": {
-                    "patrolPx": 24.0,
-                    "speedPx": 20.0,
-                    "startLeftwards": false,
-                    "walkLeftAnimation": "walk_left",
-                    "walkRightAnimation": "walk_right"
-                  },
-                  "type": "Walker"
                 }
               ],
               "id": 93,
@@ -881,71 +1725,191 @@
                 "x": -3.9375,
                 "y": -4.5
               }
-            },
-            {
-              "active": true,
-              "children": [],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 0.0,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "Normal",
-                    "sortingOrder": 5,
-                    "sprite": "7fec842c-858e-74b1-d2ec-dd44981348d6",
-                    "tintColor": "#FFFFFFFF",
-                    "width": 0.0
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                },
-                {
-                  "properties": {
-                    "animation": "5b106ffa-d457-45ee-a7ba-800ed4474553",
-                    "currentFrame": 0,
-                    "currentSequence": 0,
-                    "hasFinished": false,
-                    "isPlaying": false,
-                    "playOnceOverride": false
-                  },
-                  "type": "Deki2D::AnimationComponent"
-                },
-                {
-                  "properties": {
-                    "patrolPx": 24.0,
-                    "speedPx": 20.0,
-                    "startLeftwards": true,
-                    "walkLeftAnimation": "",
-                    "walkRightAnimation": ""
-                  },
-                  "type": "Walker"
-                },
-                {
-                  "properties": {
-                    "amplitudePx": 3.0,
-                    "phase": 0.5,
-                    "speedHz": 0.4166666865348816
-                  },
-                  "type": "Bobber"
-                }
-              ],
-              "id": 94,
-              "name": "Flyer",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": 6.75,
-                "y": 3.375
-              }
             }
           ],
-          "components": [],
-          "id": 92,
-          "name": "Actors",
+          "components": [
+            {
+              "properties": {
+                "camera": {
+                  "id": 2,
+                  "typeId": 282831684
+                },
+                "coins": [
+                  {
+                    "id": 2025,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2026,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2027,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2028,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2029,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2030,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2031,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2032,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2033,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2034,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2035,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2036,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2037,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2038,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2039,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2040,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2041,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2042,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2043,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2044,
+                    "typeId": 1473191416
+                  }
+                ],
+                "decorations": [
+                  {
+                    "id": 2006,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2007,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2008,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2009,
+                    "typeId": 1473191416
+                  }
+                ],
+                "flyers": [
+                  {
+                    "id": 2045,
+                    "typeId": 1434896689
+                  },
+                  {
+                    "id": 2046,
+                    "typeId": 1434896689
+                  }
+                ],
+                "gravityPx": 900.0,
+                "hills": {
+                  "id": 4,
+                  "typeId": 1749317745
+                },
+                "hillsFollow": 0.5,
+                "jumpSpeedPx": 300.0,
+                "obstacles": [
+                  {
+                    "id": 2001,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2002,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2003,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2004,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2005,
+                    "typeId": 1473191416
+                  }
+                ],
+                "platforms": [
+                  {
+                    "id": 2012,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2016,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2021,
+                    "typeId": 1473191416
+                  },
+                  {
+                    "id": 2024,
+                    "typeId": 1473191416
+                  }
+                ],
+                "player": {
+                  "id": 93,
+                  "typeId": 1434896689
+                },
+                "runAnimation": "run",
+                "score": {
+                  "id": 99,
+                  "typeId": 1977254382
+                },
+                "seed": 1,
+                "speedPx": 120.0,
+                "tilePx": 18.0,
+                "wrapEveryPx": 4608.0
+              },
+              "type": "Runner"
+            }
+          ],
+          "id": 2052,
+          "name": "Level",
           "transform": {
             "rotation": 0.0,
             "scaleX": 1.0,
@@ -1094,7 +2058,7 @@
                     "pixelScale": 1,
                     "pixelSnap": true,
                     "sortingOrder": 9,
-                    "text": "1250",
+                    "text": "0",
                     "verticalAlign": "CapCenter",
                     "width": 18.75
                   },

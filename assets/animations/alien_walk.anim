@@ -28,6 +28,20 @@
           "duration": 200
         }
       ]
+    },
+    {
+      "name": "run",
+      "loop": true,
+      "frames": [
+        {
+          "frameGuid": "509b4272-2cfc-1155-a1e0-ff82e718ae3b",
+          "duration": 120
+        },
+        {
+          "frameGuid": "509b4272-2cfc-1155-a1e0-fe82e718ac88",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
