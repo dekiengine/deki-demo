@@ -2,7 +2,6 @@
   "bootScene": "platforms/native_simulator/boot.scene",
   "colorFormat": "RGB565",
   "cxxFlags": [
-    "-std=c++17",
     "-O0",
     "-g"
   ],
