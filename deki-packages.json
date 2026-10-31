@@ -4,7 +4,7 @@
       "editable": true,
       "source": "github",
       "url": "https://github.com/dekiengine/deki-2d",
-      "version": "0.22.0"
+      "version": "0.22.1"
     },
     "deki-ble": {
       "editable": true,
@@ -20,7 +20,7 @@
     },
     "deki-esp32-integration": {
       "editable": true,
-      "version": "0.22.0"
+      "version": "0.22.1"
     },
     "deki-fsm": {
       "editable": true,

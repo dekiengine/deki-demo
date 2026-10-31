@@ -4,7 +4,7 @@
     "deki-2d": {
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.22.0",
+      "installedVersion": "0.22.1",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -53,7 +53,7 @@
     "deki-esp32-integration": {
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "displayName": "ESP32 Integration",
-      "installedVersion": "0.22.0",
+      "installedVersion": "0.22.1",
       "name": "dekiengine/deki-esp32-integration",
       "packageType": "deki_package",
       "requires": [
