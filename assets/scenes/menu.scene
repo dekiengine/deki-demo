@@ -357,196 +357,7 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": -7.699999809265137,
-                "y": 1.3125
-              }
-            },
-            {
-              "active": true,
-              "children": [
-                {
-                  "active": true,
-                  "children": [],
-                  "components": [
-                    {
-                      "properties": {
-                        "align": "Center",
-                        "alphaMode": "Blend",
-                        "color": "#EEF1F7FF",
-                        "decorationColor": "#000000FF",
-                        "font": {
-                          "guid": "3f35a4f0-6f4a-9bc4-b52b-c435f4f27e28",
-                          "source": "d74ff9f2-c643-44e9-a8c8-58dbee324d61"
-                        },
-                        "fontSize": 12,
-                        "height": 0.875,
-                        "ignoreClip": false,
-                        "pixelScale": 1,
-                        "pixelSnap": true,
-                        "sortingOrder": 8,
-                        "text": "UI",
-                        "verticalAlign": "CapCenter",
-                        "width": 4.25
-                      },
-                      "type": "Deki2D::TextComponent"
-                    }
-                  ],
-                  "id": 407,
-                  "name": "Label",
-                  "transform": {
-                    "rotation": 0.0,
-                    "scaleX": 1.0,
-                    "scaleY": 1.0,
-                    "x": 0.0,
-                    "y": -1.3125
-                  }
-                },
-                {
-                  "active": true,
-                  "children": [],
-                  "components": [
-                    {
-                      "properties": {
-                        "alphaMode": "Blend",
-                        "flipHorizontal": false,
-                        "flipVertical": false,
-                        "height": 2.125,
-                        "ignoreClip": false,
-                        "pixelSnap": true,
-                        "renderMode": "Normal",
-                        "sortingOrder": 6,
-                        "sprite": "0a120d23-86a3-4408-9a8c-8be227d7bc33",
-                        "tintColor": "#3BC3FF2A",
-                        "width": 2.125
-                      },
-                      "type": "Deki2D::SpriteComponent"
-                    }
-                  ],
-                  "id": 425,
-                  "name": "Bubble",
-                  "transform": {
-                    "rotation": 0.0,
-                    "scaleX": 1.0,
-                    "scaleY": 1.0,
-                    "x": 0.0,
-                    "y": 0.5625
-                  }
-                },
-                {
-                  "active": true,
-                  "children": [],
-                  "components": [
-                    {
-                      "properties": {
-                        "alphaMode": "Blend",
-                        "flipHorizontal": false,
-                        "flipVertical": false,
-                        "height": 1.125,
-                        "ignoreClip": false,
-                        "pixelSnap": true,
-                        "renderMode": "Normal",
-                        "sortingOrder": 7,
-                        "sprite": "888c9d47-0848-45e3-82b6-fb53d9b6ce6f",
-                        "tintColor": "#3BC3FFFF",
-                        "width": 1.125
-                      },
-                      "type": "Deki2D::SpriteComponent"
-                    }
-                  ],
-                  "id": 426,
-                  "name": "Icon",
-                  "transform": {
-                    "rotation": 0.0,
-                    "scaleX": 1.0,
-                    "scaleY": 1.0,
-                    "x": 0.0,
-                    "y": 0.5625
-                  }
-                }
-              ],
-              "components": [
-                {
-                  "properties": {
-                    "alphaMode": "Blend",
-                    "flipHorizontal": false,
-                    "flipVertical": false,
-                    "height": 4.625,
-                    "ignoreClip": false,
-                    "pixelSnap": true,
-                    "renderMode": "NineSlice",
-                    "sortingOrder": 5,
-                    "sprite": "b6f5c38a-33c1-4635-8ed9-8a3dfbd2b9cf",
-                    "tintColor": "#151A26FF",
-                    "width": 3.5999999046325684
-                  },
-                  "type": "Deki2D::SpriteComponent"
-                },
-                {
-                  "properties": {
-                    "consumeInput": true,
-                    "height": 4.625,
-                    "paddingBottom": 0.0,
-                    "paddingLeft": 0.0,
-                    "paddingRight": 0.0,
-                    "paddingTop": 0.0,
-                    "width": 3.5999999046325684
-                  },
-                  "type": "DekiInput::InputCollider"
-                },
-                {
-                  "properties": {
-                    "inputCollider": {
-                      "id": 406,
-                      "typeId": 2540046954
-                    },
-                    "isEnabled": true,
-                    "state": "Normal"
-                  },
-                  "type": "Deki2D::ButtonComponent"
-                },
-                {
-                  "properties": {
-                    "button": {
-                      "id": 406,
-                      "typeId": 174604303
-                    },
-                    "disabledColor": "#12151DFF",
-                    "disabledSprite": "",
-                    "hoveredColor": "#1D2333FF",
-                    "hoveredSprite": "",
-                    "normalColor": "#151A26FF",
-                    "normalSprite": "",
-                    "pressedColor": "#10131CFF",
-                    "pressedSprite": "",
-                    "sprite": {
-                      "id": 406,
-                      "typeId": 1473191416
-                    },
-                    "transition": "ColorTint"
-                  },
-                  "type": "Deki2D::ButtonStyleComponent"
-                },
-                {
-                  "properties": {
-                    "scene": "a3e8e74c-7425-4888-8c7a-6c86520b56b9"
-                  },
-                  "type": "SceneLink"
-                },
-                {
-                  "properties": {
-                    "height": 4.625,
-                    "width": 3.5999999046325684
-                  },
-                  "type": "Deki2D::ScrollElement"
-                }
-              ],
-              "id": 406,
-              "name": "UI",
-              "transform": {
-                "rotation": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "x": -3.8499999046325684,
+                "x": -5.775000095367432,
                 "y": 1.3125
               }
             },
@@ -735,7 +546,7 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": 0.0,
+                "x": -1.9249999523162842,
                 "y": 1.3125
               }
             },
@@ -924,7 +735,7 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": 3.8499999046325684,
+                "x": 1.9249999523162842,
                 "y": 1.3125
               }
             },
@@ -1113,7 +924,7 @@
                 "rotation": 0.0,
                 "scaleX": 1.0,
                 "scaleY": 1.0,
-                "x": 7.699999809265137,
+                "x": 5.775000095367432,
                 "y": 1.3125
               }
             },
