@@ -4,7 +4,7 @@
     "deki-2d": {
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "displayName": "2D",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-2d",
       "packageType": "deki_package",
       "requires": [
@@ -18,7 +18,7 @@
     "deki-ble": {
       "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
       "displayName": "BLE (abstract)",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-ble",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -28,7 +28,7 @@
     "deki-desktop-integration": {
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-desktop-integration",
       "packageType": "deki_package",
       "source": "custom",
@@ -37,7 +37,7 @@
     "deki-display": {
       "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
       "displayName": "Display",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-display",
       "packageType": "deki_package",
       "requires": [
@@ -53,7 +53,7 @@
     "deki-esp32-integration": {
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "displayName": "ESP32 Integration",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-esp32-integration",
       "packageType": "deki_package",
       "requires": [
@@ -74,7 +74,7 @@
     "deki-fsm": {
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "displayName": "FSM",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "deki-fsm",
       "packageType": "deki_package",
       "requires": [
@@ -88,7 +88,7 @@
     "deki-gpio": {
       "description": "Digital pins: drive, read, and count a pin's pulses by interrupt, plus a boot step that drives a pin. The platform package supplies the backend",
       "displayName": "GPIO",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-gpio",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -98,7 +98,7 @@
     "deki-gps": {
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "displayName": "GPS (NMEA over UART)",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "deki-gps",
       "packageType": "deki_package",
       "requires": [
@@ -111,7 +111,7 @@
     "deki-http": {
       "description": "HTTP client facade with WinHTTP and curl backends",
       "displayName": "HTTP",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-http",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -121,7 +121,7 @@
     "deki-i2c": {
       "description": "I²C bus peripheral interface with an editor-configurable bus component",
       "displayName": "I2C",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-i2c",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -131,7 +131,7 @@
     "deki-i2s": {
       "description": "I²S audio bus peripheral interface",
       "displayName": "I2S",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-i2s",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -141,7 +141,7 @@
     "deki-input": {
       "description": "Input handling and collision detection",
       "displayName": "Input",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-input",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -151,7 +151,7 @@
     "deki-lilygo-boards": {
       "description": "Build targets for LilyGO boards: T-Deck Plus and T-Display S3 AMOLED",
       "displayName": "LilyGO Boards",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-lilygo-boards",
       "packageType": "deki_package",
       "requires": [
@@ -170,7 +170,7 @@
     "deki-lora": {
       "description": "LoRa radio: an SX1262 driver with a duty-cycle limit, sending and receiving packets",
       "displayName": "LoRa (SX1262)",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "deki-lora",
       "packageType": "deki_package",
       "source": "custom",
@@ -179,7 +179,7 @@
     "deki-nodegraph": {
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "displayName": "Node Graph",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "deki-nodegraph",
       "packageType": "deki_package",
       "resolvedBy": "deki-particles",
@@ -189,7 +189,7 @@
     "deki-particles": {
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "displayName": "Particles",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-particles",
       "packageType": "deki_package",
       "requires": [
@@ -203,7 +203,7 @@
     "deki-rendering": {
       "description": "Core rendering system with camera and renderer components",
       "displayName": "Rendering",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-rendering",
       "packageType": "deki_package",
       "resolvedBy": "deki-2d",
@@ -213,7 +213,7 @@
     "deki-sdcard": {
       "description": "SD card interface: mount, card state, capacity, and filesystem access",
       "displayName": "SD Card",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-sdcard",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -223,7 +223,7 @@
     "deki-sdl3-integration": {
       "description": "SDL3 display, input, and filesystem integration",
       "displayName": "SDL3",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-sdl3-integration",
       "packageType": "deki_package",
       "requires": [
@@ -235,7 +235,7 @@
     "deki-spi": {
       "description": "SPI buses and their devices: a boot step that starts a bus, shared by displays, SD cards and radios. The platform package supplies the backend",
       "displayName": "SPI",
-      "installedVersion": "0.20.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-spi",
       "packageType": "deki_package",
       "source": "custom",
@@ -245,7 +245,7 @@
       "commit": "c91eb16ab09daa882389fc9af3695b89dc02d54c",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "displayName": "",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-tactility-integration",
       "packageType": "deki_package",
       "requires": [
@@ -257,7 +257,7 @@
     "deki-tiledmapeditor-integration": {
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "displayName": "Tiled Map Editor Integration",
-      "installedVersion": "0.21.0",
+      "installedVersion": "0.22.0",
       "name": "deki-tiledmapeditor-integration",
       "packageType": "deki_package",
       "requires": [
@@ -270,7 +270,7 @@
     "deki-tween": {
       "description": "Animation tweening with 30+ easing functions",
       "displayName": "Tween",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "deki-tween",
       "packageType": "deki_package",
       "resolvedBy": "deki-fsm",
@@ -280,7 +280,7 @@
     "deki-uart": {
       "description": "UART serial peripheral interface",
       "displayName": "UART",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-uart",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
@@ -290,7 +290,7 @@
     "deki-wifi": {
       "description": "WiFi interface: connect, disconnect, state, and access point scanning",
       "displayName": "WiFi (abstract)",
-      "installedVersion": "0.19.0",
+      "installedVersion": "0.22.0",
       "name": "dekiengine/deki-wifi",
       "packageType": "deki_package",
       "resolvedBy": "deki-esp32-integration",
