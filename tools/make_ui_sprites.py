@@ -23,6 +23,7 @@ SS = 8  # supersampling
 ICONS = {
     "meadow": 0xEF01,     # tree
     "ui": 0xEA03,         # adjustments
+    "widgets": 0xEB3F,    # toggle-right
     "effects": 0xF6D7,    # sparkles
     "logic": 0xF5D4,      # binary-tree
     "gps": 0xEAE8,        # map-pin
