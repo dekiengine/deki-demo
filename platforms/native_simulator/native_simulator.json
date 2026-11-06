@@ -9,7 +9,7 @@
     "DEBUG",
     "DEKI_LOG_ENABLED"
   ],
-  "displayName": "Desktop Simulator (SDL3)",
+  "displayName": "Desktop",
   "family": "native",
   "framework": "native",
   "frameworkOptions": {
