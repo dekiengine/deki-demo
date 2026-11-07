@@ -37,7 +37,7 @@
     "deki-display": {
       "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
       "displayName": "Display",
-      "installedVersion": "0.30.0",
+      "installedVersion": "0.30.3",
       "name": "dekiengine/deki-display",
       "packageType": "deki_package",
       "requires": [
