@@ -28,7 +28,7 @@
     "deki-desktop-integration": {
       "description": "Desktop platform memory and filesystem providers",
       "displayName": "Desktop Integration",
-      "installedVersion": "0.30.0",
+      "installedVersion": "0.30.2",
       "name": "deki-desktop-integration",
       "packageType": "deki_package",
       "source": "custom",
