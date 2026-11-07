@@ -245,7 +245,7 @@
       "commit": "c91eb16ab09daa882389fc9af3695b89dc02d54c",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "displayName": "",
-      "installedVersion": "0.30.0",
+      "installedVersion": "0.30.1",
       "name": "deki-tactility-integration",
       "packageType": "deki_package",
       "requires": [
