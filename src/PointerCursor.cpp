@@ -30,18 +30,18 @@ PointerCursor::~PointerCursor()
 {
     if (m_Listener != static_cast<size_t>(-1))
     {
-        DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
+        ::DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
     }
 }
 
 void PointerCursor::Start()
 {
     // Where the pointer already is: it carries over from the last scene.
-    if (IDekiInput* input = DekiInput::DekiInput::GetInput(source))
+    if (IDekiInput* input = ::DekiInput::DekiInput::GetInput(source))
     {
         m_Have = input->GetPointerPosition(&m_X, &m_Y);
     }
-    m_Listener = DekiInput::DekiInput::RegisterEventCallback(
+    m_Listener = ::DekiInput::DekiInput::RegisterEventCallback(
         [this](const InputEvent& event)
         {
             const bool pointer = event.type == InputEventType::MouseMove ||

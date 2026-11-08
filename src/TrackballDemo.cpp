@@ -23,7 +23,7 @@ TrackballDemo::~TrackballDemo()
 {
     if (m_Listener != static_cast<size_t>(-1))
     {
-        DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
+        ::DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
     }
 }
 
@@ -38,7 +38,7 @@ void TrackballDemo::Start()
         button->AddOnClickCallback([this]() { OnHit(); });
     }
     // Every press of the pointer, hit or not, and where the pointer is.
-    m_Listener = DekiInput::DekiInput::RegisterEventCallback(
+    m_Listener = ::DekiInput::DekiInput::RegisterEventCallback(
         [this](const InputEvent& event)
         {
             if (event.type == InputEventType::MouseMove || event.type == InputEventType::MouseButtonDown)

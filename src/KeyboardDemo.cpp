@@ -19,7 +19,7 @@ I2CKeyboard* LitKeyboard()
 {
     // Only I2CKeyboardComponent registers this name, and always with an
     // I2CKeyboard.
-    auto* keyboard = static_cast<I2CKeyboard*>(DekiInput::DekiInput::GetInput("I2CKeyboard"));
+    auto* keyboard = static_cast<I2CKeyboard*>(::DekiInput::DekiInput::GetInput("I2CKeyboard"));
     return keyboard && keyboard->HasBacklight() ? keyboard : nullptr;
 }
 
@@ -54,13 +54,13 @@ KeyboardDemo::~KeyboardDemo()
     // The callback points at this object; it must not outlive it.
     if (m_Listener != static_cast<size_t>(-1))
     {
-        DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
+        ::DekiInput::DekiInput::UnregisterEventCallback(m_Listener);
     }
 }
 
 void KeyboardDemo::Start()
 {
-    m_Listener = DekiInput::DekiInput::RegisterEventCallback(
+    m_Listener = ::DekiInput::DekiInput::RegisterEventCallback(
         [this](const InputEvent& event)
         {
             if (event.type == InputEventType::KeyDown)
